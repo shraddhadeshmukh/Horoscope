@@ -1,0 +1,41 @@
+//
+//  AstroDetailView.h
+//  AstrostyleApp
+//
+//  Created by SIPL MacMini on 25/04/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface AstroDetailView : UIViewController <UIGestureRecognizerDelegate>{
+
+	UISwipeGestureRecognizer *swipeRecognizer;
+	UISwipeGestureRecognizer *swipeRightRecognizer;
+	IBOutlet UITextView *txtView;
+	NSString *bmonth;
+	NSString *bdate;
+	NSMutableDictionary *plistDictionary;
+	IBOutlet UIScrollView *scrollView;
+	IBOutlet UIButton *weeklyBtn;
+	IBOutlet UIButton *todayBtn;
+	IBOutlet UIButton *monthlyBtn;
+}
+
+@property (nonatomic,retain)UISwipeGestureRecognizer *swipeRightRecognizer;
+@property (nonatomic,retain)UISwipeGestureRecognizer *swipeRecognizer;
+@property (nonatomic,retain)IBOutlet UITextView *txtView;
+@property (nonatomic,retain)NSString *bmonth;
+@property (nonatomic,retain)NSString *bdate;
+@property (nonatomic,retain)NSMutableDictionary *plistDictionary;
+@property (nonatomic,retain)IBOutlet UIScrollView *scrollView;
+
+
+- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
+- (void)layoutScrollImages;
+- (IBAction)displayWeeklyHoroscope:(id)sender;
+- (IBAction)displayTodaysHoroscope:(id)sender;
+- (IBAction)displayMonthlyHoroscope:(id)sender;
+
+@end

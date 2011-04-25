@@ -1,0 +1,88 @@
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView initialize]':
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:51: warning: instance variable 'plistDictionary' accessed in class method
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView getValue:]':
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:57: warning: instance variable 'plistDictionary' accessed in class method
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '-[AstroDetailView viewDidLoad]':
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:67: error: statically allocated instance of Objective-C class 'NSString'
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:67: error: statically allocated instance of Objective-C class 'NSString'
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:73: error: incompatible types in assignment
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:74: error: expected expression before '<' token
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:75: error: expected identifier before '#' token
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:110: error: expected expression before ']' token
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:127: error: 'layoutScrollImages' undeclared (first use in this function)
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:127: error: (Each undeclared identifier is reported only once
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:127: error: for each function it appears in.)
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:128: error: expected ';' before '{' token
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: error: expected declaration or statement at end of input
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: At top level:
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: '@end' missing in implementation context
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: incomplete implementation of class 'AstroDetailView'
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: method definition for '-displayMonthlyHoroscope:' not found
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: method definition for '-displayTodaysHoroscope:' not found
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: method definition for '-displayWeeklyHoroscope:' not found
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: method definition for '-layoutScrollImages' not found
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:223: warning: method definition for '-handleSwipeFrom:' not found
+{standard input}:332:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
+{standard input}:332:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+{standard input}:325:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000002$pb"
+{standard input}:325:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:292:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"
+{standard input}:292:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+{standard input}:286:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
+{standard input}:286:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+{standard input}:283:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000001$pb"
+{standard input}:283:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+{standard input}:278:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000001$pb"
+{standard input}:278:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:260:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
+{standard input}:260:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+{standard input}:252:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+{standard input}:252:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+{standard input}:249:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000001$pb"
+{standard input}:249:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+{standard input}:241:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
+{standard input}:241:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+{standard input}:230:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"
+{standard input}:230:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+{standard input}:214:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+{standard input}:214:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+{standard input}:192:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:189:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+{standard input}:189:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+{standard input}:166:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+{standard input}:166:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:147:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+{standard input}:147:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:133:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:133:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:130:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+{standard input}:130:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
