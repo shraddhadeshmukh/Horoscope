@@ -13,10 +13,17 @@
 @interface AstrostyleAppAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     AstrostyleAppViewController *viewController;
+	NSString *mon;
+	NSString *dayValue;
+	NSMutableDictionary *plistDictionary;
 }
-
+@property (nonatomic, retain) NSString *mon;
+@property (nonatomic, retain) NSString *dayValue;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet AstrostyleAppViewController *viewController;
+@property (nonatomic,retain)NSMutableDictionary *plistDictionary;
+
+//+(NSString *) getValue:(NSString *)key;
 
 @end
 

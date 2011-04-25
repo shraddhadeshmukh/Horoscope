@@ -252,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>247</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -264,20 +264,17 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 667}}</string>
+							<string>{{0, 0}, {247, 719}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -289,19 +286,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 685}}</string>
+						<string>{{0, 0}, {264, 737}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>247</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>113 152 1408 726 0 0 1600 878 </string>
+						<string>72 90 1378 778 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>264pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -314,7 +311,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AstroDetailView.m</string>
+								<string>AstrostyleAppViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,21 +319,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AstroDetailView.m</string>
+										<string>AstrostyleAppViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03CF7BAB1365C4F60072EF42</string>
+										<string>03CF7CAE1365E2320072EF42</string>
 										<key>history</key>
 										<array>
 											<string>03B542A41365973B007102D2</string>
-											<string>03B542B71365A006007102D2</string>
-											<string>03B542B81365A006007102D2</string>
-											<string>03B542EB1365A9C0007102D2</string>
-											<string>03CF7BA71365C4F60072EF42</string>
-											<string>03CF7BA81365C4F60072EF42</string>
-											<string>03CF7BA91365C4F60072EF42</string>
-											<string>03CF7BAA1365C4F60072EF42</string>
+											<string>03CF7CA01365E1DE0072EF42</string>
+											<string>03CF7CA11365E1DE0072EF42</string>
+											<string>03CF7CA21365E1DE0072EF42</string>
+											<string>03CF7CA31365E1DE0072EF42</string>
+											<string>03CF7CA41365E1DE0072EF42</string>
+											<string>03CF7CA51365E1DE0072EF42</string>
+											<string>03CF7CA61365E1DE0072EF42</string>
+											<string>03CF7C711365DEAC0072EF42</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,14 +346,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1200, 632}}</string>
+								<string>{{0, 0}, {1109, 684}}</string>
 								<key>RubberWindowFrame</key>
-								<string>113 152 1408 726 0 0 1600 878 </string>
+								<string>72 90 1378 778 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>632pt</string>
+							<string>684pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -368,9 +366,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 637}, {1200, 48}}</string>
+								<string>{{0, 689}, {1109, 48}}</string>
 								<key>RubberWindowFrame</key>
-								<string>113 152 1408 726 0 0 1600 878 </string>
+								<string>72 90 1378 778 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -379,7 +377,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1200pt</string>
+					<string>1109pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -534,7 +532,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>03CF7BA01365C24F0072EF42</string>
 		<string>03CF7BA11365C24F0072EF42</string>
 		<string>03CF7BA21365C24F0072EF42</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -543,7 +540,7 @@
 		<string>/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>113 152 1408 726 0 0 1600 878 </string>
+	<string>72 90 1378 778 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -889,7 +886,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1119, 307}}</string>
 								<key>RubberWindowFrame</key>
-								<string>418 60 1119 348 0 0 1600 878 </string>
+								<string>182 -4 1119 348 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -918,7 +915,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>418 60 1119 348 0 0 1600 878 </string>
+			<string>182 -4 1119 348 0 0 1600 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

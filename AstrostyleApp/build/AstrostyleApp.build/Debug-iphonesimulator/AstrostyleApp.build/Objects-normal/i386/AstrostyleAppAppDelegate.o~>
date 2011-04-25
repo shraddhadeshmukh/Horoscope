@@ -1,0 +1,6 @@
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: incomplete implementation of class 'AstrostyleAppAppDelegate'
+/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: method definition for '+getValue:' not found

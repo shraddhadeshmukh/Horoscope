@@ -9,11 +9,11 @@
 #import "AstroDetailView.h"
 
 const NSUInteger kNumImages		= 3;
-const CGFloat kScrollObjHeight	= 199.0;
+const CGFloat kScrollObjHeight	= 340.0;
 const CGFloat kScrollObjWidth	= 280.0;
 
 @implementation AstroDetailView
-@synthesize swipeRecognizer,swipeRightRecognizer,txtView,bmonth,bdate,plistDictionary,scrollView;
+@synthesize txtView,bmonth,bdate,plistDictionary,scrollView;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -64,57 +64,100 @@ const CGFloat kScrollObjWidth	= 280.0;
     [super viewDidLoad];
 	NSString *month = [[[NSString alloc]initWithString:bmonth] autorelease];
 	NSString *day = [[[NSString alloc]initWithString:bdate]autorelease];
-	//[txtView setEditable:NO];
+	NSString *zodiacSign=[[NSString alloc]init];
+	[scrollView setZoomScale:0];
+	[txtView setEditable:NO];
 	month = [AstroDetailView getValue:@"Month"];
 	day = [AstroDetailView getValue:@"Day"];
+	NSLog(@"%@,%@",month,day);
 	int days = [day intValue];
-	if ((month==@"January")&&(day)) {
-		<#statements#>
+	if (([month isEqualToString:@"April"])&&(days<20)) {
+		zodiacSign = @"Aries";
+	}else if (([month isEqualToString:@"March"])&&(days>20)) {
+		zodiacSign = @"Aries";
+	}else if (([month isEqualToString:@"April"])&&(days>20)) {
+		zodiacSign = @"Taurus";
+	}else if (([month isEqualToString:@"May"])&&(days<21)) {
+		zodiacSign = @"Taurus";
+	}else if (([month isEqualToString:@"May"])&&(days>20)) {
+		zodiacSign = @"Taurus";
+	}else if (([month isEqualToString:@"June"])&&(days<21)) {
+		zodiacSign = @"Gemini";
+	}else if (([month isEqualToString:@"June"])&&(days>20)) {
+		zodiacSign = @"Cancer";
+	}else if (([month isEqualToString:@"July"])&&(days<23)) {
+		zodiacSign = @"Cancer";
+	}else if (([month isEqualToString:@"July"])&&(days>22)) {
+		zodiacSign = @"Leo";
+	}else if (([month isEqualToString:@"August"])&&(days<23)) {
+		zodiacSign = @"Leo";
+	}else if (([month isEqualToString:@"August"])&&(days>22)) {
+		zodiacSign = @"Virgo";
+	}else if (([month isEqualToString:@"September"])&&(days<23)) {
+		zodiacSign = @"Virgo";
+	}else if (([month isEqualToString:@"September"])&&(days>22)) {
+		zodiacSign = @"Libra";
+	}else if (([month isEqualToString:@"October"])&&(days<23)) {
+		zodiacSign = @"Libra";
+	}else if (([month isEqualToString:@"October"])&&(days<22)) {
+		zodiacSign = @"Scorpio";
+	}else if (([month isEqualToString:@"November"])&&(days<22)) {
+		zodiacSign = @"Scorpio";
+	}else if (([month isEqualToString:@"November"])&&(days>21)) {
+		zodiacSign = @"Sagittarius";
+	}else if (([month isEqualToString:@"December"])&&(days<22)) {
+		zodiacSign = @"Sagittarius";
+	}else if (([month isEqualToString:@"December"])&&(days>23)) {
+		zodiacSign = @"Capricorn";
+	}else if (([month isEqualToString:@"January"])&&(days<20)) {
+		zodiacSign = @"Capricorn";
+	}else if (([month isEqualToString:@"January"])&&(days>19)) {
+		zodiacSign = @"Aquarius";
+	}else if (([month isEqualToString:@"February"])&&(days<19)) {
+		zodiacSign = @"Aquarius";
+	}else if (([month isEqualToString:@"February"])&&(days>18)) {
+		zodiacSign = @"Pisces";
+	}else if (([month isEqualToString:@"March"])&&(days<21)) {
+		zodiacSign = @"Pisces";
 	}
-	
+
 	txtView.text = @"temphoroscope";
-	//UIGestureRecognizer *recognizer;
-	
-	swipeRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeFrom:)];
-	self.swipeRecognizer = (UISwipeGestureRecognizer *)swipeRecognizer;
-	[self.view addGestureRecognizer:swipeRecognizer];
-	swipeRecognizer.delegate = self;
-	
-	swipeRightRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeFrom:)];
-	self.swipeRightRecognizer = (UISwipeGestureRecognizer *)swipeRecognizer;
-	[self.view addGestureRecognizer:swipeRightRecognizer];
-	swipeRightRecognizer.delegate = self;
-	swipeRightRecognizer.direction = UISwipeGestureRecognizerDirectionRight; 
-	//[recognizer release];
-    swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
-	
-	
+		
 	[scrollView setBackgroundColor:[UIColor blackColor]];
 	[scrollView setCanCancelContentTouches:NO];
-	scrollView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
+		
 	scrollView.clipsToBounds = YES;		// default is NO, we want to restrict drawing within our scrollview
 	scrollView.scrollEnabled = YES;
-	
-	// pagingEnabled property default is NO, if set the scroller will stop or snap at each photo
-	// if you want free-flowing scroll, don't set this property.
 	scrollView.pagingEnabled = YES;
 	
 	// load all the images from our bundle and add them to the scroll view
 	NSUInteger i;
 	for (i = 1; i <= kNumImages; i++)
 	{
-		NSString *pageName = [NSString stringWithFormat:@"View for ", ];
+		NSString *pageName = [NSString stringWithFormat:@"Horoscope for %@",zodiacSign];
 				
 		txtView.text = pageName;
 		
 		// setup each frame to a default height and width, it will be properly placed when we call "updateScrollList"
-		CGRect rect = txtView.frame;
+		CGRect rect;// = scrollView.frame;
 		rect.size.height = kScrollObjHeight;
 		rect.size.width = kScrollObjWidth;
 		txtView.frame = rect;
-		//imageView.tag = i;	// tag our images for later use when we place them in serial fashion
 		[scrollView addSubview:txtView];
-		//[imageView release];
+				
+		NSString *imageName = [NSString stringWithFormat:@"image%d.jpg", i];
+		UIImage *image = [UIImage imageNamed:imageName];
+		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+		UILabel *label= [[UILabel alloc]init];
+		label.text = pageName;
+		[imageView addSubview:label]; 
+ 		// setup each frame to a default height and width, it will be properly placed when we call "updateScrollList"
+		rect.size.height = kScrollObjHeight;
+		rect.size.width = kScrollObjWidth;
+		imageView.frame = rect;
+		imageView.tag = i;	// tag our images for later use when we place them in serial fashion
+		[scrollView addSubview:imageView];
+		[imageView release];
 	}
 	
 	[self layoutScrollImages];	// now place the photos in serial layout within the scrollview
@@ -143,36 +186,7 @@ const CGFloat kScrollObjWidth	= 280.0;
 	[scrollView setContentSize:CGSizeMake((kNumImages * kScrollObjWidth), [scrollView bounds].size.height)];
 }
 
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
-	
-    // Disallow recognition of tap gestures in the segmented control.
-   // if ((touch.view == segmentedControl) && (gestureRecognizer == tapRecognizer)) {
-  ////      return NO;
-   // }
-    return YES;
-}
 
-- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
-	
-	//CGPoint location = [recognizer locationInView:self.view];
-	//[self showImageWithText:@"swipe" atPoint:location];
-	
-    if (recognizer.direction == UISwipeGestureRecognizerDirectionLeft) {
-        
-		txtView.text = @"Left Swipe";
-		//[segmentedControl setSelectedSegmentIndex:2];
-    }
-    else if (recognizer.direction == UISwipeGestureRecognizerDirectionRight){
-        txtView.text = @"Right Swipe";
-		//[segmentedControl setSelectedSegmentIndex:0];
-    }
-	
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.55];
-	self.view.alpha = 0.0;
-	self.view.alpha = 1.0;
-	[UIView commitAnimations];
-}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -209,7 +223,7 @@ const CGFloat kScrollObjWidth	= 280.0;
 - (void)dealloc {
 	[bdate release];
 	[bmonth release];
-	[swipeRecognizer release];
+	
 	[plistDictionary release];
 	[txtView release];
     [super dealloc];

@@ -1,10 +1,22 @@
 TAstrostyleApp
 v7
-r2
-t325436647.335570
+r0
+t325444146.156964
 cCheck dependencies
+cProcessInfoPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
+cCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib
+cCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleAppViewController.xib
+cCopyPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
+cCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/image1.jpg image1.jpg
 cProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Horoscope/AstrostyleApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
+cGenerateDSYMFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+cTouch /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004CC128950000000000000110
@@ -49,34 +61,35 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.h
-c000000004DB58B6F00000000000004E5
-t1303743343
-s1253
+c000000004DB59E010000000000000398
+t1303748097
+s920
 i<UIKit/UIKit.h>
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m
-c000000004DB58D660000000000001B4E
-t1303743846
-s6990
+c000000004DB5A9690000000000001DEC
+t1303751017
+s7660
 i"AstroDetailView.h"
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib
-c000000004DB58AC000000000000073D3
-t1303743168
-s29651
+c000000004DB5A09D0000000000007A18
+t1303748765
+s31256
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.h
-c000000004DB532EF0000000000000204
-t1303720687
-s516
+c000000004DB5A67A000000000000031B
+t1303750266
+s795
 i<UIKit/UIKit.h>
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m
-c000000004DB532EF0000000000000AB4
-t1303720687
-s2740
+c000000004DB5A67A000000000000108B
+t1303750266
+s4235
 i"AstrostyleAppAppDelegate.h"
 i"AstrostyleAppViewController.h"
+i"AstroDetailView.h"
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.h
 c000000004DB5590D000000000000029D
@@ -85,12 +98,17 @@ s669
 i<UIKit/UIKit.h>
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m
-c000000004DB572A40000000000001B7C
-t1303736996
-s7036
+c000000004DB5AAB100000000000015DE
+t1303751345
+s5598
 i"AstrostyleAppViewController.h"
 i"AstroDetailView.h"
 i"AstrostyleAppAppDelegate.h"
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/Default.png
+c000000004D9C70E00000000000004091
+t1302098144
+s16529
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib
 c000000004DB532F00000000000004E71
@@ -98,13 +116,13 @@ t1303720688
 s20081
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/Store.plist
-c000000004DB561DA0000000000000106
-t1303732698
-s262
+c000000004DB5A6B70000000000000104
+t1303750327
+s260
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
-t2
-s0
+t1303751261
+s63512
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList
 c000000004DB56882000000000000025E
@@ -112,36 +130,40 @@ t1303734402
 s606
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
-t1303730574
-s52176
+t1303750266
+s60748
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
-t1303742995
-s67112
+t1303751345
+s66264
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o
 t1303721700
 s6312
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-t1303743035
-s306
+t1303751346
+s408
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
-t1303743035
+t1303751346
 s102
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib
-t1303742994
-s3016
+t1303748781
+s3154
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-t1303743035
-s42364
+t1303751345
+s42628
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleAppViewController.nib
 t1303730574
 s1729
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Default.png
+t2
+s0
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist
 t1303721693
@@ -156,8 +178,35 @@ t1303721693
 s8
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist
-t1303732698
-s64
+t1303750338
+s60
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/image1.jpg
+t1303747453
+s25921
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/image2.jpg
+t1303747499
+s25921
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/image3.jpg
+t1303747534
+s25921
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/image1.jpg
+c0000000048C594F40000000000006541
+t1220908276
+s25921
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/image2.jpg
+c0000000048C594F4000000000000277B
+t1220908276
+s10107
+
+N/Users/siplmacmini/Horoscope/AstrostyleApp/image3.jpg
+c0000000048C594F40000000000006541
+t1220908276
+s25921
 
 N/Users/siplmacmini/Horoscope/AstrostyleApp/main.m
 c000000004DB532F00000000000000170
@@ -176,12 +225,12 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies325436647#325436647#0(0"0(0#1#0"8625386784#0"0#
+lSLF07#2@18"Check dependencies325444145#325444145#0(0"0(0#1#0"8636818752#0"0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325436647.017486
-e325436647.335517
-r0
+s325444060.642357
+e325444061.240647
+r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
 x/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m
@@ -193,92 +242,11 @@ o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In functi
 o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:51: warning: instance variable 'plistDictionary' accessed in class method
 o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView getValue:]':
 o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:57: warning: instance variable 'plistDictionary' accessed in class method
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '-[AstroDetailView viewDidLoad]':
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:72: error: expected identifier before '#' token
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:106: error: expected expression before ']' token
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: 'layoutScrollImages' undeclared (first use in this function)
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: (Each undeclared identifier is reported only once
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: for each function it appears in.)
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:124: error: expected ';' before '{' token
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: error: expected declaration or statement at end of input
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:70: warning: unused variable 'days'
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: At top level:
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: '@end' missing in implementation context
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: incomplete implementation of class 'AstroDetailView'
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayMonthlyHoroscope:' not found
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayTodaysHoroscope:' not found
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayWeeklyHoroscope:' not found
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-layoutScrollImages' not found
-o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-handleSwipeFrom:' not found
-o{standard input}:332:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
-o{standard input}:332:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
-o{standard input}:325:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000002$pb"
-o{standard input}:325:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:292:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"
-o{standard input}:292:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
-o{standard input}:286:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
-o{standard input}:286:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
-o{standard input}:283:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000001$pb"
-o{standard input}:283:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
-o{standard input}:278:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000001$pb"
-o{standard input}:278:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:260:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
-o{standard input}:260:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
-o{standard input}:252:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
-o{standard input}:252:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
-o{standard input}:249:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000001$pb"
-o{standard input}:249:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
-o{standard input}:241:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
-o{standard input}:241:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
-o{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
-o{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
-o{standard input}:230:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"
-o{standard input}:230:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
-o{standard input}:214:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
-o{standard input}:214:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
-o{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
-o{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
-o{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
-o{standard input}:192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:192:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:189:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
-o{standard input}:189:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
-o{standard input}:166:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:166:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
-o{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:147:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
-o{standard input}:147:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:133:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:133:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:130:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
-o{standard input}:130:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
-lSLF07#2@76"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436647#325436647#0(9297"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView initialize]':/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:51: warning: instance variable 'plistDictionary' accessed in class method/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView getValue:]':/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:57: warning: instance variable 'plistDictionary' accessed in class method/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '-[AstroDetailView viewDidLoad]':/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:72: error: expected identifier before '#' token/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:106: error: expected expression before ']' token/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: 'layoutScrollImages' undeclared (first use in this function)/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: (Each undeclared identifier is reported only once/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:123: error: for each function it appears in.)/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:124: error: expected ';' before '{' token/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: error: expected declaration or statement at end of input/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:70: warning: unused variable 'days'/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: At top level:/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: '@end' missing in implementation context/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: incomplete implementation of class 'AstroDetailView'/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayMonthlyHoroscope:' not found/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayTodaysHoroscope:' not found/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-displayWeeklyHoroscope:' not found/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-layoutScrollImages' not found/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:219: warning: method definition for '-handleSwipeFrom:' not found{standard input}:332:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"{standard input}:332:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:325:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000002$pb"{standard input}:325:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:292:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"{standard input}:292:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:286:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"{standard input}:286:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:283:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000001$pb"{standard input}:283:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:278:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" minus "L00000000001$pb"{standard input}:278:symbol: "L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:260:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"{standard input}:260:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:252:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:252:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:249:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000001$pb"{standard input}:249:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:241:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"{standard input}:241:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:233:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:233:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:230:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"{standard input}:230:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:214:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:214:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:198:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:198:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:192:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:189:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:189:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:166:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:166:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:147:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:147:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:133:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:133:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:130:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:130:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AstroDetailView.plistDictionary$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1316(22@60"Instance variable 'plistDictionary' accessed in class method325436647#115#143#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#51#0#51#0#0"0(22@60"Instance variable 'plistDictionary' accessed in class method325436647#372#143#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#57#0#57#0#0"0(4@36"Expected identifier before '#' token325436647#631#117#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#72#0#72#0#19"expected * before *0(4@36"Expected expression before ']' token325436647#748#118#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#106#0#106#0#19"expected * before *0(4@60"'layoutScrollImages' undeclared (first use in this function)325436647#866#142#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#123#0#123#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before '{' token325436647#1254#111#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#124#0#124#0#19"expected * before *0(4@49"Expected declaration or statement at end of input325436647#1365#131#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#49"expected declaration or statement at end of input0(22@22"Unused variable 'days'325436647#1496#105#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#70#0#70#0#19"unused variable '*'0(23@13"At top level:325436647#1601#84#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#0#0#0#0#0"0(22@40"'@end' missing in implementation context325436647#1685#124#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#40"'@end' missing in implementation context0(22@52"Incomplete implementation of class 'AstroDetailView'325436647#1809#136#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#38"incomplete implementation of class '*'0(22@59"Method definition for '-displayMonthlyHoroscope:' not found325436647#1945#143#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#35"method definition for '*' not found0(22@58"Method definition for '-displayTodaysHoroscope:' not found325436647#2088#142#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#35"method definition for '*' not found0(22@58"Method definition for '-displayWeeklyHoroscope:' not found325436647#2230#142#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#35"method definition for '*' not found0(22@53"Method definition for '-layoutScrollImages' not found325436647#2372#137#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#35"method definition for '*' not found0(22@51"Method definition for '-handleSwipeFrom:' not found325436647#2509#135#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325436646#219#0#219#0#35"method definition for '*' not found0(0#0#68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m8624764128#2108"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o1#
+lSLF07#2@76"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325444060#325444061#0(515"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView initialize]':/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:51: warning: instance variable 'plistDictionary' accessed in class method/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView getValue:]':/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m:57: warning: instance variable 'plistDictionary' accessed in class method2(22@60"Instance variable 'plistDictionary' accessed in class method325444060#115#143#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325443817#51#0#51#0#0"0(22@60"Instance variable 'plistDictionary' accessed in class method325444060#372#143#0(6@68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m325443817#57#0#57#0#0"0(0#0#68"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m8620767200#2108"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325423374.471650
-e325423374.639282
+s325443066.141328
+e325443066.347455
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
@@ -287,11 +255,15 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325423374#325423374#0(0"0(0#0#77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m8654846976#2126"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
+o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@85"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#325443066#0(862"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@114"Property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation325443066#0#207#0(6@77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@121"Property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation325443066#207#214#0(6@77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@124"Property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation325443066#421#217#0(6@77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@131"Property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation325443066#638#224#0(6@77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(0#0#77"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m8628612704#2126"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325435794.828861
-e325435795.966243
+s325444145.499733
+e325444145.843995
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
@@ -300,7 +272,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m325435794#325435795#0(0"0(0#0#80"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m8620064832#2132"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
+lSLF07#2@88"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m325444145#325444145#0(0"0(0#0#80"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m8630784640#2132"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Horoscope/AstrostyleApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325414500.664445
@@ -324,12 +296,12 @@ x/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleAppViewController.xib
 lSLF07#2@42"CompileXIB AstrostyleAppViewController.xib325423373#325423374#0(0"0(0#0#74"/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleAppViewController.xib8653016544#622"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleAppViewController.nib /Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleAppViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib
-s325435792.874921
-e325435794.828329
+s325441579.473222
+e325441581.473089
 r1
 xCompileXIB
 x/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib
-lSLF07#2@38"CompileXIB Classes/AstroDetailView.xib325435792#325435794#0(0"0(0#0#70"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib8621375040#606"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@38"CompileXIB Classes/AstroDetailView.xib325441579#325441581#0(0"0(0#0#70"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib8621609120#606"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib
 s325414493.324745
@@ -340,32 +312,62 @@ x/Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib325414493#325414496#0(0"0(0#0#57"/Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib8645376768#588"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/MainWindow.nib /Users/siplmacmini/Horoscope/AstrostyleApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCopyPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
-s325425498.324681
-e325425498.600482
+s325443138.586434
+e325443138.938106
 r1
 xCopyPlistFile
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist
 xStore.plist
-lSLF07#2@16"Copy Store.plist325425498#325425498#0(0"0(0#0#54"/Users/siplmacmini/Horoscope/AstrostyleApp/Store.plist8651595072#400"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+lSLF07#2@16"Copy Store.plist325443138#325443138#0(0"0(0#0#54"/Users/siplmacmini/Horoscope/AstrostyleApp/Store.plist8630888480#400"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Default.png Default.png
+r0
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/image1.jpg image1.jpg
+s325440253.257247
+e325440253.302110
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/image1.jpg
+ximage1.jpg
+lSLF07#2@15"Copy image1.jpg325440253#325440253#0(0"0(0#0#53"/Users/siplmacmini/Horoscope/AstrostyleApp/image1.jpg8620459680#486"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Horoscope/AstrostyleApp/image1.jpg /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/image2.jpg image2.jpg
+s325440299.038783
+e325440299.047865
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/image2.jpg
+ximage2.jpg
+lSLF07#2@15"Copy image2.jpg325440299#325440299#0(0"0(0#0#53"/Users/siplmacmini/Horoscope/AstrostyleApp/image2.jpg8622059904#486"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Horoscope/AstrostyleApp/image2.jpg /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/image3.jpg image3.jpg
+s325440334.864879
+e325440334.872689
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/image3.jpg
+ximage3.jpg
+lSLF07#2@15"Copy image3.jpg325440334#325440334#0(0"0(0#0#53"/Users/siplmacmini/Horoscope/AstrostyleApp/image3.jpg8621955872#486"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Horoscope/AstrostyleApp/image3.jpg /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
 CGenerateDSYMFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-s325435835.353408
-e325435835.423216
+s325444145.981366
+e325444146.154021
 r1
 xGenerateDSYMFile
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325435835#325435835#0(0"0(0#0#102"/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8621567776#413"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325444145#325444146#0(0"0(0#0#102"/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8631816672#413"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
 
 CLd /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
-s325435835.232255
-e325435835.353302
+s325444145.844090
+e325444145.981268
 r1
 xLd
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
 xnormal
 xi386
-lSLF07#2@107"Link /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325435835#325435835#0(0"0(0#0#0"8600621440#950"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
+lSLF07#2@107"Link /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325444145#325444145#0(0"0(0#0#0"8637650592#950"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
 
 CProcessInfoPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
 s325414493.272665
@@ -390,10 +392,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325414496#325414500#0(0"0(0#0#67"/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleApp_Prefix.pch8652318848#1960"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch.gch0#
 
 CTouch /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-s325435835.423307
-e325435835.426023
+s325444146.154118
+e325444146.156919
 r1
 xTouch
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-lSLF07#2@94"Touch /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app325435835#325435835#0(0"0(0#0#0"8623897856#292"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+lSLF07#2@94"Touch /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app325444146#325444146#0(0"0(0#0#0"8639708608#292"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 

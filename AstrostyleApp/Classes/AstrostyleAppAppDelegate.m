@@ -8,23 +8,60 @@
 
 #import "AstrostyleAppAppDelegate.h"
 #import "AstrostyleAppViewController.h"
+#import "AstroDetailView.h"
 
 @implementation AstrostyleAppAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
+@synthesize plistDictionary;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+    NSLog(@"initialize Resources.m");
+	BOOL success;
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:@"Store.plist"];
+	success = [fileManager fileExistsAtPath:filePath];
+	NSLog(@"%@", filePath);
+	
+	if(!success){
+		NSLog(@"not success");
+		NSError *error;
+		// The writable database does not exist, so copy the default to the appropriate location.
+		NSString *defaultDBPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Store.plist"];
+		success = [fileManager copyItemAtPath:defaultDBPath toPath:filePath error:&error];
+		if (!success) {
+			NSAssert1(0, @"Failed to create Messages.plist file with message '%@'.", [error localizedDescription]);
+		}
+	}
+	
+	plistDictionary = [[NSDictionary alloc] initWithContentsOfFile:filePath];
+	
+	mon = [plistDictionary objectForKey:@"Month"];
+	dayValue = [plistDictionary objectForKey:@"Day"];
     // Override point for customization after application launch.
 
+	if (([mon isEqualToString:@""])||([dayValue isEqualToString:@""])) {
+		[self.window addSubview:viewController.view];
+		[self.window makeKeyAndVisible];
+	}else{
+		AstroDetailView *horoDetailview = [[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil];
+		horoDetailview.bmonth = mon;
+		horoDetailview.bdate = dayValue;
+		[self.window addSubview:horoDetailview.view];
+		[self.window makeKeyAndVisible];
+	
+	}
     // Add the view controller's view to the window and display.
-    [self.window addSubview:viewController.view];
-    [self.window makeKeyAndVisible];
+    
 
     return YES;
 }

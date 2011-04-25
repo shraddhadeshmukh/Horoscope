@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AstroDetailView : UIViewController <UIGestureRecognizerDelegate>{
+@interface AstroDetailView : UIViewController {
 
-	UISwipeGestureRecognizer *swipeRecognizer;
-	UISwipeGestureRecognizer *swipeRightRecognizer;
 	IBOutlet UITextView *txtView;
 	NSString *bmonth;
 	NSString *bdate;
@@ -23,8 +21,6 @@
 	IBOutlet UIButton *monthlyBtn;
 }
 
-@property (nonatomic,retain)UISwipeGestureRecognizer *swipeRightRecognizer;
-@property (nonatomic,retain)UISwipeGestureRecognizer *swipeRecognizer;
 @property (nonatomic,retain)IBOutlet UITextView *txtView;
 @property (nonatomic,retain)NSString *bmonth;
 @property (nonatomic,retain)NSString *bdate;
@@ -32,7 +28,6 @@
 @property (nonatomic,retain)IBOutlet UIScrollView *scrollView;
 
 
-- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer;
 - (void)layoutScrollImages;
 - (IBAction)displayWeeklyHoroscope:(id)sender;
 - (IBAction)displayTodaysHoroscope:(id)sender;

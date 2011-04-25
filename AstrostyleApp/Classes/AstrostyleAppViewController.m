@@ -36,19 +36,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	arrayMonth = [[NSMutableArray alloc]init];
-	[arrayMonth addObject:@"January"];
-	[arrayMonth addObject:@"February"];
-	[arrayMonth addObject:@"March"];
-	[arrayMonth addObject:@"April"];
-	[arrayMonth addObject:@"May"];
-	[arrayMonth addObject:@"June"];
-	[arrayMonth addObject:@"July"];
-	[arrayMonth addObject:@"August"];
-	[arrayMonth addObject:@"September"];
-	[arrayMonth addObject:@"October"];
-	[arrayMonth addObject:@"November"];
-	[arrayMonth addObject:@"December"];
+	arrayMonth = [[NSMutableArray alloc]initWithObjects:@"January",@"February",@"March",@"April",@"May",@"June",@"July",@"August",@"September",@"October",@"November",@"December",nil];
 	
 	arrayDate =  [[NSMutableArray alloc]initWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"20",@"21",@"22",@"23",@"24",@"25",@"26",@"27",@"28",@"29",@"30",@"31",nil];
 	selDate = @"1";
@@ -58,54 +46,7 @@
 
 }
 
-#pragma mark UIPickerView Delegate
-/*
- 
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
 
-
-}
-
-- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component{
-}
-
-
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-	
-	if (component==0) {
-		return [arrayMonth objectAtIndex:row];
-	}
-	else {
-		return [arrayDate objectAtIndex:row];
-	}
-	//return nil;
-}
-/*
-- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
-
-}
-
-
-- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component{
-
-}
-#pragma mark UIPickerView DataSource
-
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-	
-	return 2;
-
-}
-
-- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
-	if (component==0) {
-		return [arrayDate count];
-	}else {
-		return [arrayMonth count];
-	}
-	return [arrayMonth count];
-}
-*/
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -113,6 +54,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
+
+#pragma mark UIPickerView Delegate
+
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)thePickerView {
 	
 	return 2;
@@ -179,11 +123,7 @@
 			[datePicker reloadComponent:1];
 		}
 	}
-	//if (row>3) {
-	//	if (component==1) {
-	//		[datePicker selectRow:0 inComponent:0 animated:YES];
-	//	}
-	//}
+	
 	if (component==0) {
 		NSLog(@"Selected Color: %@. Index of selected color: %i", [arrayMonth objectAtIndex:row], row);
 		selMonth = [arrayMonth objectAtIndex:row];
