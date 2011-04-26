@@ -99,7 +99,7 @@ const CGFloat kScrollObjWidth	= 280.0;
 		zodiacSign = @"Libra";
 	}else if (([month isEqualToString:@"October"])&&(days<23)) {
 		zodiacSign = @"Libra";
-	}else if (([month isEqualToString:@"October"])&&(days<22)) {
+	}else if (([month isEqualToString:@"October"])&&(days>22)) {
 		zodiacSign = @"Scorpio";
 	}else if (([month isEqualToString:@"November"])&&(days<22)) {
 		zodiacSign = @"Scorpio";
