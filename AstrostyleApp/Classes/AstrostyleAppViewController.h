@@ -16,6 +16,7 @@
 	NSInteger *noofDays;
 	NSString *selDate;
 	NSString *selMonth;
+	
 }
 @property (nonatomic,retain)IBOutlet UIPickerView *datePicker;
 @property (nonatomic,retain)IBOutlet NSString *selDate;

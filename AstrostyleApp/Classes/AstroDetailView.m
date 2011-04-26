@@ -8,12 +8,15 @@
 
 #import "AstroDetailView.h"
 
+/*
 const NSUInteger kNumImages		= 3;
 const CGFloat kScrollObjHeight	= 340.0;
 const CGFloat kScrollObjWidth	= 280.0;
+*/
+static int selView = 1;
 
 @implementation AstroDetailView
-@synthesize txtView,bmonth,bdate,plistDictionary,scrollView;
+@synthesize txtView,bmonth,bdate,plistDictionary,scrollView,horoContent,lblZodiac;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -62,6 +65,7 @@ const CGFloat kScrollObjWidth	= 280.0;
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	//Get Month and Day
 	NSString *month = [[[NSString alloc]initWithString:bmonth] autorelease];
 	NSString *day = [[[NSString alloc]initWithString:bdate]autorelease];
 	NSString *zodiacSign=[[NSString alloc]init];
@@ -69,6 +73,8 @@ const CGFloat kScrollObjWidth	= 280.0;
 	[txtView setEditable:NO];
 	month = [AstroDetailView getValue:@"Month"];
 	day = [AstroDetailView getValue:@"Day"];
+	
+	//Get Zodiac Sign
 	NSLog(@"%@,%@",month,day);
 	int days = [day intValue];
 	if (([month isEqualToString:@"April"])&&(days<20)) {
@@ -120,72 +126,31 @@ const CGFloat kScrollObjWidth	= 280.0;
 	}else if (([month isEqualToString:@"March"])&&(days<21)) {
 		zodiacSign = @"Pisces";
 	}
-
+	
+	//Adding Swipe Gesture
+	UISwipeGestureRecognizer *frontRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(frontSwipeDetected)] autorelease];
+	UISwipeGestureRecognizer *backRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(backSwipeDetected)] autorelease];
+	frontRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+	
+	[self.view addGestureRecognizer:frontRecognizer];
+	[self.view addGestureRecognizer:backRecognizer];
+	
 	txtView.text = @"temphoroscope";
-		
-	[scrollView setBackgroundColor:[UIColor blackColor]];
-	[scrollView setCanCancelContentTouches:NO];
-		
-	scrollView.clipsToBounds = YES;		// default is NO, we want to restrict drawing within our scrollview
-	scrollView.scrollEnabled = YES;
-	scrollView.pagingEnabled = YES;
+	horoContent = [NSString stringWithFormat:@"Horoscope for %@\n",zodiacSign];
+	lblZodiac.text = horoContent;
+	//txtView.text = horoContent;
+	[self displayTodaysHoroscope:self];
 	
-	// load all the images from our bundle and add them to the scroll view
-	NSUInteger i;
-	for (i = 1; i <= kNumImages; i++)
-	{
-		NSString *pageName = [NSString stringWithFormat:@"Horoscope for %@",zodiacSign];
-				
-		txtView.text = pageName;
+	//if ([stories count] == 0) {
 		
-		// setup each frame to a default height and width, it will be properly placed when we call "updateScrollList"
-		CGRect rect;// = scrollView.frame;
-		rect.size.height = kScrollObjHeight;
-		rect.size.width = kScrollObjWidth;
-		txtView.frame = rect;
-		[scrollView addSubview:txtView];
-				
-		NSString *imageName = [NSString stringWithFormat:@"image%d.jpg", i];
-		UIImage *image = [UIImage imageNamed:imageName];
-		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-		UILabel *label= [[UILabel alloc]init];
-		label.text = pageName;
-		[imageView addSubview:label]; 
- 		// setup each frame to a default height and width, it will be properly placed when we call "updateScrollList"
-		rect.size.height = kScrollObjHeight;
-		rect.size.width = kScrollObjWidth;
-		imageView.frame = rect;
-		imageView.tag = i;	// tag our images for later use when we place them in serial fashion
-		[scrollView addSubview:imageView];
-		[imageView release];
-	}
+		NSString * path = @"http://astrotwinsdaily.wordpress.com/";
+	[self parseXMLFileAtURL:path];
+	NSString *convertString = [[NSString alloc]initWithContentsOfURL:[NSURL URLWithString:path]];
+	NSLog(@"%@",convertString);
 	
-	[self layoutScrollImages];	// now place the photos in serial layout within the scrollview
-}
+	txtView.text = horoContent;//[stories objectAtIndex:20];
 
-- (void)layoutScrollImages
-{
-	UIImageView *view = nil;
-	NSArray *subviews = [scrollView subviews];
-	
-	// reposition all image subviews in a horizontal serial fashion
-	CGFloat curXLoc = 0;
-	for (view in subviews)
-	{
-		if ([view isKindOfClass:[UIImageView class]] && view.tag > 0)
-		{
-			CGRect frame = view.frame;
-			frame.origin = CGPointMake(curXLoc, 0);
-			view.frame = frame;
-			
-			curXLoc += (kScrollObjWidth);
-		}
-	}
-	
-	// set the content size so it can be scrollable
-	[scrollView setContentSize:CGSizeMake((kNumImages * kScrollObjWidth), [scrollView bounds].size.height)];
 }
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -195,13 +160,148 @@ const CGFloat kScrollObjWidth	= 280.0;
 }
 */
 
+-(IBAction)frontSwipeDetected{
+		
+	if (selView==1) {
+		selView=2;
+		[self displayMonthlyHoroscope:self];
+	}else if (selView==0) {
+		selView=1;
+		[self displayTodaysHoroscope:self];
+	}
+	
+}
+-(IBAction)backSwipeDetected{
+		
+	if (selView==1) {
+		selView=0;
+		[self displayWeeklyHoroscope:self];
+	}else if (selView==2) {
+		selView=1;
+		[self displayTodaysHoroscope:self];
+	}
+}
+
 - (IBAction)displayWeeklyHoroscope:(id)sender{
+	
+	txtView.text = @"Weekly";
+	selView=0;
+	[weeklyBtn setHighlighted:YES];
+	[monthlyBtn setHighlighted:NO];
+	[todayBtn setHighlighted:NO];
 }
 
 - (IBAction)displayTodaysHoroscope:(id)sender{
+	txtView.text = @"Today";
+	selView=1;
+	[weeklyBtn setHighlighted:NO];
+	[monthlyBtn setHighlighted:NO];
+	[todayBtn setHighlighted:YES];
 }
 
 - (IBAction)displayMonthlyHoroscope:(id)sender{
+	txtView.text = @"Monthly";
+	selView=2;
+	[weeklyBtn setHighlighted:NO];
+	[monthlyBtn setHighlighted:YES];
+	[todayBtn setHighlighted:NO];
+}
+
+
+
+- (void)parserDidStartDocument:(NSXMLParser *)parser{	
+	NSLog(@"found file and started parsing");
+	
+}
+
+- (void)parseXMLFileAtURL:(NSString *)URL
+{	
+	stories = [[NSMutableArray alloc] init];
+	    
+    NSURL *xmlURL = [NSURL URLWithString:URL];
+	    
+    rssParser = [[NSXMLParser alloc] initWithContentsOfURL:xmlURL];
+	
+	NSLog(@"%@",rssParser);
+    // Set self as the delegate of the parser so that it will receive the parser delegate methods callbacks.
+    [rssParser setDelegate:self];
+	
+    // Depending on the XML document you're parsing, you may want to enable these features of NSXMLParser.
+    [rssParser setShouldProcessNamespaces:NO];
+    [rssParser setShouldReportNamespacePrefixes:NO];
+	[rssParser setShouldResolveExternalEntities:NO];
+	
+    [rssParser parse];
+	
+}
+
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
+	NSString * errorString = [NSString stringWithFormat:@"Unable to download story feed from web site (Error code %i )", [parseError code]];
+	NSLog(@"error parsing XML: %@", errorString);
+		
+}
+
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{			
+   // NSLog(@"found this element: %@", elementName);
+	currentElement = [elementName copy];
+	if ([elementName isEqualToString:@"small"]) {
+		// clear out our story item caches...
+		item = [[NSMutableDictionary alloc] init];
+		currentTitle = [[NSMutableString alloc] init];
+		currentDate = [[NSMutableString alloc] init];
+		currentSummary = [[NSMutableString alloc] init];
+		currentLink = [[NSMutableString alloc] init];
+	}
+}
+
+
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{     
+	
+	if ([elementName isEqualToString:@"small"]) {
+		
+		[item setObject:currentSummary forKey:@"p"];
+		
+		NSLog(@"ended element: %@", elementName);
+		[stories addObject:[item copy]];
+		//NSLog(@"adding story: %@", currentTitle);
+		
+	}
+}
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
+	//NSLog(@"found characters: %@", string);
+	// save the characters for the current item...
+	if ([currentElement isEqualToString:@"title"]) {
+	//	[currentTitle appendString:string];
+	//} else if ([currentElement isEqualToString:@"link"]) {
+	//	[currentLink appendString:string];
+	} else if ([currentElement isEqualToString:@"p"]) {
+		[currentSummary appendString:string];
+		NSLog(@"found characters: %@", string);
+		//NSString *temp=@"capricorn";
+		//if([string length]>10){
+		//	NSLog(@"Substring = %@",[string substringToIndex:10]);
+		//if ([string hasPrefix:@"Capricorn"]) {
+			horoContent = [horoContent stringByAppendingString:string];
+		//}
+		//}
+	} else if ([currentElement isEqualToString:@"small"]) {
+		[currentDate appendString:string];
+		NSLog(@"found characters: %@", string);
+		horoContent = [horoContent stringByAppendingString:string];
+	}
+	
+	//NSLog(@"Summary%@",string);
+}
+
+- (void)parserDidEndDocument:(NSXMLParser *)parser {
+	
+	[activityIndicator stopAnimating];
+	[activityIndicator removeFromSuperview];
+	
+	NSLog(@"all done!");
+	NSLog(@"stories array has %d items", [stories count]);
+	//[newsTable reloadData];
 }
 
 
@@ -215,15 +315,12 @@ const CGFloat kScrollObjWidth	= 280.0;
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 
 - (void)dealloc {
 	[bdate release];
 	[bmonth release];
-	
 	[plistDictionary release];
 	[txtView release];
     [super dealloc];

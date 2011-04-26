@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */; };
 		03B5429613659659007102D2 /* Store.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B5429513659659007102D2 /* Store.plist */; };
 		03B542B313659ED6007102D2 /* AstroDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B542B113659ED6007102D2 /* AstroDetailView.m */; };
 		03B542B413659ED6007102D2 /* AstroDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B542B213659ED6007102D2 /* AstroDetailView.xib */; };
-		03CF7C801365DF4B0072EF42 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CF7C7F1365DF4B0072EF42 /* image1.jpg */; };
 		1D3623260D0F684500981E51 /* AstrostyleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AstrostyleAppAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -22,11 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		03B5429513659659007102D2 /* Store.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Store.plist; sourceTree = "<group>"; };
 		03B542B013659ED6007102D2 /* AstroDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroDetailView.h; sourceTree = "<group>"; };
 		03B542B113659ED6007102D2 /* AstroDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroDetailView.m; sourceTree = "<group>"; };
 		03B542B213659ED6007102D2 /* AstroDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AstroDetailView.xib; path = Classes/AstroDetailView.xib; sourceTree = "<group>"; };
-		03CF7C7F1365DF4B0072EF42 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AstrostyleAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstrostyleAppAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AstrostyleAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstrostyleAppAppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +102,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				03CF7C7F1365DF4B0072EF42 /* image1.jpg */,
 				03B542B213659ED6007102D2 /* AstroDetailView.xib */,
 				2899E5210DE3E06400AC0155 /* AstrostyleAppViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -114,6 +114,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -174,7 +175,6 @@
 				2899E5220DE3E06400AC0155 /* AstrostyleAppViewController.xib in Resources */,
 				03B5429613659659007102D2 /* Store.plist in Resources */,
 				03B542B413659ED6007102D2 /* AstroDetailView.xib in Resources */,
-				03CF7C801365DF4B0072EF42 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +230,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
