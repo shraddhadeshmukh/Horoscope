@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */; };
+		039BF65A13680CB700EEA0D6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65713680CB700EEA0D6 /* TFHpple.m */; };
+		039BF65B13680CB700EEA0D6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65913680CB700EEA0D6 /* TFHppleElement.m */; };
+		039BF65E13680CC300EEA0D6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65D13680CC300EEA0D6 /* XPathQuery.m */; };
 		03B5429613659659007102D2 /* Store.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B5429513659659007102D2 /* Store.plist */; };
 		03B542B313659ED6007102D2 /* AstroDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B542B113659ED6007102D2 /* AstroDetailView.m */; };
 		03B542B413659ED6007102D2 /* AstroDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B542B213659ED6007102D2 /* AstroDetailView.xib */; };
@@ -23,6 +26,12 @@
 
 /* Begin PBXFileReference section */
 		036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		039BF65613680CB700EEA0D6 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Classes/TFHpple.h; sourceTree = SOURCE_ROOT; };
+		039BF65713680CB700EEA0D6 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Classes/TFHpple.m; sourceTree = SOURCE_ROOT; };
+		039BF65813680CB700EEA0D6 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Classes/TFHppleElement.h; sourceTree = SOURCE_ROOT; };
+		039BF65913680CB700EEA0D6 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = Classes/TFHppleElement.m; sourceTree = SOURCE_ROOT; };
+		039BF65C13680CC300EEA0D6 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Classes/XPathQuery.h; sourceTree = SOURCE_ROOT; };
+		039BF65D13680CC300EEA0D6 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Classes/XPathQuery.m; sourceTree = SOURCE_ROOT; };
 		03B5429513659659007102D2 /* Store.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Store.plist; sourceTree = "<group>"; };
 		03B542B013659ED6007102D2 /* AstroDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroDetailView.h; sourceTree = "<group>"; };
 		03B542B113659ED6007102D2 /* AstroDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroDetailView.m; sourceTree = "<group>"; };
@@ -66,6 +75,12 @@
 				28D7ACF70DDB3853001CB0EB /* AstrostyleAppViewController.m */,
 				03B542B013659ED6007102D2 /* AstroDetailView.h */,
 				03B542B113659ED6007102D2 /* AstroDetailView.m */,
+				039BF65613680CB700EEA0D6 /* TFHpple.h */,
+				039BF65713680CB700EEA0D6 /* TFHpple.m */,
+				039BF65813680CB700EEA0D6 /* TFHppleElement.h */,
+				039BF65913680CB700EEA0D6 /* TFHppleElement.m */,
+				039BF65C13680CC300EEA0D6 /* XPathQuery.h */,
+				039BF65D13680CC300EEA0D6 /* XPathQuery.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -189,6 +204,9 @@
 				1D3623260D0F684500981E51 /* AstrostyleAppAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* AstrostyleAppViewController.m in Sources */,
 				03B542B313659ED6007102D2 /* AstroDetailView.m in Sources */,
+				039BF65A13680CB700EEA0D6 /* TFHpple.m in Sources */,
+				039BF65B13680CB700EEA0D6 /* TFHppleElement.m in Sources */,
+				039BF65E13680CC300EEA0D6 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +222,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AstrostyleApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
 				INFOPLIST_FILE = "AstrostyleApp-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = AstrostyleApp;
 			};
 			name = Debug;
@@ -216,7 +236,9 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AstrostyleApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
 				INFOPLIST_FILE = "AstrostyleApp-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = AstrostyleApp;
 				VALIDATE_PRODUCT = YES;
 			};

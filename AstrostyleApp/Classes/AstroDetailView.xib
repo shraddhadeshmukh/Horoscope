@@ -222,24 +222,6 @@
 					<int key="connectionID">21</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">displayTodaysHoroscope:</string>
-						<reference key="source" ref="365044882"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">23</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">displayMonthlyHoroscope:</string>
-						<reference key="source" ref="13012393"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">24</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">lblZodiac</string>
 						<reference key="source" ref="372490531"/>
@@ -249,12 +231,30 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">displayWeeklyHoroscope:</string>
+						<string key="label">displayWeeklyHoroscope</string>
 						<reference key="source" ref="23200647"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">28</int>
+					<int key="connectionID">29</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">displayTodaysHoroscope</string>
+						<reference key="source" ref="365044882"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">displayMonthlyHoroscope</string>
+						<reference key="source" ref="13012393"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">31</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -388,7 +388,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">28</int>
+			<int key="maxID">31</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -401,9 +401,9 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>backSwipeDetected</string>
-							<string>displayMonthlyHoroscope:</string>
-							<string>displayTodaysHoroscope:</string>
-							<string>displayWeeklyHoroscope:</string>
+							<string>displayMonthlyHoroscope</string>
+							<string>displayTodaysHoroscope</string>
+							<string>displayWeeklyHoroscope</string>
 							<string>frontSwipeDetected</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -420,9 +420,9 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>backSwipeDetected</string>
-							<string>displayMonthlyHoroscope:</string>
-							<string>displayTodaysHoroscope:</string>
-							<string>displayWeeklyHoroscope:</string>
+							<string>displayMonthlyHoroscope</string>
+							<string>displayTodaysHoroscope</string>
+							<string>displayWeeklyHoroscope</string>
 							<string>frontSwipeDetected</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -432,15 +432,15 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">displayMonthlyHoroscope:</string>
+								<string key="name">displayMonthlyHoroscope</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">displayTodaysHoroscope:</string>
+								<string key="name">displayTodaysHoroscope</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">displayWeeklyHoroscope:</string>
+								<string key="name">displayWeeklyHoroscope</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">

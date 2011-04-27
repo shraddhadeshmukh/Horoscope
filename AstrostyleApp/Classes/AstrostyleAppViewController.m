@@ -157,9 +157,10 @@
 	[plistDict setValue:selMonth forKey:@"Month"];
 	[plistDict setValue:selDate forKey:@"Day"];
 	[plistDict writeToFile:filePath atomically: YES];
+	[plistDict release];
 	AstrostyleAppAppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
 	//[appDelegate.viewController ]
-	AstroDetailView *detailView = [[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil];
+	AstroDetailView *detailView = [[[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil] autorelease];
 	detailView.bdate = selDate;
 	detailView.bmonth = selMonth;
 	[appDelegate.viewController presentModalViewController:detailView animated:YES];
@@ -179,6 +180,7 @@
 
 
 - (void)dealloc {
+	[datePicker release];
 	[selDate release];
 	[selMonth release];
     [super dealloc];

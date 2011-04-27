@@ -14,7 +14,7 @@
 
 @synthesize window;
 @synthesize viewController;
-@synthesize plistDictionary;
+@synthesize plistDictionary,mon,dayValue;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -116,6 +116,9 @@
 
 
 - (void)dealloc {
+	[mon release];
+	[dayValue release];
+//	[plistDictionary release];
     [viewController release];
     [window release];
     [super dealloc];

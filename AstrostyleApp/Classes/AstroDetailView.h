@@ -36,8 +36,15 @@
 	NSString * currentElement;
 	NSMutableString * currentTitle, * currentDate, * currentSummary, * currentLink;
 	UIActivityIndicatorView * activityIndicator;
+	NSString *todaysHoro;
+	NSString *weeksHoro;
+	NSString *monthsHoro;
+	NSString *zodiacSign;
 }
-
+@property (nonatomic,retain)NSString *zodiacSign;
+@property (nonatomic,retain)NSString *todaysHoro;
+@property (nonatomic,retain)NSString *weeksHoro;
+@property (nonatomic,retain)NSString *monthsHoro;
 @property (nonatomic,retain)IBOutlet UITextView *txtView;
 @property (nonatomic,retain)NSString *bmonth;
 @property (nonatomic,retain)NSString *bdate;
@@ -47,9 +54,12 @@
 @property (nonatomic,retain)IBOutlet UILabel *lblZodiac;
 
 //- (void)layoutScrollImages;
-- (IBAction)displayWeeklyHoroscope:(id)sender;
-- (IBAction)displayTodaysHoroscope:(id)sender;
-- (IBAction)displayMonthlyHoroscope:(id)sender;
+-(void)getTodaysHoroscope;
+-(void)getWeekHoroscope;
+-(void)getMonthsHoroscope;
+- (IBAction)displayWeeklyHoroscope;
+- (IBAction)displayTodaysHoroscope;
+- (IBAction)displayMonthlyHoroscope;
 - (IBAction)frontSwipeDetected;
 - (IBAction)backSwipeDetected;
 - (void)parseXMLFileAtURL:(NSString *)URL;

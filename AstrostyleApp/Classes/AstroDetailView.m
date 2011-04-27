@@ -7,6 +7,9 @@
 //
 
 #import "AstroDetailView.h"
+#import "TFHppleElement.h"
+#import "TFHpple.h"
+
 
 /*
 const NSUInteger kNumImages		= 3;
@@ -17,7 +20,7 @@ static int selView = 1;
 
 @implementation AstroDetailView
 @synthesize txtView,bmonth,bdate,plistDictionary,scrollView,horoContent,lblZodiac;
-
+@synthesize zodiacSign,todaysHoro,weeksHoro,monthsHoro;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -28,7 +31,10 @@ static int selView = 1;
 }
 */
 
-+ (void) initialize{
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
 	
 	NSLog(@"initialize Resources.m");
 	BOOL success;
@@ -53,35 +59,27 @@ static int selView = 1;
 	
 	plistDictionary = [[NSDictionary alloc] initWithContentsOfFile:filePath];
 	
-}
-
-+(NSString *) getValue:(NSString *)key{
 	
-	NSString *value =  [plistDictionary objectForKey:key];
-	return value;
-	
-}
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
 	//Get Month and Day
-	NSString *month = [[[NSString alloc]initWithString:bmonth] autorelease];
-	NSString *day = [[[NSString alloc]initWithString:bdate]autorelease];
-	NSString *zodiacSign=[[NSString alloc]init];
+	todaysHoro = [[NSString alloc]init];
+	NSString *month = [[NSString alloc] initWithString:@"April"];
+	NSString *day = [[NSString alloc] initWithString:bdate];
+	zodiacSign=[[NSString alloc]init];
 	[scrollView setZoomScale:0];
 	[txtView setEditable:NO];
-	month = [AstroDetailView getValue:@"Month"];
-	day = [AstroDetailView getValue:@"Day"];
+	month = [plistDictionary objectForKey:@"Month"];
+	day = [plistDictionary objectForKey:@"Day"];
 	
 	//Get Zodiac Sign
 	NSLog(@"%@,%@",month,day);
 	int days = [day intValue];
-	if (([month isEqualToString:@"April"])&&(days<20)) {
+	
+	if ([month isEqualToString:@"April"] && (days<20)) {
 		zodiacSign = @"Aries";
-	}else if (([month isEqualToString:@"March"])&&(days>20)) {
+	}
+	else if (([month isEqualToString:@"March"]) && (days>20)) {
 		zodiacSign = @"Aries";
-	}else if (([month isEqualToString:@"April"])&&(days>20)) {
+	}else if (([month isEqualToString:@"April"]) && (days>20)) {
 		zodiacSign = @"Taurus";
 	}else if (([month isEqualToString:@"May"])&&(days<21)) {
 		zodiacSign = @"Taurus";
@@ -139,19 +137,137 @@ static int selView = 1;
 	horoContent = [NSString stringWithFormat:@"Horoscope for %@\n",zodiacSign];
 	lblZodiac.text = horoContent;
 	//txtView.text = horoContent;
-	[self displayTodaysHoroscope:self];
+	[self getTodaysHoroscope];
+	[self getMonthsHoroscope];
+	[self getWeekHoroscope];
 	
-	//if ([stories count] == 0) {
-		
-		NSString * path = @"http://astrotwinsdaily.wordpress.com/";
-	[self parseXMLFileAtURL:path];
-	NSString *convertString = [[NSString alloc]initWithContentsOfURL:[NSURL URLWithString:path]];
-	NSLog(@"%@",convertString);
+	[self displayTodaysHoroscope];
 	
-	txtView.text = horoContent;//[stories objectAtIndex:20];
-
+	
 }
 
+-(void)getTodaysHoroscope{
+	
+	NSString *myTitle = [[[NSString alloc]init]autorelease];
+	NSData *htmlData = [[NSString stringWithContentsOfURL:[NSURL URLWithString: @"http://astrotwinsdaily.wordpress.com/feed/"]] dataUsingEncoding:NSUTF8StringEncoding];
+	TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:htmlData];
+	NSMutableArray *date = [xpathParser search:@"//title"];
+	if ([date count]>0){ 	
+		TFHppleElement *dateElement = [date objectAtIndex:2];
+		NSLog(@"%@",[dateElement content]);
+		NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"LLLL d"];
+		NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+		
+		NSLog(@"Todays Date=%@",dateString);
+		if ([[dateElement content] isEqualToString:dateString]) {
+			NSMutableArray *elements  = [xpathParser search:@"//p"]; // get the page title - this is xpath notation
+			for(int i=0;i<[elements count]-1;i++){
+				TFHppleElement *element = [elements objectAtIndex:i];
+				myTitle = [element content];
+				if ([myTitle hasPrefix:zodiacSign]){
+					//	txtView.text = myTitle;
+					//NSLog(@"%@",myTitle);
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äú" withString:@"\""];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äî" withString:@"-"];		
+					myTitle=[myTitle stringByAppendingString:myTitle];
+					NSLog(@"%@",myTitle);
+					self.todaysHoro = myTitle;
+				}
+			}
+		}else {
+			self.todaysHoro = @"Todays Horoscope is not Available.";
+		}
+
+	}
+	
+}
+
+-(void)getMonthsHoroscope{
+
+	NSString *myTitle = [[[NSString alloc]init]autorelease];
+	NSData *htmlData = [[NSString stringWithContentsOfURL:[NSURL URLWithString: @"http://astrotwinsdaily.wordpress.com/feed/"]] dataUsingEncoding:NSUTF8StringEncoding];
+	TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:htmlData];
+	NSMutableArray *date = [xpathParser search:@"//title"];
+	if ([date count]>0){ 	
+		TFHppleElement *dateElement = [date objectAtIndex:2];
+		NSLog(@"%@",[dateElement content]);
+		NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"LLLL d"];
+		NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+		
+		NSLog(@"Todays Date=%@",dateString);
+		if (![[dateElement content] isEqualToString:dateString]) {
+			NSMutableArray *elements  = [xpathParser search:@"//p"]; // get the page title - this is xpath notation
+			for(int i=0;i<[elements count]-1;i++){
+				TFHppleElement *element = [elements objectAtIndex:i];
+				myTitle = [element content];
+				if ([myTitle hasPrefix:zodiacSign]){
+					//	txtView.text = myTitle;
+					//NSLog(@"%@",myTitle);
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äú" withString:@"\""];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äî" withString:@"-"];		
+					myTitle=[myTitle stringByAppendingString:myTitle];
+					NSLog(@"%@",myTitle);
+					self.todaysHoro = myTitle;
+				}
+			}
+		}else {
+			self.monthsHoro = @"Month Horoscope is not Available.";
+		}
+		
+	}
+	
+}
+
+-(void)getWeekHoroscope{
+		
+	//NSDate *firstDayOfWeek = (NSDate*)[[NSDate date] firstWeekday];
+	
+	NSString *myTitle = [[[NSString alloc]init]autorelease];
+	NSData *htmlData = [[NSString stringWithContentsOfURL:[NSURL URLWithString: @"http://astrotwinsdaily.wordpress.com/feed/"]] dataUsingEncoding:NSUTF8StringEncoding];
+	TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:htmlData];
+	NSMutableArray *date = [xpathParser search:@"//title"];
+	if ([date count]>0){ 	
+		TFHppleElement *dateElement = [date objectAtIndex:2];
+		NSLog(@"%@",[dateElement content]);
+		NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"LLLL d"];
+		
+		NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+		
+		NSLog(@"Todays Date=%@",dateString);
+		if (![[dateElement content] isEqualToString:dateString]) {
+			NSMutableArray *elements  = [xpathParser search:@"//p"]; // get the page title - this is xpath notation
+			for(int i=0;i<[elements count]-1;i++){
+				TFHppleElement *element = [elements objectAtIndex:i];
+				myTitle = [element content];
+				if ([myTitle hasPrefix:zodiacSign]){
+					//	txtView.text = myTitle;
+					//NSLog(@"%@",myTitle);
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äú" withString:@"\""];
+					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äî" withString:@"-"];		
+					myTitle=[myTitle stringByAppendingString:myTitle];
+					NSLog(@"%@",myTitle);
+					self.todaysHoro = myTitle;
+				}
+			}
+		}else {
+			self.weeksHoro = @"Week Horoscope is not Available.";
+		}
+		
+	}
+	
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -164,10 +280,10 @@ static int selView = 1;
 		
 	if (selView==1) {
 		selView=2;
-		[self displayMonthlyHoroscope:self];
+		[self displayMonthlyHoroscope];
 	}else if (selView==0) {
 		selView=1;
-		[self displayTodaysHoroscope:self];
+		[self displayTodaysHoroscope];
 	}
 	
 }
@@ -175,133 +291,40 @@ static int selView = 1;
 		
 	if (selView==1) {
 		selView=0;
-		[self displayWeeklyHoroscope:self];
+		[self displayWeeklyHoroscope];
 	}else if (selView==2) {
 		selView=1;
-		[self displayTodaysHoroscope:self];
+		[self displayTodaysHoroscope];
 	}
 }
 
-- (IBAction)displayWeeklyHoroscope:(id)sender{
+- (IBAction)displayWeeklyHoroscope{
 	
 	txtView.text = @"Weekly";
 	selView=0;
 	[weeklyBtn setHighlighted:YES];
 	[monthlyBtn setHighlighted:NO];
 	[todayBtn setHighlighted:NO];
+	txtView.text = self.weeksHoro;
 }
 
-- (IBAction)displayTodaysHoroscope:(id)sender{
+- (IBAction)displayTodaysHoroscope{
 	txtView.text = @"Today";
 	selView=1;
 	[weeklyBtn setHighlighted:NO];
 	[monthlyBtn setHighlighted:NO];
 	[todayBtn setHighlighted:YES];
+	txtView.text = self.todaysHoro;
 }
 
-- (IBAction)displayMonthlyHoroscope:(id)sender{
+
+- (IBAction)displayMonthlyHoroscope{
 	txtView.text = @"Monthly";
 	selView=2;
 	[weeklyBtn setHighlighted:NO];
 	[monthlyBtn setHighlighted:YES];
 	[todayBtn setHighlighted:NO];
-}
-
-
-
-- (void)parserDidStartDocument:(NSXMLParser *)parser{	
-	NSLog(@"found file and started parsing");
-	
-}
-
-- (void)parseXMLFileAtURL:(NSString *)URL
-{	
-	stories = [[NSMutableArray alloc] init];
-	    
-    NSURL *xmlURL = [NSURL URLWithString:URL];
-	    
-    rssParser = [[NSXMLParser alloc] initWithContentsOfURL:xmlURL];
-	
-	NSLog(@"%@",rssParser);
-    // Set self as the delegate of the parser so that it will receive the parser delegate methods callbacks.
-    [rssParser setDelegate:self];
-	
-    // Depending on the XML document you're parsing, you may want to enable these features of NSXMLParser.
-    [rssParser setShouldProcessNamespaces:NO];
-    [rssParser setShouldReportNamespacePrefixes:NO];
-	[rssParser setShouldResolveExternalEntities:NO];
-	
-    [rssParser parse];
-	
-}
-
-- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-	NSString * errorString = [NSString stringWithFormat:@"Unable to download story feed from web site (Error code %i )", [parseError code]];
-	NSLog(@"error parsing XML: %@", errorString);
-		
-}
-
-- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{			
-   // NSLog(@"found this element: %@", elementName);
-	currentElement = [elementName copy];
-	if ([elementName isEqualToString:@"small"]) {
-		// clear out our story item caches...
-		item = [[NSMutableDictionary alloc] init];
-		currentTitle = [[NSMutableString alloc] init];
-		currentDate = [[NSMutableString alloc] init];
-		currentSummary = [[NSMutableString alloc] init];
-		currentLink = [[NSMutableString alloc] init];
-	}
-}
-
-
-- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{     
-	
-	if ([elementName isEqualToString:@"small"]) {
-		
-		[item setObject:currentSummary forKey:@"p"];
-		
-		NSLog(@"ended element: %@", elementName);
-		[stories addObject:[item copy]];
-		//NSLog(@"adding story: %@", currentTitle);
-		
-	}
-}
-
-- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
-	//NSLog(@"found characters: %@", string);
-	// save the characters for the current item...
-	if ([currentElement isEqualToString:@"title"]) {
-	//	[currentTitle appendString:string];
-	//} else if ([currentElement isEqualToString:@"link"]) {
-	//	[currentLink appendString:string];
-	} else if ([currentElement isEqualToString:@"p"]) {
-		[currentSummary appendString:string];
-		NSLog(@"found characters: %@", string);
-		//NSString *temp=@"capricorn";
-		//if([string length]>10){
-		//	NSLog(@"Substring = %@",[string substringToIndex:10]);
-		//if ([string hasPrefix:@"Capricorn"]) {
-			horoContent = [horoContent stringByAppendingString:string];
-		//}
-		//}
-	} else if ([currentElement isEqualToString:@"small"]) {
-		[currentDate appendString:string];
-		NSLog(@"found characters: %@", string);
-		horoContent = [horoContent stringByAppendingString:string];
-	}
-	
-	//NSLog(@"Summary%@",string);
-}
-
-- (void)parserDidEndDocument:(NSXMLParser *)parser {
-	
-	[activityIndicator stopAnimating];
-	[activityIndicator removeFromSuperview];
-	
-	NSLog(@"all done!");
-	NSLog(@"stories array has %d items", [stories count]);
-	//[newsTable reloadData];
+	txtView.text = self.monthsHoro;
 }
 
 
@@ -319,6 +342,10 @@ static int selView = 1;
 
 
 - (void)dealloc {
+	[todaysHoro release];
+	[scrollView release];
+	[horoContent release];
+	[lblZodiac release];
 	[bdate release];
 	[bmonth release];
 	[plistDictionary release];
