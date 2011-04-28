@@ -1,24 +1,51 @@
 TAstrostyleApp
 v7
 r0
-t325601499.187415
+t325677234.882104
 cCheck dependencies
-cProcessInfoPlistFile /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
-cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp/MainWindow.xib
-cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp/AstrostyleAppViewController.xib
-cCopyPlistFile /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
-cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.xib
-cProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Documents/AstrostyleApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
-cGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-cTouch /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
+cProcessInfoPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+cCopyPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-bkrd.png Cancer-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-tile.png Cancer-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-bkrd.png Capricorn-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-tile.png Capricorn-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-bkrd.png Gemini-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-tile.png Gemini-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-bkrd.png Aquarius-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-tile.png Aquarius-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aries-Horo-bkrd.png Aries-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-bkrd.png Leo-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-tile.png Leo-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-bkrd.png Libra-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-tile.png Libra-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-bkrd.png Pisces-Horo-bkrd.png
+cCpResource "build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-tile copy.png" "Pisces-Horo-tile copy.png"
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-bkrd.png Sagittarius-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-tile.png Sagittarius-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-bkrd.png Scorpio-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-tile.png Scorpio-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-bkrd.png Taurus-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-tile.png Taurus-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-bkrd.png Virgo-Horo-bkrd.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-tile.png Virgo-Horo-tile.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/astrotwinsimg.png astrotwinsimg.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/12signimg.png 12signimg.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/loveimg.png loveimg.png
+cCpResource build/Debug-iphonesimulator/AstrostyleApp.app/astroshareimg.png astroshareimg.png
+cProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
+cGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+cTouch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004CC128950000000000000110
@@ -239,9 +266,9 @@ s1865
 i<UIKit/UIKit.h>
 
 N/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m
-c000000004DB8112300000000000032A6
-t1303908643
-s12966
+c000000004DB8163F000000000000329A
+t1303909951
+s12954
 i"AstroDetailView.h"
 i"TFHppleElement.h"
 i"TFHpple.h"
@@ -332,8 +359,8 @@ t1303750327
 s260
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
-t1303908698
-s82028
+t1303909952
+s82920
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList
 c000000004DB81155000000000000040F
@@ -341,27 +368,27 @@ t1303908693
 s1039
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
-t1303908698
+t1303908811
 s63720
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
-t1303908698
+t1303908811
 s67408
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o
-t1303908698
+t1303908811
 s13056
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o
-t1303908698
+t1303908811
 s12804
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o
-t1303908699
+t1303908811
 s20400
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o
-t1303908698
+t1303908811
 s6312
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/StaticAnalyzer/normal/i386/AstroDetailView.plist
@@ -393,11 +420,11 @@ t1303903975
 s276
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-t1303908699
+t1303909952
 s306
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
-t1303908699
+t1303909952
 s102
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib
@@ -405,8 +432,8 @@ t1303908697
 s3425
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-t1303908699
-s62204
+t1303909952
+s62296
 
 N/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleAppViewController.nib
 t1303908696
@@ -429,6 +456,435 @@ t1303908696
 s60
 
 N/Users/siplmacmini/Documents/AstrostyleApp/main.m
+c000000004DB532F00000000000000170
+t1303720688
+s368
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/12signimg.png
+c000000004DB92C640000000000000902
+t1303981156
+s2306
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png
+c000000004DB856E600000000000F68D8
+t1303926502
+s1009880
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png
+c000000004DB856E60000000000013F3B
+t1303926502
+s81723
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png
+c000000004DB856E6000000000010FED0
+t1303926502
+s1113808
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+c000000004DB559840000000000005C72
+t1303730564
+s23666
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch
+c000000004DB532F000000000000000C3
+t1303720688
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png
+c000000004DB856E60000000000108720
+t1303926502
+s1083168
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png
+c000000004DB856E600000000000166BB
+t1303926502
+s91835
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png
+c000000004DB856E60000000000113E89
+t1303926502
+s1130121
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png
+c000000004DB856E6000000000001609E
+t1303926502
+s90270
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.h
+c000000004DB91242000000000000097D
+t1303974466
+s2429
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m
+c000000004DB937C500000000000037D6
+t1303984069
+s14294
+i"AstroDetailView.h"
+i"TFHppleElement.h"
+i"TFHpple.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+c000000004DB937240000000000008F65
+t1303983908
+s36709
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.h
+c000000004DB934C00000000000000391
+t1303983296
+s913
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m
+c000000004DB9364500000000000010F4
+t1303983685
+s4340
+i"AstrostyleAppAppDelegate.h"
+i"AstrostyleAppViewController.h"
+i"AstroDetailView.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.h
+c000000004DB68549000000000000029F
+t1303807305
+s671
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m
+c000000004DB8072800000000000015C0
+t1303906088
+s5568
+i"AstrostyleAppViewController.h"
+i"AstroDetailView.h"
+i"AstrostyleAppAppDelegate.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.h
+c000000004DB7FD2A000000000000068C
+t1303903530
+s1676
+i<Foundation/Foundation.h>
+i"TFHppleElement.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m
+c000000004DB7FD2B00000000000009C9
+t1303903531
+s2505
+i"TFHpple.h"
+i"XPathQuery.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.h
+c000000004DB7B4EB000000000000074A
+t1303885035
+s1866
+i<Foundation/Foundation.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m
+c000000004DB8076300000000000009FF
+t1303906147
+s2559
+i"TFHppleElement.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.h
+c000000004DB7FDB70000000000000121
+t1303903671
+s289
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m
+c000000004DB7FDF600000000000013AE
+t1303903734
+s5038
+i"XPathQuery.h"
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/HTMLparser.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png
+c000000004DB856E600000000000F44F9
+t1303926502
+s1000697
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png
+c000000004DB856E60000000000014A93
+t1303926502
+s84627
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png
+c000000004DB856E600000000001058CB
+t1303926502
+s1071307
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png
+c000000004DB856E60000000000014AA6
+t1303926502
+s84646
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png
+c000000004DB856E600000000000F3030
+t1303926502
+s995376
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png
+c000000004DB856E600000000000139EB
+t1303926502
+s80363
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+c000000004DB939020000000000007D13
+t1303984386
+s32019
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png
+c000000004DB856E60000000000125089
+t1303926502
+s1200265
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png
+c000000004DB856E600000000000148B9
+t1303926502
+s84153
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png
+c000000004DB856E600000000000E2CAE
+t1303926502
+s928942
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png
+c000000004DB856E60000000000012A27
+t1303926502
+s76327
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png
+c000000004DB856E6000000000010C36B
+t1303926502
+s1098603
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png
+c000000004DB856E6000000000001490E
+t1303926502
+s84238
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Store.plist
+c000000004DB5A6B70000000000000104
+t1303750327
+s260
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png
+c000000004DB856E600000000000F5153
+t1303926502
+s1003859
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png
+c000000004DB856E60000000000011EC2
+t1303926502
+s73410
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png
+c000000004DB856E600000000000FBA1D
+t1303926502
+s1030685
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png
+c000000004DB856E60000000000013E19
+t1303926502
+s81433
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/astroshareimg.png
+c000000004DB92CAC000000000000077D
+t1303981228
+s1917
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/astrotwinsimg.png
+c000000004DB92C8E00000000000009B1
+t1303981198
+s2481
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
+t1303984433
+s91004
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList
+c000000004DB939290000000000000416
+t1303984425
+s1046
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
+t1303984433
+s65084
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
+t1303984433
+s70288
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o
+t1303984433
+s13060
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o
+t1303984433
+s12804
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o
+t1303984434
+s20404
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o
+t1303984433
+s6312
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app
+t1303984434
+s1224
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
+t1303984434
+s102
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/12signimg.png
+t1303984428
+s2306
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-bkrd.png
+t1303984428
+s1009880
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-tile.png
+t1303984428
+s81723
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Aries-Horo-bkrd.png
+t1303984428
+s1113808
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib
+t1303984427
+s3706
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+t1303984434
+s68100
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleAppViewController.nib
+t1303984427
+s1729
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-bkrd.png
+t1303984428
+s1083168
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-tile.png
+t1303984428
+s91835
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-bkrd.png
+t1303984428
+s1130121
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-tile.png
+t1303984428
+s90270
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-bkrd.png
+t1303984428
+s1000697
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-tile.png
+t1303984428
+s84627
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist
+t1303984425
+s615
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-bkrd.png
+t1303984428
+s1071307
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-tile.png
+t1303984428
+s84646
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-bkrd.png
+t1303984428
+s995376
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-tile.png
+t1303984428
+s80363
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/MainWindow.nib
+t1303984427
+s1952
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-bkrd.png
+t1303984428
+s1200265
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-tile copy.png
+t1303984428
+s84153
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/PkgInfo
+t1303984425
+s8
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-bkrd.png
+t1303984428
+s928942
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-tile.png
+t1303984428
+s76327
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-bkrd.png
+t1303984428
+s1098603
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-tile.png
+t1303984428
+s84238
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist
+t1303984428
+s60
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-bkrd.png
+t1303984428
+s1003859
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-tile.png
+t1303984428
+s73410
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-bkrd.png
+t1303984428
+s1030685
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-tile.png
+t1303984428
+s81433
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/astroshareimg.png
+t1303984428
+s1917
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/astrotwinsimg.png
+t1303984428
+s2481
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/loveimg.png
+t1303984428
+s1492
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/loveimg.png
+c000000004DB92B2200000000000005D4
+t1303980834
+s1492
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/main.m
 c000000004DB532F00000000000000170
 t1303720688
 s368
@@ -703,12 +1159,16 @@ t1303720688
 s368
 i<UIKit/UIKit.h>
 
+N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch.gch
+t1303984433
+s15453392
+
 N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-amkmevkdimczqkbosbldvksjczvq/AstrostyleApp_Prefix.pch.pth
 t1303903975
 s2784028
 
 N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch
-t1303908698
+t1303908811
 s15453392
 
 N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-doyzlxlydriuwibbtptdtuabmzmr/AstrostyleApp_Prefix.pch.gch
@@ -813,7 +1273,7 @@ lSLF07#2@57"Analyze /Users/siplmacmini/Documents/AstrostyleApp/main.m325596775#3
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies325601493#325601493#0(0"0(0#1#0"8632481184#0"0#
+lSLF07#2@18"Check dependencies325677225#325677225#0(0"0(0#1#0"8618382144#0"0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325585719.582705
@@ -833,8 +1293,8 @@ o/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetail
 lSLF07#2@93"Compile /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m325585719#325585719#0(583"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView initialize]':/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m:54: warning: instance variable 'plistDictionary' accessed in class method/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m: In function '+[AstroDetailView getValue:]':/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m:60: warning: instance variable 'plistDictionary' accessed in class method2(22@60"Instance variable 'plistDictionary' accessed in class method325585719#132#160#0(6@85"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m325525398#54#0#54#0#0"0(22@60"Instance variable 'plistDictionary' accessed in class method325585719#423#160#0(6@85"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m325525398#60#0#60#0#0"0(0#0#85"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m8617182400#2295"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gywqxxpykspukvgjpbwwzxpmojjh/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.664005
-e325601498.894905
+s325602751.948842
+e325602752.304076
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
@@ -843,9 +1303,33 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m: In function '-[AstroDetailView viewDidLoad]':
-o/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m:180: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
-lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m325601498#325601498#0(408"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m: In function '-[AstroDetailView viewDidLoad]':/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m:180: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)1(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325601498#116#292#0(6@68"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m325601443#180#0#180#0#33"'*' is deprecated (declared at *)0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m8621853408#2327"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o0#
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m325602751#325602752#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m8629007008#2327"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.521621
+e325677233.847061
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:190: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:230: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:272: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: At top level:
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'bgImageName' requires method '-bgImageName' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'bgImageName' requires the method 'setBgImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'tileImageName' requires method '-tileImageName' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'tileImageName' requires the method 'setTileImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: incomplete implementation of class 'AstroDetailView'
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: method definition for '-parseXMLFileAtURL:' not found
+lSLF07#2@77"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325677233#325677233#0(2491"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:190: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:230: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:272: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: At top level:/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'bgImageName' requires method '-bgImageName' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'bgImageName' requires the method 'setBgImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'tileImageName' requires method '-tileImageName' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: property 'tileImageName' requires the method 'setTileImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: incomplete implementation of class 'AstroDetailView'/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:399: warning: method definition for '-parseXMLFileAtURL:' not found10(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325677233#124#293#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#190#0#190#0#33"'*' is deprecated (declared at *)0(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325677233#541#293#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#230#0#230#0#33"'*' is deprecated (declared at *)0(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325677233#956#293#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#272#0#272#0#33"'*' is deprecated (declared at *)0(23@13"At top level:325677233#1249#85#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#0#0#0#0#0"0(22@130"Property 'bgImageName' requires method '-bgImageName' to be defined - use @synthesize, @dynamic or provide a method implementation325677233#1334#215#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#0"0(22@137"Property 'bgImageName' requires the method 'setBgImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation325677233#1549#222#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#0"0(22@134"Property 'tileImageName' requires method '-tileImageName' to be defined - use @synthesize, @dynamic or provide a method implementation325677233#1771#219#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#0"0(22@141"Property 'tileImageName' requires the method 'setTileImageName:' to be defined - use @synthesize, @dynamic or provide a method implementation325677233#1990#226#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#0"0(22@52"Incomplete implementation of class 'AstroDetailView'325677233#2216#137#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#38"incomplete implementation of class '*'0(22@53"Method definition for '-parseXMLFileAtURL:' not found325677233#2353#138#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325676869#399#0#399#0#35"method definition for '*' not found0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m8616238336#2338"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstroDetailView.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstroDetailView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325525399.078750
@@ -882,8 +1366,8 @@ o/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleA
 lSLF07#2@102"Compile /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325585719#325585719#0(930"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m:125: warning: property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@114"Property 'mon' requires method '-mon' to be defined - use @synthesize, @dynamic or provide a method implementation325585719#0#224#0(6@94"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@121"Property 'mon' requires the method 'setMon:' to be defined - use @synthesize, @dynamic or provide a method implementation325585719#224#231#0(6@94"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@124"Property 'dayValue' requires method '-dayValue' to be defined - use @synthesize, @dynamic or provide a method implementation325585719#455#234#0(6@94"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(22@131"Property 'dayValue' requires the method 'setDayValue:' to be defined - use @synthesize, @dynamic or provide a method implementation325585719#689#241#0(6@94"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325443066#125#0#125#0#0"0(0#0#94"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m8619199616#2313"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gywqxxpykspukvgjpbwwzxpmojjh/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.549209
-e325601498.663886
+s325601611.212733
+e325601611.438696
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
@@ -892,7 +1376,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325601498#325601498#0(0"0(0#0#77"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m8631024320#2345"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
+lSLF07#2@85"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m325601611#325601611#0(0"0(0#0#77"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m8631547360#2345"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.326395
+e325677233.521512
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m325677233#325677233#0(0"0(0#0#78"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m8615755360#2356"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppAppDelegate.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325525398.773297
@@ -925,8 +1422,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@105"Compile /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppViewController.m325585719#325585719#0(0"0(0#0#97"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppViewController.m8616689664#2319"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gywqxxpykspukvgjpbwwzxpmojjh/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.637657
-e325601498.787623
+s325601611.324248
+e325601611.490236
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
@@ -935,7 +1432,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m325601498#325601498#0(0"0(0#0#80"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m8629211520#2351"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
+lSLF07#2@88"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m325601611#325601611#0(0"0(0#0#80"/Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m8631258944#2351"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.494743
+e325677233.770283
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m325677233#325677233#0(0"0(0#0#81"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m8622171200#2362"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325525398.823512
@@ -951,8 +1461,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m325525398#325525399#0(0"0(0#0#80"/Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m8644670208#2132"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleAppViewController.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.787729
-e325601498.872683
+s325601611.490339
+e325601611.574619
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o
@@ -961,7 +1471,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m325601498#325601498#0(0"0(0#0#60"/Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m8632405440#2311"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o0#
+lSLF07#2@68"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m325601611#325601611#0(0"0(0#0#60"/Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m8631780352#2311"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHpple.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.770387
+e325677234.116505
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m325677233#325677234#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m8617640224#2322"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o /Users/siplmacmini/Horoscope/AstrostyleApp/../../Downloads/HtmlParserTest/hpple/TFHpple.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325504478.331472
@@ -990,8 +1513,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@66"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHpple.m325502885#325502885#0(0"0(0#0#58"/Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHpple.m8642244832#2090"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHpple.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHpple.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.872798
-e325601498.986128
+s325601611.574719
+e325601611.687945
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o
@@ -1000,7 +1523,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m325601498#325601498#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m8629337632#2325"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o0#
+lSLF07#2@75"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m325601611#325601611#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m8631744960#2325"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/TFHppleElement.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.847173
+e325677234.017909
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m325677233#325677234#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m8608410240#2336"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o /Users/siplmacmini/Horoscope/AstrostyleApp/../../Downloads/HtmlParserTest/hpple/TFHppleElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325504478.457616
@@ -1029,8 +1565,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHppleElement.m325502885#325502885#0(0"0(0#0#65"/Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHppleElement.m8641241984#2104"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-etkxkrnycwtdeybvnohcchctyhnb/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Horoscope/AstrostyleApp/hpple/TFHppleElement.m -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/TFHppleElement.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.895011
-e325601499.022405
+s325601611.629701
+e325601611.768335
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o
@@ -1039,7 +1575,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m325601498#325601499#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m8619198560#2317"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o0#
+lSLF07#2@71"Compile /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m325601611#325601611#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m8626983424#2317"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/Classes/XPathQuery.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677234.018028
+e325677234.675987
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m325677234#325677234#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m8617443584#2328"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/XPathQuery.o /Users/siplmacmini/Horoscope/AstrostyleApp/../../Downloads/HtmlParserTest/hpple/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325504511.395876
@@ -1366,8 +1915,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/main.m325585719#325585719#0(0"0(0#0#66"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/main.m8621975040#2265"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/include -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gywqxxpykspukvgjpbwwzxpmojjh/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/main.m -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Documents/AstrostyleApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601498.547632
-e325601498.637549
+s325601611.211542
+e325601611.324132
 r1
 xCompileC
 xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o
@@ -1376,7 +1925,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/siplmacmini/Documents/AstrostyleApp/main.m325601498#325601498#0(0"0(0#0#49"/Users/siplmacmini/Documents/AstrostyleApp/main.m8631345408#2297"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/main.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o0#
+lSLF07#2@57"Compile /Users/siplmacmini/Documents/AstrostyleApp/main.m325601611#325601611#0(0"0(0#0#49"/Users/siplmacmini/Documents/AstrostyleApp/main.m8631696768#2297"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp/main.m -o /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677233.307408
+e325677233.494646
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/siplmacmini/Documents/AstrostyleApp1/main.m325677233#325677233#0(0"0(0#0#50"/Users/siplmacmini/Documents/AstrostyleApp1/main.m8617656032#2308"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/main.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o0#
 
 CCompileC build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/main.o /Users/siplmacmini/Horoscope/AstrostyleApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s325505589.076894
@@ -1424,6 +1986,30 @@ xCompileXIB
 x/Users/siplmacmini/Documents/AstrostyleApp/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib325601493#325601496#0(0"0(0#0#57"/Users/siplmacmini/Documents/AstrostyleApp/MainWindow.xib8634246848#588"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/MainWindow.nib /Users/siplmacmini/Documents/AstrostyleApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+s325677225.566127
+e325677227.130296
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+lSLF07#2@42"CompileXIB AstrostyleAppViewController.xib325677225#325677227#0(0"0(0#0#75"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib8609028224#625"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleAppViewController.nib /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+s325677227.131248
+e325677228.046256
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+lSLF07#2@38"CompileXIB Classes/AstroDetailView.xib325677227#325677228#0(0"0(0#0#71"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib8623062304#609"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstroDetailView.nib /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+s325677225.565338
+e325677227.130044
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325677225#325677227#0(0"0(0#0#58"/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib8615662112#591"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/MainWindow.nib /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
 CCompileXIB /Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleAppViewController.xib
 s325423373.451299
 e325423374.471313
@@ -1460,6 +2046,15 @@ x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/Astrosty
 xStore.plist
 lSLF07#2@16"Copy Store.plist325601496#325601496#0(0"0(0#0#54"/Users/siplmacmini/Documents/AstrostyleApp/Store.plist8625013856#400"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
+CCopyPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
+s325677227.130376
+e325677228.024747
+r1
+xCopyPlistFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist
+xStore.plist
+lSLF07#2@16"Copy Store.plist325677227#325677228#0(0"0(0#0#55"/Users/siplmacmini/Documents/AstrostyleApp1/Store.plist8623635328#402"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
 CCopyPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Store.plist Store.plist
 s325443138.586434
 e325443138.938106
@@ -1469,8 +2064,242 @@ x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/Astrosty
 xStore.plist
 lSLF07#2@16"Copy Store.plist325443138#325443138#0(0"0(0#0#54"/Users/siplmacmini/Horoscope/AstrostyleApp/Store.plist8630888480#400"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
+CCpResource "build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-tile copy.png" "Pisces-Horo-tile copy.png"
+s325677228.105649
+e325677228.179692
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-tile copy.png
+xPisces-Horo-tile copy.png
+lSLF07#2@30"Copy Pisces-Horo-tile copy.png325677228#325677228#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png8617150464#506"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png" /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/12signimg.png 12signimg.png
+s325677228.196552
+e325677228.203120
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/12signimg.png
+x12signimg.png
+lSLF07#2@18"Copy 12signimg.png325677228#325677228#0(0"0(0#0#57"/Users/siplmacmini/Documents/AstrostyleApp1/12signimg.png8622552384#492"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/12signimg.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-bkrd.png Aquarius-Horo-bkrd.png
+s325677228.032640
+e325677228.138841
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-bkrd.png
+xAquarius-Horo-bkrd.png
+lSLF07#2@27"Copy Aquarius-Horo-bkrd.png325677228#325677228#0(0"0(0#0#66"/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png8621914112#501"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-tile.png Aquarius-Horo-tile.png
+s325677228.033552
+e325677228.127410
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Aquarius-Horo-tile.png
+xAquarius-Horo-tile.png
+lSLF07#2@27"Copy Aquarius-Horo-tile.png325677228#325677228#0(0"0(0#0#66"/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png8621315072#501"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Aries-Horo-bkrd.png Aries-Horo-bkrd.png
+s325677228.035938
+e325677228.404491
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Aries-Horo-bkrd.png
+xAries-Horo-bkrd.png
+lSLF07#2@24"Copy Aries-Horo-bkrd.png325677228#325677228#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png8620944864#498"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-bkrd.png Cancer-Horo-bkrd.png
+s325677228.024840
+e325677228.095925
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-bkrd.png
+xCancer-Horo-bkrd.png
+lSLF07#2@25"Copy Cancer-Horo-bkrd.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png8607024960#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-tile.png Cancer-Horo-tile.png
+s325677228.025598
+e325677228.096061
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Cancer-Horo-tile.png
+xCancer-Horo-tile.png
+lSLF07#2@25"Copy Cancer-Horo-tile.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png8623116576#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-bkrd.png Capricorn-Horo-bkrd.png
+s325677228.026202
+e325677228.096177
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-bkrd.png
+xCapricorn-Horo-bkrd.png
+lSLF07#2@28"Copy Capricorn-Horo-bkrd.png325677228#325677228#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png8622770496#502"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-tile.png Capricorn-Horo-tile.png
+s325677228.028176
+e325677228.090630
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Capricorn-Horo-tile.png
+xCapricorn-Horo-tile.png
+lSLF07#2@28"Copy Capricorn-Horo-tile.png325677228#325677228#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png8622536352#502"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
 CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Default.png Default.png
 r0
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-bkrd.png Gemini-Horo-bkrd.png
+s325677228.029158
+e325677228.096295
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-bkrd.png
+xGemini-Horo-bkrd.png
+lSLF07#2@25"Copy Gemini-Horo-bkrd.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png8622331552#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-tile.png Gemini-Horo-tile.png
+s325677228.030877
+e325677228.096409
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Gemini-Horo-tile.png
+xGemini-Horo-tile.png
+lSLF07#2@25"Copy Gemini-Horo-tile.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png8622177664#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-bkrd.png Leo-Horo-bkrd.png
+s325677228.046357
+e325677228.115656
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-bkrd.png
+xLeo-Horo-bkrd.png
+lSLF07#2@22"Copy Leo-Horo-bkrd.png325677228#325677228#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png8618878528#496"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-tile.png Leo-Horo-tile.png
+s325677228.090743
+e325677228.115793
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Leo-Horo-tile.png
+xLeo-Horo-tile.png
+lSLF07#2@22"Copy Leo-Horo-tile.png325677228#325677228#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png8618618176#496"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-bkrd.png Libra-Horo-bkrd.png
+s325677228.096486
+e325677228.127157
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-bkrd.png
+xLibra-Horo-bkrd.png
+lSLF07#2@24"Copy Libra-Horo-bkrd.png325677228#325677228#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png8618127424#498"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-tile.png Libra-Horo-tile.png
+s325677228.099543
+e325677228.127289
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Libra-Horo-tile.png
+xLibra-Horo-tile.png
+lSLF07#2@24"Copy Libra-Horo-tile.png325677228#325677228#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png8617839968#498"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-bkrd.png Pisces-Horo-bkrd.png
+s325677228.102187
+e325677228.262482
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Pisces-Horo-bkrd.png
+xPisces-Horo-bkrd.png
+lSLF07#2@25"Copy Pisces-Horo-bkrd.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png8617479584#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-bkrd.png Sagittarius-Horo-bkrd.png
+s325677228.111925
+e325677228.196482
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-bkrd.png
+xSagittarius-Horo-bkrd.png
+lSLF07#2@30"Copy Sagittarius-Horo-bkrd.png325677228#325677228#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png8616406848#504"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-tile.png Sagittarius-Horo-tile.png
+s325677228.115872
+e325677228.195498
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Sagittarius-Horo-tile.png
+xSagittarius-Horo-tile.png
+lSLF07#2@30"Copy Sagittarius-Horo-tile.png325677228#325677228#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png8616252448#504"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-bkrd.png Scorpio-Horo-bkrd.png
+s325677228.124087
+e325677228.221844
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-bkrd.png
+xScorpio-Horo-bkrd.png
+lSLF07#2@26"Copy Scorpio-Horo-bkrd.png325677228#325677228#0(0"0(0#0#65"/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png8615972160#500"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-tile.png Scorpio-Horo-tile.png
+s325677228.127486
+e325677228.222267
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Scorpio-Horo-tile.png
+xScorpio-Horo-tile.png
+lSLF07#2@26"Copy Scorpio-Horo-tile.png325677228#325677228#0(0"0(0#0#65"/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png8615752960#500"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-bkrd.png Taurus-Horo-bkrd.png
+s325677228.130879
+e325677228.242942
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-bkrd.png
+xTaurus-Horo-bkrd.png
+lSLF07#2@25"Copy Taurus-Horo-bkrd.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png8615660832#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-tile.png Taurus-Horo-tile.png
+s325677228.136744
+e325677228.242681
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Taurus-Horo-tile.png
+xTaurus-Horo-tile.png
+lSLF07#2@25"Copy Taurus-Horo-tile.png325677228#325677228#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png8609857280#499"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-bkrd.png Virgo-Horo-bkrd.png
+s325677228.138937
+e325677228.263881
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-bkrd.png
+xVirgo-Horo-bkrd.png
+lSLF07#2@24"Copy Virgo-Horo-bkrd.png325677228#325677228#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png8608108288#498"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-tile.png Virgo-Horo-tile.png
+s325677228.179797
+e325677228.260557
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/Virgo-Horo-tile.png
+xVirgo-Horo-tile.png
+lSLF07#2@24"Copy Virgo-Horo-tile.png325677228#325677228#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png8623639968#498"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/astroshareimg.png astroshareimg.png
+s325677228.204029
+e325677228.210906
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/astroshareimg.png
+xastroshareimg.png
+lSLF07#2@22"Copy astroshareimg.png325677228#325677228#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/astroshareimg.png8621059968#496"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/astroshareimg.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/astrotwinsimg.png astrotwinsimg.png
+s325677228.195604
+e325677228.202968
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/astrotwinsimg.png
+xastrotwinsimg.png
+lSLF07#2@22"Copy astrotwinsimg.png325677228#325677228#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/astrotwinsimg.png8622747712#496"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/astrotwinsimg.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
 CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/image1.jpg image1.jpg
 s325440253.257247
@@ -1499,6 +2328,15 @@ xbuild/Debug-iphonesimulator/AstrostyleApp.app/image3.jpg
 ximage3.jpg
 lSLF07#2@15"Copy image3.jpg325440334#325440334#0(0"0(0#0#53"/Users/siplmacmini/Horoscope/AstrostyleApp/image3.jpg8621955872#486"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Horoscope/AstrostyleApp/image3.jpg /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
+CCpResource build/Debug-iphonesimulator/AstrostyleApp.app/loveimg.png loveimg.png
+s325677228.203199
+e325677228.211645
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AstrostyleApp.app/loveimg.png
+xloveimg.png
+lSLF07#2@16"Copy loveimg.png325677228#325677228#0(0"0(0#0#55"/Users/siplmacmini/Documents/AstrostyleApp1/loveimg.png8621579168#490"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/siplmacmini/Documents/AstrostyleApp1/loveimg.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
 CGenerateDSYMFile /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
 s325585719.830475
 e325585719.865897
@@ -1509,13 +2347,22 @@ x/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphones
 lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325585719#325585719#0(0"0(0#0#119"/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8603350656#464"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
 
 CGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-s325601499.103569
-e325601499.183850
+s325602752.382090
+e325602752.421644
 r1
 xGenerateDSYMFile
 x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
 x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325601499#325601499#0(0"0(0#0#102"/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8631937600#413"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325602752#325602752#0(0"0(0#0#102"/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8632587072#413"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
+
+CGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+s325677234.764013
+e325677234.876984
+r1
+xGenerateDSYMFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AstrostyleApp.app.dSYM build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325677234#325677234#0(0"0(0#0#103"/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp8618988000#416"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM0#
 
 CGenerateDSYMFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app.dSYM /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
 s325525399.636555
@@ -1537,14 +2384,24 @@ xi386
 lSLF07#2@124"Link /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325585719#325585719#0(0"0(0#0#0"8619110880#1048"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -F/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
 
 CLd /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
-s325601499.022507
-e325601499.103464
+s325602752.304172
+e325602752.381981
 r1
 xLd
 x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
 xnormal
 xi386
-lSLF07#2@107"Link /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325601499#325601499#0(0"0(0#0#0"8613043584#970"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
+lSLF07#2@107"Link /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325602752#325602752#0(0"0(0#0#0"8634194432#970"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
+
+CLd /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
+s325677234.676081
+e325677234.763901
+r1
+xLd
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp
+xnormal
+xi386
+lSLF07#2@108"Link /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp325677234#325677234#0(0"0(0#0#0"8622998848#975"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -filelist /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/Objects-normal/i386/AstrostyleApp.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp0#
 
 CLd /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/AstrostyleApp normal i386
 s325525399.310051
@@ -1568,6 +2425,15 @@ x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/Astrosty
 xAstrostyleApp-Info.plist
 lSLF07#2@32"Process AstrostyleApp-Info.plist325601493#325601493#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp-Info.plist8632192672#509"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AstrostyleApp-Info.plist -genpkginfo /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist0#
 
+CProcessInfoPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
+s325677225.505880
+e325677225.565239
+r1
+xProcessInfoPlistFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist
+xAstrostyleApp-Info.plist
+lSLF07#2@32"Process AstrostyleApp-Info.plist325677225#325677225#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp-Info.plist8617252544#512"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AstrostyleApp-Info.plist -genpkginfo /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist0#
+
 CProcessInfoPlistFile /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
 s325414493.272665
 e325414493.324640
@@ -1576,6 +2442,19 @@ xProcessInfoPlistFile
 x/Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist
 xAstrostyleApp-Info.plist
 lSLF07#2@32"Process AstrostyleApp-Info.plist325414493#325414493#0(0"0(0#0#67"/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleApp-Info.plist8650656608#509"    cd /Users/siplmacmini/Horoscope/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AstrostyleApp-Info.plist -genpkginfo /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app/Info.plist0#
+
+CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s325677228.404624
+e325677233.307199
+r1
+xProcessPCH
+x/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch.gch
+xAstrostyleApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325677228#325677233#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch8618026016#2189"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-ajfsijcmixoqgrbxjlowzdoiysfx/AstrostyleApp_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-amkmevkdimczqkbosbldvksjczvq/AstrostyleApp_Prefix.pch.pth AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
 s325596774.142807
@@ -1591,8 +2470,8 @@ xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325596774#325596775#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch8625077408#2170"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-amkmevkdimczqkbosbldvksjczvq/AstrostyleApp_Prefix.pch.pth0#
 
 CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s325601497.101193
-e325601498.547446
+s325601610.295704
+e325601611.211435
 r1
 xProcessPCH
 x/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch
@@ -1601,7 +2480,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325601497#325601498#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch8632456320#2179"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch0#
+lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325601610#325601611#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch8631162528#2179"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator -I/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources/i386 -I/Users/siplmacmini/Documents/AstrostyleApp/build/AstrostyleApp.build/Debug-iphonesimulator/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-asulxxblhpuqrmdzxzymrispgylm/AstrostyleApp_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-doyzlxlydriuwibbtptdtuabmzmr/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s325504191.429023
@@ -1690,12 +2569,20 @@ x/Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphones
 lSLF07#2@111"Touch /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app325585719#325585719#0(0"0(0#0#0"8625315360#326"    cd /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Documents/AstroStyleBackUp/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
 CTouch /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-s325601499.183946
-e325601499.187377
+s325602752.421737
+e325602752.424377
 r1
 xTouch
 x/Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
-lSLF07#2@94"Touch /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app325601499#325601499#0(0"0(0#0#0"8631225088#292"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+lSLF07#2@94"Touch /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app325602752#325602752#0(0"0(0#0#0"8632537152#292"    cd /Users/siplmacmini/Documents/AstrostyleApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Documents/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app0#
+
+CTouch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app
+s325677234.877182
+e325677234.882042
+r1
+xTouch
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app
+lSLF07#2@95"Touch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app325677234#325677234#0(0"0(0#0#0"8622555008#294"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphonesimulator/AstrostyleApp.app0#
 
 CTouch /Users/siplmacmini/Horoscope/AstrostyleApp/build/Debug-iphonesimulator/AstrostyleApp.app
 s325525399.866028

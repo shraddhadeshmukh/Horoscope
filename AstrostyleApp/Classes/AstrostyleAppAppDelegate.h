@@ -12,11 +12,14 @@
 
 @interface AstrostyleAppAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	
     AstrostyleAppViewController *viewController;
 	NSString *mon;
 	NSString *dayValue;
 	NSMutableDictionary *plistDictionary;
+	UITabBarController *tabBarController;
 }
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) NSString *mon;
 @property (nonatomic, retain) NSString *dayValue;
 @property (nonatomic, retain) IBOutlet UIWindow *window;

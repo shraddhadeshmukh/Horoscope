@@ -13,7 +13,7 @@
 @implementation AstrostyleAppAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize viewController,tabBarController;
 @synthesize plistDictionary,mon,dayValue;
 
 #pragma mark -
@@ -53,10 +53,10 @@
 		[self.window addSubview:viewController.view];
 		[self.window makeKeyAndVisible];
 	}else{
-		AstroDetailView *horoDetailview = [[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil];
+		AstroDetailView *horoDetailview = [[AstroDetailView alloc]init];
 		horoDetailview.bmonth = mon;
 		horoDetailview.bdate = dayValue;
-		[self.window addSubview:horoDetailview.view];
+		[self.window addSubview:tabBarController.view];
 		[self.window makeKeyAndVisible];
 	
 	}

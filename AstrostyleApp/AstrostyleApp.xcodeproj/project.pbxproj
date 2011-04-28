@@ -7,6 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0364B64B1369437F0023EA01 /* Cancer-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6451369437F0023EA01 /* Cancer-Horo-bkrd.png */; };
+		0364B64C1369437F0023EA01 /* Cancer-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6461369437F0023EA01 /* Cancer-Horo-tile.png */; };
+		0364B64D1369437F0023EA01 /* Capricorn-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6471369437F0023EA01 /* Capricorn-Horo-bkrd.png */; };
+		0364B64E1369437F0023EA01 /* Capricorn-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6481369437F0023EA01 /* Capricorn-Horo-tile.png */; };
+		0364B64F1369437F0023EA01 /* Gemini-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6491369437F0023EA01 /* Gemini-Horo-bkrd.png */; };
+		0364B6501369437F0023EA01 /* Gemini-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B64A1369437F0023EA01 /* Gemini-Horo-tile.png */; };
+		0364B66F13694DFD0023EA01 /* Aquarius-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B66C13694DFD0023EA01 /* Aquarius-Horo-bkrd.png */; };
+		0364B67013694DFD0023EA01 /* Aquarius-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B66D13694DFD0023EA01 /* Aquarius-Horo-tile.png */; };
+		0364B67113694DFD0023EA01 /* Aries-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B66E13694DFD0023EA01 /* Aries-Horo-bkrd.png */; };
+		0364B67613694E230023EA01 /* Leo-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67213694E230023EA01 /* Leo-Horo-bkrd.png */; };
+		0364B67713694E230023EA01 /* Leo-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67313694E230023EA01 /* Leo-Horo-tile.png */; };
+		0364B67813694E230023EA01 /* Libra-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67413694E230023EA01 /* Libra-Horo-bkrd.png */; };
+		0364B67913694E230023EA01 /* Libra-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67513694E230023EA01 /* Libra-Horo-tile.png */; };
+		0364B68413694E3F0023EA01 /* Pisces-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67A13694E3F0023EA01 /* Pisces-Horo-bkrd.png */; };
+		0364B68513694E3F0023EA01 /* Pisces-Horo-tile copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67B13694E3F0023EA01 /* Pisces-Horo-tile copy.png */; };
+		0364B68613694E3F0023EA01 /* Sagittarius-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67C13694E3F0023EA01 /* Sagittarius-Horo-bkrd.png */; };
+		0364B68713694E3F0023EA01 /* Sagittarius-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67D13694E3F0023EA01 /* Sagittarius-Horo-tile.png */; };
+		0364B68813694E3F0023EA01 /* Scorpio-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67E13694E3F0023EA01 /* Scorpio-Horo-bkrd.png */; };
+		0364B68913694E3F0023EA01 /* Scorpio-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B67F13694E3F0023EA01 /* Scorpio-Horo-tile.png */; };
+		0364B68A13694E3F0023EA01 /* Taurus-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68013694E3F0023EA01 /* Taurus-Horo-bkrd.png */; };
+		0364B68B13694E3F0023EA01 /* Taurus-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68113694E3F0023EA01 /* Taurus-Horo-tile.png */; };
+		0364B68C13694E3F0023EA01 /* Virgo-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68213694E3F0023EA01 /* Virgo-Horo-bkrd.png */; };
+		0364B68D13694E3F0023EA01 /* Virgo-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68313694E3F0023EA01 /* Virgo-Horo-tile.png */; };
+		0364B6C1136964630023EA01 /* astrotwinsimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C0136964630023EA01 /* astrotwinsimg.png */; };
+		0364B6C3136964730023EA01 /* 12signimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C2136964730023EA01 /* 12signimg.png */; };
+		0364B6C7136964AD0023EA01 /* astroshareimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C6136964AD0023EA01 /* astroshareimg.png */; };
+		0364B757136977350023EA01 /* Twelevesignview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B755136977350023EA01 /* Twelevesignview.m */; };
+		0364B758136977350023EA01 /* Twelevesignview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B756136977350023EA01 /* Twelevesignview.xib */; };
+		0364B75B136978A40023EA01 /* 12signView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B75A136978A40023EA01 /* 12signView.png */; };
+		0364B76613697C6E0023EA01 /* AstrotwinsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B76413697C6E0023EA01 /* AstrotwinsView.m */; };
+		0364B76713697C6E0023EA01 /* AstrotwinsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B76513697C6E0023EA01 /* AstrotwinsView.xib */; };
+		0364B76913697DCD0023EA01 /* aastrobarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B76813697DCD0023EA01 /* aastrobarImage.png */; };
+		0364B76B13697E4F0023EA01 /* AstroTwinsViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B76A13697E4F0023EA01 /* AstroTwinsViewImage.png */; };
+		0364B780136984D70023EA01 /* AstrotwinsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B77F136984D70023EA01 /* AstrotwinsImage.png */; };
+		0364B8711369AE1F0023EA01 /* LoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B86F1369AE1F0023EA01 /* LoveView.m */; };
+		0364B8721369AE1F0023EA01 /* LoveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8701369AE1F0023EA01 /* LoveView.xib */; };
+		0364B87A1369B0340023EA01 /* loveviewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8791369B0340023EA01 /* loveviewImage.png */; };
+		0364B8B41369BA900023EA01 /* loveimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8B31369BA900023EA01 /* loveimg.png */; };
+		0364B902136DB4020023EA01 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B901136DB4020023EA01 /* love.png */; };
 		036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */; };
 		039BF65A13680CB700EEA0D6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65713680CB700EEA0D6 /* TFHpple.m */; };
 		039BF65B13680CB700EEA0D6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65913680CB700EEA0D6 /* TFHppleElement.m */; };
@@ -25,6 +64,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0364B6451369437F0023EA01 /* Cancer-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancer-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B6461369437F0023EA01 /* Cancer-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancer-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B6471369437F0023EA01 /* Capricorn-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capricorn-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B6481369437F0023EA01 /* Capricorn-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capricorn-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B6491369437F0023EA01 /* Gemini-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gemini-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B64A1369437F0023EA01 /* Gemini-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gemini-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B66C13694DFD0023EA01 /* Aquarius-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aquarius-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B66D13694DFD0023EA01 /* Aquarius-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aquarius-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B66E13694DFD0023EA01 /* Aries-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aries-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67213694E230023EA01 /* Leo-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leo-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67313694E230023EA01 /* Leo-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leo-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B67413694E230023EA01 /* Libra-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Libra-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67513694E230023EA01 /* Libra-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Libra-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B67A13694E3F0023EA01 /* Pisces-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67B13694E3F0023EA01 /* Pisces-Horo-tile copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces-Horo-tile copy.png"; sourceTree = "<group>"; };
+		0364B67C13694E3F0023EA01 /* Sagittarius-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sagittarius-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67D13694E3F0023EA01 /* Sagittarius-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sagittarius-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B67E13694E3F0023EA01 /* Scorpio-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scorpio-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B67F13694E3F0023EA01 /* Scorpio-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scorpio-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B68013694E3F0023EA01 /* Taurus-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taurus-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B68113694E3F0023EA01 /* Taurus-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taurus-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B68213694E3F0023EA01 /* Virgo-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Virgo-Horo-bkrd.png"; sourceTree = "<group>"; };
+		0364B68313694E3F0023EA01 /* Virgo-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Virgo-Horo-tile.png"; sourceTree = "<group>"; };
+		0364B6C0136964630023EA01 /* astrotwinsimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astrotwinsimg.png; sourceTree = "<group>"; };
+		0364B6C2136964730023EA01 /* 12signimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12signimg.png; sourceTree = "<group>"; };
+		0364B6C6136964AD0023EA01 /* astroshareimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroshareimg.png; sourceTree = "<group>"; };
+		0364B754136977350023EA01 /* Twelevesignview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twelevesignview.h; sourceTree = "<group>"; };
+		0364B755136977350023EA01 /* Twelevesignview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twelevesignview.m; sourceTree = "<group>"; };
+		0364B756136977350023EA01 /* Twelevesignview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Twelevesignview.xib; path = Classes/Twelevesignview.xib; sourceTree = "<group>"; };
+		0364B75A136978A40023EA01 /* 12signView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12signView.png; sourceTree = "<group>"; };
+		0364B76313697C6E0023EA01 /* AstrotwinsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstrotwinsView.h; sourceTree = "<group>"; };
+		0364B76413697C6E0023EA01 /* AstrotwinsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstrotwinsView.m; sourceTree = "<group>"; };
+		0364B76513697C6E0023EA01 /* AstrotwinsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AstrotwinsView.xib; path = Classes/AstrotwinsView.xib; sourceTree = "<group>"; };
+		0364B76813697DCD0023EA01 /* aastrobarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aastrobarImage.png; sourceTree = "<group>"; };
+		0364B76A13697E4F0023EA01 /* AstroTwinsViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AstroTwinsViewImage.png; sourceTree = "<group>"; };
+		0364B77F136984D70023EA01 /* AstrotwinsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AstrotwinsImage.png; sourceTree = "<group>"; };
+		0364B86E1369AE1F0023EA01 /* LoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveView.h; sourceTree = "<group>"; };
+		0364B86F1369AE1F0023EA01 /* LoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveView.m; sourceTree = "<group>"; };
+		0364B8701369AE1F0023EA01 /* LoveView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveView.xib; sourceTree = "<group>"; };
+		0364B8791369B0340023EA01 /* loveviewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loveviewImage.png; sourceTree = "<group>"; };
+		0364B8B31369BA900023EA01 /* loveimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loveimg.png; sourceTree = SOURCE_ROOT; };
+		0364B901136DB4020023EA01 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = SOURCE_ROOT; };
 		036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		039BF65613680CB700EEA0D6 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Classes/TFHpple.h; sourceTree = SOURCE_ROOT; };
 		039BF65713680CB700EEA0D6 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Classes/TFHpple.m; sourceTree = SOURCE_ROOT; };
@@ -66,6 +147,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0364B644136942EA0023EA01 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0364B8791369B0340023EA01 /* loveviewImage.png */,
+				0364B77F136984D70023EA01 /* AstrotwinsImage.png */,
+				0364B76A13697E4F0023EA01 /* AstroTwinsViewImage.png */,
+				0364B76813697DCD0023EA01 /* aastrobarImage.png */,
+				0364B75A136978A40023EA01 /* 12signView.png */,
+				0364B6C6136964AD0023EA01 /* astroshareimg.png */,
+				0364B6C2136964730023EA01 /* 12signimg.png */,
+				0364B6C0136964630023EA01 /* astrotwinsimg.png */,
+				0364B67A13694E3F0023EA01 /* Pisces-Horo-bkrd.png */,
+				0364B67B13694E3F0023EA01 /* Pisces-Horo-tile copy.png */,
+				0364B67C13694E3F0023EA01 /* Sagittarius-Horo-bkrd.png */,
+				0364B67D13694E3F0023EA01 /* Sagittarius-Horo-tile.png */,
+				0364B67E13694E3F0023EA01 /* Scorpio-Horo-bkrd.png */,
+				0364B67F13694E3F0023EA01 /* Scorpio-Horo-tile.png */,
+				0364B68013694E3F0023EA01 /* Taurus-Horo-bkrd.png */,
+				0364B68113694E3F0023EA01 /* Taurus-Horo-tile.png */,
+				0364B68213694E3F0023EA01 /* Virgo-Horo-bkrd.png */,
+				0364B68313694E3F0023EA01 /* Virgo-Horo-tile.png */,
+				0364B67213694E230023EA01 /* Leo-Horo-bkrd.png */,
+				0364B67313694E230023EA01 /* Leo-Horo-tile.png */,
+				0364B67413694E230023EA01 /* Libra-Horo-bkrd.png */,
+				0364B67513694E230023EA01 /* Libra-Horo-tile.png */,
+				0364B66C13694DFD0023EA01 /* Aquarius-Horo-bkrd.png */,
+				0364B66D13694DFD0023EA01 /* Aquarius-Horo-tile.png */,
+				0364B66E13694DFD0023EA01 /* Aries-Horo-bkrd.png */,
+				0364B6451369437F0023EA01 /* Cancer-Horo-bkrd.png */,
+				0364B6461369437F0023EA01 /* Cancer-Horo-tile.png */,
+				0364B6471369437F0023EA01 /* Capricorn-Horo-bkrd.png */,
+				0364B6481369437F0023EA01 /* Capricorn-Horo-tile.png */,
+				0364B6491369437F0023EA01 /* Gemini-Horo-bkrd.png */,
+				0364B64A1369437F0023EA01 /* Gemini-Horo-tile.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +200,13 @@
 				039BF65913680CB700EEA0D6 /* TFHppleElement.m */,
 				039BF65C13680CC300EEA0D6 /* XPathQuery.h */,
 				039BF65D13680CC300EEA0D6 /* XPathQuery.m */,
+				0364B754136977350023EA01 /* Twelevesignview.h */,
+				0364B755136977350023EA01 /* Twelevesignview.m */,
+				0364B76313697C6E0023EA01 /* AstrotwinsView.h */,
+				0364B76413697C6E0023EA01 /* AstrotwinsView.m */,
+				0364B86E1369AE1F0023EA01 /* LoveView.h */,
+				0364B86F1369AE1F0023EA01 /* LoveView.m */,
+				0364B8701369AE1F0023EA01 /* LoveView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -117,11 +243,16 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0364B901136DB4020023EA01 /* love.png */,
+				0364B8B31369BA900023EA01 /* loveimg.png */,
+				0364B76513697C6E0023EA01 /* AstrotwinsView.xib */,
+				0364B756136977350023EA01 /* Twelevesignview.xib */,
 				03B542B213659ED6007102D2 /* AstroDetailView.xib */,
 				2899E5210DE3E06400AC0155 /* AstrostyleAppViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* AstrostyleApp-Info.plist */,
 				03B5429513659659007102D2 /* Store.plist */,
+				0364B644136942EA0023EA01 /* Images */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,6 +321,42 @@
 				2899E5220DE3E06400AC0155 /* AstrostyleAppViewController.xib in Resources */,
 				03B5429613659659007102D2 /* Store.plist in Resources */,
 				03B542B413659ED6007102D2 /* AstroDetailView.xib in Resources */,
+				0364B64B1369437F0023EA01 /* Cancer-Horo-bkrd.png in Resources */,
+				0364B64C1369437F0023EA01 /* Cancer-Horo-tile.png in Resources */,
+				0364B64D1369437F0023EA01 /* Capricorn-Horo-bkrd.png in Resources */,
+				0364B64E1369437F0023EA01 /* Capricorn-Horo-tile.png in Resources */,
+				0364B64F1369437F0023EA01 /* Gemini-Horo-bkrd.png in Resources */,
+				0364B6501369437F0023EA01 /* Gemini-Horo-tile.png in Resources */,
+				0364B66F13694DFD0023EA01 /* Aquarius-Horo-bkrd.png in Resources */,
+				0364B67013694DFD0023EA01 /* Aquarius-Horo-tile.png in Resources */,
+				0364B67113694DFD0023EA01 /* Aries-Horo-bkrd.png in Resources */,
+				0364B67613694E230023EA01 /* Leo-Horo-bkrd.png in Resources */,
+				0364B67713694E230023EA01 /* Leo-Horo-tile.png in Resources */,
+				0364B67813694E230023EA01 /* Libra-Horo-bkrd.png in Resources */,
+				0364B67913694E230023EA01 /* Libra-Horo-tile.png in Resources */,
+				0364B68413694E3F0023EA01 /* Pisces-Horo-bkrd.png in Resources */,
+				0364B68513694E3F0023EA01 /* Pisces-Horo-tile copy.png in Resources */,
+				0364B68613694E3F0023EA01 /* Sagittarius-Horo-bkrd.png in Resources */,
+				0364B68713694E3F0023EA01 /* Sagittarius-Horo-tile.png in Resources */,
+				0364B68813694E3F0023EA01 /* Scorpio-Horo-bkrd.png in Resources */,
+				0364B68913694E3F0023EA01 /* Scorpio-Horo-tile.png in Resources */,
+				0364B68A13694E3F0023EA01 /* Taurus-Horo-bkrd.png in Resources */,
+				0364B68B13694E3F0023EA01 /* Taurus-Horo-tile.png in Resources */,
+				0364B68C13694E3F0023EA01 /* Virgo-Horo-bkrd.png in Resources */,
+				0364B68D13694E3F0023EA01 /* Virgo-Horo-tile.png in Resources */,
+				0364B6C1136964630023EA01 /* astrotwinsimg.png in Resources */,
+				0364B6C3136964730023EA01 /* 12signimg.png in Resources */,
+				0364B6C7136964AD0023EA01 /* astroshareimg.png in Resources */,
+				0364B758136977350023EA01 /* Twelevesignview.xib in Resources */,
+				0364B75B136978A40023EA01 /* 12signView.png in Resources */,
+				0364B76713697C6E0023EA01 /* AstrotwinsView.xib in Resources */,
+				0364B76913697DCD0023EA01 /* aastrobarImage.png in Resources */,
+				0364B76B13697E4F0023EA01 /* AstroTwinsViewImage.png in Resources */,
+				0364B780136984D70023EA01 /* AstrotwinsImage.png in Resources */,
+				0364B8721369AE1F0023EA01 /* LoveView.xib in Resources */,
+				0364B87A1369B0340023EA01 /* loveviewImage.png in Resources */,
+				0364B8B41369BA900023EA01 /* loveimg.png in Resources */,
+				0364B902136DB4020023EA01 /* love.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +374,9 @@
 				039BF65A13680CB700EEA0D6 /* TFHpple.m in Sources */,
 				039BF65B13680CB700EEA0D6 /* TFHppleElement.m in Sources */,
 				039BF65E13680CC300EEA0D6 /* XPathQuery.m in Sources */,
+				0364B757136977350023EA01 /* Twelevesignview.m in Sources */,
+				0364B76613697C6E0023EA01 /* AstrotwinsView.m in Sources */,
+				0364B8711369AE1F0023EA01 /* LoveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

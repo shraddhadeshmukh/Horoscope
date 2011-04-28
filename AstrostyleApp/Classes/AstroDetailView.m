@@ -11,16 +11,12 @@
 #import "TFHpple.h"
 
 
-/*
-const NSUInteger kNumImages		= 3;
-const CGFloat kScrollObjHeight	= 340.0;
-const CGFloat kScrollObjWidth	= 280.0;
-*/
 static int selView = 1;
 
 @implementation AstroDetailView
 @synthesize txtView,bmonth,bdate,plistDictionary,scrollView,horoContent,lblZodiac;
-@synthesize zodiacSign,todaysHoro,weeksHoro,monthsHoro;
+@synthesize zodiacSign,todaysHoro,weeksHoro,monthsHoro,bgImage,tileImage,bgImageName,tileImageName;
+@synthesize lblTitle,lblText,lblRight,lblLeft;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -62,8 +58,8 @@ static int selView = 1;
 	
 	//Get Month and Day
 	todaysHoro = [[NSString alloc]init];
-	NSString *month = [[NSString alloc] initWithString:@"April"];
-	NSString *day = [[NSString alloc] initWithString:bdate];
+	NSString *month = [[NSString alloc] init];
+	NSString *day = [[NSString alloc] init];
 	zodiacSign=[[NSString alloc]init];
 	[scrollView setZoomScale:0];
 	[txtView setEditable:NO];
@@ -125,6 +121,49 @@ static int selView = 1;
 		zodiacSign = @"Pisces";
 	}
 	
+	bgImageName = [[NSString alloc]init];
+	tileImageName = [[NSString alloc]init];
+	
+	if (zodiacSign==@"Aries") {
+		bgImageName = @"Aries-Horo-bkrd.png";
+		tileImageName = @"";
+	}else if (zodiacSign==@"Taurus") {
+		bgImageName = @"Taurus-Horo-bkrd.png";
+		tileImageName = @"Taurus-Horo-tile.png";	
+	}else if (zodiacSign==@"Gemini") {
+		bgImageName = @"Gemini-Horo-bkrd.png";
+		tileImageName = @"Gemini-Horo-tile.png";	
+	}else if (zodiacSign==@"Cancer") {
+		bgImageName = @"Cancer-Horo-bkrd.png";
+		tileImageName = @"Cancer-Horo-tile.png";	
+	}else if (zodiacSign==@"Leo") {
+		bgImageName = @"Leo-Horo-bkrd.png";
+		tileImageName = @"Leo-Horo-tile.png";	
+	}else if (zodiacSign==@"Virgo") {
+		bgImageName = @"Virgo-Horo-bkrd.png";
+		tileImageName = @"Virgo-Horo-tile.png";	
+	}else if (zodiacSign==@"Libra") {
+		bgImageName = @"Libra-Horo-bkrd.png";
+		tileImageName = @"Libra-Horo-tile.png";	
+	}else if (zodiacSign==@"Scorpio") {
+		bgImageName = @"Scorpio-Horo-bkrd.png";
+		tileImageName = @"Scorpio-Horo-tile.png";	
+	}else if (zodiacSign==@"Sagittarius") {
+		bgImageName = @"Sagittarius-Horo-bkrd.png";
+		tileImageName = @"Sagittarius-Horo-tile.png";	
+	}else if (zodiacSign==@"Capricorn") {
+		bgImageName = @"Capricorn-Horo-bkrd.png";
+		tileImageName = @"Capricorn-Horo-tile.png";	
+	}else if (zodiacSign==@"Aquarius") {
+		bgImageName = @"Aquarius-Horo-bkrd.png";
+		tileImageName = @"Aquarius-Horo-tile.png";	
+	}else if (zodiacSign==@"Pisces") {
+		bgImageName = @"Pisces-Horo-bkrd.png";
+		tileImageName = @"Pisces-Horo-tile copy.png";	
+	}
+
+	bgImage.image= [UIImage imageNamed:bgImageName];
+	tileImage.image = [UIImage imageNamed:tileImageName];
 	//Adding Swipe Gesture
 	UISwipeGestureRecognizer *frontRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(frontSwipeDetected)] autorelease];
 	UISwipeGestureRecognizer *backRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(backSwipeDetected)] autorelease];
@@ -132,10 +171,8 @@ static int selView = 1;
 	
 	[self.view addGestureRecognizer:frontRecognizer];
 	[self.view addGestureRecognizer:backRecognizer];
-	
-	txtView.text = @"temphoroscope";
-	horoContent = [NSString stringWithFormat:@"Horoscope for %@\n",zodiacSign];
-	lblZodiac.text = horoContent;
+		
+	lblZodiac.text = zodiacSign;
 	//txtView.text = horoContent;
 	[self getTodaysHoroscope];
 	[self getMonthsHoroscope];
@@ -143,8 +180,14 @@ static int selView = 1;
 	
 	[self displayTodaysHoroscope];
 	
-	
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+	
+	[self displayTodaysHoroscope];
+}
+
+
 
 -(void)getTodaysHoroscope{
 	
@@ -166,8 +209,7 @@ static int selView = 1;
 				TFHppleElement *element = [elements objectAtIndex:i];
 				myTitle = [element content];
 				if ([myTitle hasPrefix:zodiacSign]){
-					//	txtView.text = myTitle;
-					//NSLog(@"%@",myTitle);
+					
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
@@ -206,8 +248,7 @@ static int selView = 1;
 				TFHppleElement *element = [elements objectAtIndex:i];
 				myTitle = [element content];
 				if ([myTitle hasPrefix:zodiacSign]){
-					//	txtView.text = myTitle;
-					//NSLog(@"%@",myTitle);
+					
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
@@ -249,8 +290,7 @@ static int selView = 1;
 				TFHppleElement *element = [elements objectAtIndex:i];
 				myTitle = [element content];
 				if ([myTitle hasPrefix:zodiacSign]){
-					//	txtView.text = myTitle;
-					//NSLog(@"%@",myTitle);
+					
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äô" withString:@"'"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Ä¶" withString:@"…"];
 					myTitle=[myTitle stringByReplacingOccurrencesOfString:@"‚Äù" withString:@"\""];	
@@ -277,54 +317,168 @@ static int selView = 1;
 */
 
 -(IBAction)frontSwipeDetected{
-		
+	NSLog(@"Front %d",selView);	
 	if (selView==1) {
 		selView=2;
 		[self displayMonthlyHoroscope];
 	}else if (selView==0) {
 		selView=1;
 		[self displayTodaysHoroscope];
+	}else if (selView==2) {
+		selView = 0;
+		[self displayWeeklyHoroscope];
 	}
 	
 }
 -(IBAction)backSwipeDetected{
-		
+		NSLog(@"Back %d",selView);
 	if (selView==1) {
 		selView=0;
 		[self displayWeeklyHoroscope];
 	}else if (selView==2) {
 		selView=1;
 		[self displayTodaysHoroscope];
+	}else if (selView==0) {
+		selView=2;
+		[self displayMonthlyHoroscope];
 	}
 }
 
 - (IBAction)displayWeeklyHoroscope{
 	
-	txtView.text = @"Weekly";
+	
 	selView=0;
-	[weeklyBtn setHighlighted:YES];
-	[monthlyBtn setHighlighted:NO];
-	[todayBtn setHighlighted:NO];
+	
 	txtView.text = self.weeksHoro;
+	UIView *weeksview = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 240, 360)];
+	[weeksview addSubview:bgImage];
+	
+	[weeksview addSubview:whiteBG];
+	[weeksview addSubview:tileImage];
+	//txtView.text=self.monthsHoro;
+	[weeksview addSubview:lblZodiac];
+	[weeksview addSubview:txtView];
+	
+	[weeksview addSubview:barimage];
+	
+	
+	lblLeft.text = @"Monthly";
+	[weeksview addSubview:lblLeft];
+	lblRight.text = @"Daily";
+	[weeksview addSubview:lblRight];
+	
+	lblTitle.text = @"This Week";
+	[weeksview addSubview:lblTitle];
+	NSCalendar *cal = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDate *now = [NSDate date];
+    NSLog(@"Current date: %@", now);
+	
+    // required components for today
+    NSDateComponents *components = [cal components:( NSYearCalendarUnit | NSMonthCalendarUnit | NSWeekCalendarUnit | NSWeekdayCalendarUnit ) fromDate:now];
+	
+    // adjust them for first day of previous week (Monday)
+    [components setWeekday:1];
+    [components setWeek:([components week] - 1)];
+	
+    // construct new date and return
+    NSDate *newDate = [cal dateFromComponents:components];
+    NSLog(@"New date: %@", newDate);
+	
+    // adjust them for first day of previous week (Monday)
+    [components setWeekday:1];
+    [components setWeek:([components week] + 1)];
+	
+    // construct new date and return
+    NSDate *nextDate = [cal dateFromComponents:components];
+    NSLog(@"New date: %@", nextDate);
+	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"LLLL d"];
+	
+	NSString *dateString = [dateFormatter stringFromDate:newDate];
+	lblText.text = dateString;
+	
+	[dateFormatter setDateFormat:@"dd"];
+	NSString *lastdayofweek = [dateFormatter stringFromDate:nextDate];
+	
+	lblText.text = [lblText.text stringByAppendingFormat:@"-%@",lastdayofweek];
+	[weeksview addSubview:lblText];
+	
+	[self.view addSubview:weeksview];
+	txtView.text = self.weeksHoro;
+	[txtView reloadInputViews];
 }
 
 - (IBAction)displayTodaysHoroscope{
-	txtView.text = @"Today";
+	
 	selView=1;
-	[weeklyBtn setHighlighted:NO];
-	[monthlyBtn setHighlighted:NO];
-	[todayBtn setHighlighted:YES];
+	
 	txtView.text = self.todaysHoro;
+	UIView *todaysview = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 240, 360)];
+	[todaysview addSubview:bgImage];
+	
+	[todaysview addSubview:whiteBG];
+	[todaysview addSubview:tileImage];
+	
+	[todaysview addSubview:lblZodiac];
+	[todaysview addSubview:txtView];
+	
+	[todaysview addSubview:barimage];
+		
+	lblLeft.text = @"Weekly";
+	[todaysview addSubview:lblLeft];
+	lblRight.text = @"Monthly";
+	[todaysview addSubview:lblRight];
+	
+	lblTitle.text = @"TODAY";
+	[todaysview addSubview:lblTitle];
+	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"LLLL d, yyyy"];
+	
+	NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+	lblText.text = dateString;
+	[todaysview addSubview:lblText];
+	
+	[self.view addSubview:todaysview];
+	txtView.text = self.todaysHoro;
+	[txtView reloadInputViews];
 }
 
 
 - (IBAction)displayMonthlyHoroscope{
-	txtView.text = @"Monthly";
+	
 	selView=2;
-	[weeklyBtn setHighlighted:NO];
-	[monthlyBtn setHighlighted:YES];
-	[todayBtn setHighlighted:NO];
-	txtView.text = self.monthsHoro;
+	
+	UIView *monthsview = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 240, 360)];
+	[monthsview addSubview:bgImage];
+	
+	[monthsview addSubview:whiteBG];
+	[monthsview addSubview:tileImage];
+	txtView.text=self.monthsHoro;
+	[monthsview addSubview:lblZodiac];
+	[monthsview addSubview:txtView];
+	
+	[monthsview addSubview:barimage];
+	
+
+	lblLeft.text = @"Daily";
+	[monthsview addSubview:lblLeft];
+	lblRight.text = @"Weekly";
+	[monthsview addSubview:lblRight];
+		
+	lblTitle.text = @"THIS MONTH";
+	[monthsview addSubview:lblTitle];
+	
+	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"LLLL yyyy"];
+	
+	NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+	lblText.text = dateString;
+	[monthsview addSubview:lblText];
+	
+	[self.view addSubview:monthsview];
+	txtView.text=self.monthsHoro;
+	[txtView reloadInputViews];
+		 
 }
 
 

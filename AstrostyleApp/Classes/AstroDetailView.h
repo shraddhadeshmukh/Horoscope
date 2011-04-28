@@ -9,17 +9,23 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AstroDetailView : UIViewController <NSXMLParserDelegate>{
+@interface AstroDetailView : UIViewController {
 
+	
+	
 	IBOutlet UITextView *txtView;
 	NSString *bmonth;
 	NSString *bdate;
 	NSMutableDictionary *plistDictionary;
 	IBOutlet UIScrollView *scrollView;
-	IBOutlet UIButton *weeklyBtn;
-	IBOutlet UIButton *todayBtn;
-	IBOutlet UIButton *monthlyBtn;
+	IBOutlet UILabel *lblLeft;
+	IBOutlet UILabel *lblRight;
 	IBOutlet UILabel *lblZodiac;
+	IBOutlet UILabel *lblText;
+	IBOutlet UILabel *lblTitle;
+	IBOutlet UIView *whiteBG;
+	IBOutlet UIImageView *barimage;
+	
 	NSString *horoContent;
 	
 	NSXMLParser * rssParser;
@@ -40,7 +46,20 @@
 	NSString *weeksHoro;
 	NSString *monthsHoro;
 	NSString *zodiacSign;
+	NSString *bgImageName;
+	NSString *tileImageName;
+	IBOutlet UIImageView *bgImage;
+	IBOutlet UIImageView *tileImage;
+	
 }
+@property (nonatomic,retain)IBOutlet UILabel *lblTitle;
+@property (nonatomic,retain)IBOutlet UILabel *lblText;
+@property (nonatomic,retain)IBOutlet UILabel *lblLeft;
+@property (nonatomic,retain)IBOutlet UILabel *lblRight;
+@property (nonatomic,retain)NSString *bgImageName;
+@property (nonatomic,retain)NSString *tileImageName;
+@property (nonatomic,retain)UIImageView *bgImage;
+@property (nonatomic,retain)UIImageView *tileImage;
 @property (nonatomic,retain)NSString *zodiacSign;
 @property (nonatomic,retain)NSString *todaysHoro;
 @property (nonatomic,retain)NSString *weeksHoro;
@@ -53,7 +72,7 @@
 @property (nonatomic,retain)NSString *horoContent;
 @property (nonatomic,retain)IBOutlet UILabel *lblZodiac;
 
-//- (void)layoutScrollImages;
+
 -(void)getTodaysHoroscope;
 -(void)getWeekHoroscope;
 -(void)getMonthsHoroscope;
@@ -62,5 +81,5 @@
 - (IBAction)displayMonthlyHoroscope;
 - (IBAction)frontSwipeDetected;
 - (IBAction)backSwipeDetected;
-- (void)parseXMLFileAtURL:(NSString *)URL;
+
 @end
