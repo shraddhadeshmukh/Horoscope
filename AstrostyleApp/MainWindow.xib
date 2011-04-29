@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="23"/>
 			<integer value="10"/>
-			<integer value="18"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -74,18 +74,18 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="879610549">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="1056725224">
-						<string key="IBUITitle">Love</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="332278210">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="768640187">
+						<string key="IBUITitle">Share</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">12signimg.png</string>
+							<string key="NSResourceName">share.png</string>
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<reference key="IBUITabBar"/>
 					</object>
 					<reference key="IBUIParentViewController" ref="85114836"/>
-					<string key="IBUINibName">Twelevesignview</string>
+					<string key="IBUINibName">AstroDetailView</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="interfaceOrientation">1</int>
 					</object>
@@ -94,13 +94,30 @@
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<reference ref="879610549"/>
+					<object class="IBUIViewController" id="879610549">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="1056725224">
+							<string key="IBUITitle">12 Signs</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">12signs.png</string>
+							</object>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+							<reference key="IBUITabBar"/>
+						</object>
+						<reference key="IBUIParentViewController" ref="85114836"/>
+						<string key="IBUINibName">Twelevesignview</string>
+						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+							<int key="interfaceOrientation">1</int>
+						</object>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIHorizontal">NO</bool>
+					</object>
 					<object class="IBUIViewController" id="41842794">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="334391195">
 							<string key="IBUITitle">AstroTwins</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">astrotwinsimg.png</string>
+								<string key="NSResourceName">astro-twin.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<reference key="IBUITabBar"/>
@@ -131,24 +148,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="332278210">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="768640187">
-							<string key="IBUITitle">Share</string>
-							<object class="NSCustomResource" key="IBUIImage">
-								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">astroshareimg.png</string>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUITabBar"/>
-						</object>
-						<reference key="IBUIParentViewController" ref="85114836"/>
-						<string key="IBUINibName">AstroDetailView</string>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-					</object>
+					<reference ref="332278210"/>
 				</object>
 				<object class="IBUITabBar" key="IBUITabBar" id="215589303">
 					<nil key="NSNextResponder"/>
@@ -345,11 +345,11 @@
 					<string>UIApplication</string>
 					<string>UIResponder</string>
 					<string>AstrostyleAppViewController</string>
-					<string>{{-2, -1}, {320, 480}}</string>
+					<string>{{0, 4}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{525, 346}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{56, 19}, {320, 480}}</string>
+					<string>{{63, 273}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>Twelevesignview</string>
@@ -993,17 +993,17 @@
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>12signimg.png</string>
-				<string>astroshareimg.png</string>
-				<string>astrotwinsimg.png</string>
+				<string>12signs.png</string>
+				<string>astro-twin.png</string>
 				<string>love.png</string>
+				<string>share.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{126, 73}</string>
-				<string>{96, 74}</string>
-				<string>{102, 72}</string>
-				<string>{32, 32}</string>
+				<string>{52, 21}</string>
+				<string>{35, 29}</string>
+				<string>{36, 29}</string>
+				<string>{50, 29}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">132</string>

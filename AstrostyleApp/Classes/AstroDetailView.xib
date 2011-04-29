@@ -62,7 +62,7 @@
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
-							<object class="NSColorSpace" key="NSCustomColorSpace">
+							<object class="NSColorSpace" key="NSCustomColorSpace" id="300085465">
 								<int key="NSID">2</int>
 							</object>
 						</object>
@@ -177,7 +177,7 @@
 					<object class="IBUITextView" id="1067293604">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{7, 208}, {293, 226}}</string>
+						<string key="NSFrame">{{7, 198}, {293, 218}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="IBUIBackgroundColor" ref="453194380"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -225,6 +225,65 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
+					</object>
+					<object class="IBUIView" id="915966386">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">288</int>
+						<string key="NSFrame">{{7, 36}, {101, 31}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MQA</bytes>
+							<reference key="NSCustomColorSpace" ref="300085465"/>
+						</object>
+						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+					</object>
+					<object class="IBUIButton" id="491598540">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{216, 164}, {62, 37}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="IBUIBackgroundColor" ref="453194380"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<object class="NSFont" key="IBUIFont" id="1012060623">
+							<string key="NSName">Helvetica-Bold</string>
+							<double key="NSSize">15</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<int key="IBUIButtonType">1</int>
+						<string type="base64-UTF8" key="IBUINormalTitle">UxBoYXJlA</string>
+						<reference key="IBUIHighlightedTitleColor" ref="309185047"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC44NTg2OTU2NTIyIDAuMTY4NjE2NTg5MyAwLjA2NzA3NzcxMjU2AA</bytes>
+						</object>
+						<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+					</object>
+					<object class="IBUIButton" id="16976196">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{116, 36}, {79, 37}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="IBUIBackgroundColor" ref="453194380"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUIFont" ref="1012060623"/>
+						<string key="IBUINormalTitle">E-Mail</string>
+						<reference key="IBUIHighlightedTitleColor" ref="309185047"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC44NTg2OTU2NTIyIDAuMTY4NjE2NTg5MyAwLjA2NzA3NzcxMjU2AA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="268952378"/>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -328,6 +387,48 @@
 					</object>
 					<int key="connectionID">93</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">_loginButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="915966386"/>
+					</object>
+					<int key="connectionID">96</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">_feedButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="491598540"/>
+					</object>
+					<int key="connectionID">100</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">emailHoroscope</string>
+						<reference key="source" ref="16976196"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">102</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">emailBtn</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="16976196"/>
+					</object>
+					<int key="connectionID">103</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">publishStatus</string>
+						<reference key="source" ref="491598540"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">105</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -364,6 +465,9 @@
 							<reference ref="140072800"/>
 							<reference ref="255624266"/>
 							<reference ref="558454939"/>
+							<reference ref="915966386"/>
+							<reference ref="491598540"/>
+							<reference ref="16976196"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -420,6 +524,24 @@
 						<reference key="object" ref="558454939"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">95</int>
+						<reference key="object" ref="915966386"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">97</int>
+						<reference key="object" ref="491598540"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">101</int>
+						<reference key="object" ref="16976196"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -433,7 +555,9 @@
 					<string>1.IBViewBoundsToFrameTransform</string>
 					<string>10.IBPluginDependency</string>
 					<string>10.IBViewBoundsToFrameTransform</string>
+					<string>101.IBPluginDependency</string>
 					<string>32.IBPluginDependency</string>
+					<string>32.IBViewBoundsToFrameTransform</string>
 					<string>34.IBPluginDependency</string>
 					<string>54.IBPluginDependency</string>
 					<string>54.IBViewBoundsToFrameTransform</string>
@@ -448,6 +572,11 @@
 					<string>90.IBPluginDependency</string>
 					<string>90.IBViewBoundsToFrameTransform</string>
 					<string>91.IBPluginDependency</string>
+					<string>95.CustomClassName</string>
+					<string>95.IBPluginDependency</string>
+					<string>95.IBViewBoundsToFrameTransform</string>
+					<string>97.IBPluginDependency</string>
+					<string>97.IBViewBoundsToFrameTransform</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -461,6 +590,10 @@
 						<bytes key="NSTransformStruct">P4AAAL+AAABA4AAAw+KAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw+UAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform"/>
@@ -485,6 +618,15 @@
 						<bytes key="NSTransformStruct">AUFAAABDCwAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>FBLoginButton</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABC0AAAw3QAAA</bytes>
+					</object>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">AUMZAABDJAAAA</bytes>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="unlocalizedProperties">
@@ -503,7 +645,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">93</int>
+			<int key="maxID">105</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -515,14 +657,26 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>askPermission</string>
 							<string>backSwipeDetected</string>
 							<string>displayMonthlyHoroscope</string>
 							<string>displayTodaysHoroscope</string>
 							<string>displayWeeklyHoroscope</string>
+							<string>emailHoroscope</string>
 							<string>frontSwipeDetected</string>
+							<string>publishFeed:</string>
+							<string>publishStatus</string>
+							<string>setStatus:</string>
+							<string>uploadPhoto:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -534,14 +688,24 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>askPermission</string>
 							<string>backSwipeDetected</string>
 							<string>displayMonthlyHoroscope</string>
 							<string>displayTodaysHoroscope</string>
 							<string>displayWeeklyHoroscope</string>
+							<string>emailHoroscope</string>
 							<string>frontSwipeDetected</string>
+							<string>publishFeed:</string>
+							<string>publishStatus</string>
+							<string>setStatus:</string>
+							<string>uploadPhoto:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">askPermission</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">backSwipeDetected</string>
 								<string key="candidateClassName">id</string>
@@ -559,7 +723,27 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">emailHoroscope</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">frontSwipeDetected</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">publishFeed:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">publishStatus</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">setStatus:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">uploadPhoto:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -568,13 +752,20 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>_feedButton</string>
+							<string>_loginButton</string>
+							<string>_permissionButton</string>
+							<string>_photoButton</string>
+							<string>_statusButton</string>
 							<string>barimage</string>
 							<string>bgImage</string>
+							<string>emailBtn</string>
 							<string>lblLeft</string>
 							<string>lblRight</string>
 							<string>lblText</string>
 							<string>lblTitle</string>
 							<string>lblZodiac</string>
+							<string>message</string>
 							<string>scrollView</string>
 							<string>tileImage</string>
 							<string>txtView</string>
@@ -582,8 +773,15 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
+							<string>FBLoginButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
 							<string>UIImageView</string>
 							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UILabel</string>
 							<string>UILabel</string>
 							<string>UILabel</string>
 							<string>UILabel</string>
@@ -599,13 +797,20 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>_feedButton</string>
+							<string>_loginButton</string>
+							<string>_permissionButton</string>
+							<string>_photoButton</string>
+							<string>_statusButton</string>
 							<string>barimage</string>
 							<string>bgImage</string>
+							<string>emailBtn</string>
 							<string>lblLeft</string>
 							<string>lblRight</string>
 							<string>lblText</string>
 							<string>lblTitle</string>
 							<string>lblZodiac</string>
+							<string>message</string>
 							<string>scrollView</string>
 							<string>tileImage</string>
 							<string>txtView</string>
@@ -614,12 +819,36 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
+								<string key="name">_feedButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">_loginButton</string>
+								<string key="candidateClassName">FBLoginButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">_permissionButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">_photoButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">_statusButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">barimage</string>
 								<string key="candidateClassName">UIImageView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">bgImage</string>
 								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">emailBtn</string>
+								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">lblLeft</string>
@@ -639,6 +868,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">lblZodiac</string>
+								<string key="candidateClassName">UILabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">message</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
@@ -662,6 +895,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Classes/AstroDetailView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">FBLoginButton</string>
+					<string key="superclassName">UIControl</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBLoginButton.h</string>
 					</object>
 				</object>
 			</object>
@@ -756,6 +997,22 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="167939420">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UIResponder.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UIButton</string>
+					<string key="superclassName">UIControl</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">UIKit.framework/Headers/UIButton.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UIControl</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBFrameworkSource</string>
+						<string key="minorKey">UIKit.framework/Headers/UIControl.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

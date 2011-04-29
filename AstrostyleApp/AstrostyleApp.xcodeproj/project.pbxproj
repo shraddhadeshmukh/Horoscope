@@ -30,9 +30,6 @@
 		0364B68B13694E3F0023EA01 /* Taurus-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68113694E3F0023EA01 /* Taurus-Horo-tile.png */; };
 		0364B68C13694E3F0023EA01 /* Virgo-Horo-bkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68213694E3F0023EA01 /* Virgo-Horo-bkrd.png */; };
 		0364B68D13694E3F0023EA01 /* Virgo-Horo-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B68313694E3F0023EA01 /* Virgo-Horo-tile.png */; };
-		0364B6C1136964630023EA01 /* astrotwinsimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C0136964630023EA01 /* astrotwinsimg.png */; };
-		0364B6C3136964730023EA01 /* 12signimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C2136964730023EA01 /* 12signimg.png */; };
-		0364B6C7136964AD0023EA01 /* astroshareimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B6C6136964AD0023EA01 /* astroshareimg.png */; };
 		0364B757136977350023EA01 /* Twelevesignview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B755136977350023EA01 /* Twelevesignview.m */; };
 		0364B758136977350023EA01 /* Twelevesignview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B756136977350023EA01 /* Twelevesignview.xib */; };
 		0364B75B136978A40023EA01 /* 12signView.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B75A136978A40023EA01 /* 12signView.png */; };
@@ -44,15 +41,33 @@
 		0364B8711369AE1F0023EA01 /* LoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364B86F1369AE1F0023EA01 /* LoveView.m */; };
 		0364B8721369AE1F0023EA01 /* LoveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8701369AE1F0023EA01 /* LoveView.xib */; };
 		0364B87A1369B0340023EA01 /* loveviewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8791369B0340023EA01 /* loveviewImage.png */; };
-		0364B8B41369BA900023EA01 /* loveimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B8B31369BA900023EA01 /* loveimg.png */; };
-		0364B902136DB4020023EA01 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364B901136DB4020023EA01 /* love.png */; };
 		036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */; };
+		03777560136A9DFC006479E4 /* 12signs.png in Resources */ = {isa = PBXBuildFile; fileRef = 0377755F136A9DFC006479E4 /* 12signs.png */; };
+		03777562136A9E0C006479E4 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 03777561136A9E0C006479E4 /* share.png */; };
+		03777564136A9E1C006479E4 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 03777563136A9E1C006479E4 /* love.png */; };
+		03777566136A9E31006479E4 /* astro-twin.png in Resources */ = {isa = PBXBuildFile; fileRef = 03777565136A9E31006479E4 /* astro-twin.png */; };
+		03777766136AC588006479E4 /* FBNativeStringUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377774D136AC588006479E4 /* FBNativeStringUploader.m */; };
+		03777767136AC588006479E4 /* FBTranslationsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377774F136AC588006479E4 /* FBTranslationsLoader.m */; };
+		03777768136AC588006479E4 /* FBUploadResultReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777751136AC588006479E4 /* FBUploadResultReceiver.m */; };
+		03777769136AC588006479E4 /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777754136AC588006479E4 /* FBConnectGlobal.m */; };
+		0377776A136AC588006479E4 /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777756136AC588006479E4 /* FBSession.m */; };
+		0377776B136AC588006479E4 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777758136AC588006479E4 /* FBRequest.m */; };
+		0377776C136AC588006479E4 /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377775A136AC588006479E4 /* FBXMLHandler.m */; };
+		0377776D136AC588006479E4 /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377775C136AC588006479E4 /* FBLoginButton.m */; };
+		0377776E136AC588006479E4 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377775E136AC588006479E4 /* FBDialog.m */; };
+		0377776F136AC588006479E4 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777760136AC588006479E4 /* FBLoginDialog.m */; };
+		03777770136AC588006479E4 /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777762136AC588006479E4 /* FBPermissionDialog.m */; };
+		03777771136AC588006479E4 /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03777764136AC588006479E4 /* FBStreamDialog.m */; };
+		03777772136AC588006479E4 /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03777765136AC588006479E4 /* FBConnect.bundle */; };
 		039BF65A13680CB700EEA0D6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65713680CB700EEA0D6 /* TFHpple.m */; };
 		039BF65B13680CB700EEA0D6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65913680CB700EEA0D6 /* TFHppleElement.m */; };
 		039BF65E13680CC300EEA0D6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 039BF65D13680CC300EEA0D6 /* XPathQuery.m */; };
 		03B5429613659659007102D2 /* Store.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B5429513659659007102D2 /* Store.plist */; };
 		03B542B313659ED6007102D2 /* AstroDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B542B113659ED6007102D2 /* AstroDetailView.m */; };
 		03B542B413659ED6007102D2 /* AstroDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B542B213659ED6007102D2 /* AstroDetailView.xib */; };
+		03EE860B136AE34E009721C4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE860A136AE34E009721C4 /* MessageUI.framework */; };
+		03EE860F136AE36E009721C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE860E136AE36E009721C4 /* SystemConfiguration.framework */; };
+		03EE8611136AE378009721C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE8610136AE378009721C4 /* Security.framework */; };
 		1D3623260D0F684500981E51 /* AstrostyleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AstrostyleAppAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -87,9 +102,6 @@
 		0364B68113694E3F0023EA01 /* Taurus-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taurus-Horo-tile.png"; sourceTree = "<group>"; };
 		0364B68213694E3F0023EA01 /* Virgo-Horo-bkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Virgo-Horo-bkrd.png"; sourceTree = "<group>"; };
 		0364B68313694E3F0023EA01 /* Virgo-Horo-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Virgo-Horo-tile.png"; sourceTree = "<group>"; };
-		0364B6C0136964630023EA01 /* astrotwinsimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astrotwinsimg.png; sourceTree = "<group>"; };
-		0364B6C2136964730023EA01 /* 12signimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12signimg.png; sourceTree = "<group>"; };
-		0364B6C6136964AD0023EA01 /* astroshareimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astroshareimg.png; sourceTree = "<group>"; };
 		0364B754136977350023EA01 /* Twelevesignview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twelevesignview.h; sourceTree = "<group>"; };
 		0364B755136977350023EA01 /* Twelevesignview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twelevesignview.m; sourceTree = "<group>"; };
 		0364B756136977350023EA01 /* Twelevesignview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Twelevesignview.xib; path = Classes/Twelevesignview.xib; sourceTree = "<group>"; };
@@ -104,9 +116,37 @@
 		0364B86F1369AE1F0023EA01 /* LoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveView.m; sourceTree = "<group>"; };
 		0364B8701369AE1F0023EA01 /* LoveView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveView.xib; sourceTree = "<group>"; };
 		0364B8791369B0340023EA01 /* loveviewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loveviewImage.png; sourceTree = "<group>"; };
-		0364B8B31369BA900023EA01 /* loveimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loveimg.png; sourceTree = SOURCE_ROOT; };
-		0364B901136DB4020023EA01 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = SOURCE_ROOT; };
 		036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		0377755F136A9DFC006479E4 /* 12signs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12signs.png; sourceTree = "<group>"; };
+		03777561136A9E0C006479E4 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		03777563136A9E1C006479E4 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		03777565136A9E31006479E4 /* astro-twin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "astro-twin.png"; sourceTree = "<group>"; };
+		0377774C136AC588006479E4 /* FBNativeStringUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeStringUploader.h; sourceTree = "<group>"; };
+		0377774D136AC588006479E4 /* FBNativeStringUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNativeStringUploader.m; sourceTree = "<group>"; };
+		0377774E136AC588006479E4 /* FBTranslationsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTranslationsLoader.h; sourceTree = "<group>"; };
+		0377774F136AC588006479E4 /* FBTranslationsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTranslationsLoader.m; sourceTree = "<group>"; };
+		03777750136AC588006479E4 /* FBUploadResultReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUploadResultReceiver.h; sourceTree = "<group>"; };
+		03777751136AC588006479E4 /* FBUploadResultReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUploadResultReceiver.m; sourceTree = "<group>"; };
+		03777752136AC588006479E4 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnect.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBConnect.h"; sourceTree = SOURCE_ROOT; };
+		03777753136AC588006479E4 /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBConnectGlobal.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBConnectGlobal.h"; sourceTree = SOURCE_ROOT; };
+		03777754136AC588006479E4 /* FBConnectGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBConnectGlobal.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnectGlobal.m"; sourceTree = SOURCE_ROOT; };
+		03777755136AC588006479E4 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSession.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBSession.h"; sourceTree = SOURCE_ROOT; };
+		03777756136AC588006479E4 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSession.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBSession.m"; sourceTree = SOURCE_ROOT; };
+		03777757136AC588006479E4 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBRequest.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBRequest.h"; sourceTree = SOURCE_ROOT; };
+		03777758136AC588006479E4 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBRequest.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBRequest.m"; sourceTree = SOURCE_ROOT; };
+		03777759136AC588006479E4 /* FBXMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXMLHandler.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBXMLHandler.h"; sourceTree = SOURCE_ROOT; };
+		0377775A136AC588006479E4 /* FBXMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBXMLHandler.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBXMLHandler.m"; sourceTree = SOURCE_ROOT; };
+		0377775B136AC588006479E4 /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBLoginButton.h"; sourceTree = SOURCE_ROOT; };
+		0377775C136AC588006479E4 /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBLoginButton.m"; sourceTree = SOURCE_ROOT; };
+		0377775D136AC588006479E4 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBDialog.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBDialog.h"; sourceTree = SOURCE_ROOT; };
+		0377775E136AC588006479E4 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBDialog.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBDialog.m"; sourceTree = SOURCE_ROOT; };
+		0377775F136AC588006479E4 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginDialog.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBLoginDialog.h"; sourceTree = SOURCE_ROOT; };
+		03777760136AC588006479E4 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginDialog.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBLoginDialog.m"; sourceTree = SOURCE_ROOT; };
+		03777761136AC588006479E4 /* FBPermissionDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBPermissionDialog.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBPermissionDialog.h"; sourceTree = SOURCE_ROOT; };
+		03777762136AC588006479E4 /* FBPermissionDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBPermissionDialog.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBPermissionDialog.m"; sourceTree = SOURCE_ROOT; };
+		03777763136AC588006479E4 /* FBStreamDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBStreamDialog.h; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect/FBStreamDialog.h"; sourceTree = SOURCE_ROOT; };
+		03777764136AC588006479E4 /* FBStreamDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBStreamDialog.m; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBStreamDialog.m"; sourceTree = SOURCE_ROOT; };
+		03777765136AC588006479E4 /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = "../iDog Backup/iDogEvents(10:3:2011)/singbox-facebook-iphone-sdk-ba72051 3/src/FBConnect.bundle"; sourceTree = SOURCE_ROOT; };
 		039BF65613680CB700EEA0D6 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Classes/TFHpple.h; sourceTree = SOURCE_ROOT; };
 		039BF65713680CB700EEA0D6 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Classes/TFHpple.m; sourceTree = SOURCE_ROOT; };
 		039BF65813680CB700EEA0D6 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Classes/TFHppleElement.h; sourceTree = SOURCE_ROOT; };
@@ -117,6 +157,9 @@
 		03B542B013659ED6007102D2 /* AstroDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroDetailView.h; sourceTree = "<group>"; };
 		03B542B113659ED6007102D2 /* AstroDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroDetailView.m; sourceTree = "<group>"; };
 		03B542B213659ED6007102D2 /* AstroDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AstroDetailView.xib; path = Classes/AstroDetailView.xib; sourceTree = "<group>"; };
+		03EE860A136AE34E009721C4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		03EE860E136AE36E009721C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		03EE8610136AE378009721C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AstrostyleAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstrostyleAppAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AstrostyleAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstrostyleAppAppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +184,9 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				036C96791366CC7000F7D574 /* libxml2.2.7.3.dylib in Frameworks */,
+				03EE860B136AE34E009721C4 /* MessageUI.framework in Frameworks */,
+				03EE860F136AE36E009721C4 /* SystemConfiguration.framework in Frameworks */,
+				03EE8611136AE378009721C4 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +196,15 @@
 		0364B644136942EA0023EA01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				03777565136A9E31006479E4 /* astro-twin.png */,
+				03777563136A9E1C006479E4 /* love.png */,
+				03777561136A9E0C006479E4 /* share.png */,
+				0377755F136A9DFC006479E4 /* 12signs.png */,
 				0364B8791369B0340023EA01 /* loveviewImage.png */,
 				0364B77F136984D70023EA01 /* AstrotwinsImage.png */,
 				0364B76A13697E4F0023EA01 /* AstroTwinsViewImage.png */,
 				0364B76813697DCD0023EA01 /* aastrobarImage.png */,
 				0364B75A136978A40023EA01 /* 12signView.png */,
-				0364B6C6136964AD0023EA01 /* astroshareimg.png */,
-				0364B6C2136964730023EA01 /* 12signimg.png */,
-				0364B6C0136964630023EA01 /* astrotwinsimg.png */,
 				0364B67A13694E3F0023EA01 /* Pisces-Horo-bkrd.png */,
 				0364B67B13694E3F0023EA01 /* Pisces-Horo-tile copy.png */,
 				0364B67C13694E3F0023EA01 /* Sagittarius-Horo-bkrd.png */,
@@ -185,9 +232,44 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		0377774B136AC588006479E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0377774C136AC588006479E4 /* FBNativeStringUploader.h */,
+				0377774D136AC588006479E4 /* FBNativeStringUploader.m */,
+				0377774E136AC588006479E4 /* FBTranslationsLoader.h */,
+				0377774F136AC588006479E4 /* FBTranslationsLoader.m */,
+				03777750136AC588006479E4 /* FBUploadResultReceiver.h */,
+				03777751136AC588006479E4 /* FBUploadResultReceiver.m */,
+				03777752136AC588006479E4 /* FBConnect.h */,
+				03777753136AC588006479E4 /* FBConnectGlobal.h */,
+				03777754136AC588006479E4 /* FBConnectGlobal.m */,
+				03777755136AC588006479E4 /* FBSession.h */,
+				03777756136AC588006479E4 /* FBSession.m */,
+				03777757136AC588006479E4 /* FBRequest.h */,
+				03777758136AC588006479E4 /* FBRequest.m */,
+				03777759136AC588006479E4 /* FBXMLHandler.h */,
+				0377775A136AC588006479E4 /* FBXMLHandler.m */,
+				0377775B136AC588006479E4 /* FBLoginButton.h */,
+				0377775C136AC588006479E4 /* FBLoginButton.m */,
+				0377775D136AC588006479E4 /* FBDialog.h */,
+				0377775E136AC588006479E4 /* FBDialog.m */,
+				0377775F136AC588006479E4 /* FBLoginDialog.h */,
+				03777760136AC588006479E4 /* FBLoginDialog.m */,
+				03777761136AC588006479E4 /* FBPermissionDialog.h */,
+				03777762136AC588006479E4 /* FBPermissionDialog.m */,
+				03777763136AC588006479E4 /* FBStreamDialog.h */,
+				03777764136AC588006479E4 /* FBStreamDialog.m */,
+				03777765136AC588006479E4 /* FBConnect.bundle */,
+			);
+			name = Classes;
+			path = "../iDog Backup/iDogEvents(10:3:2011)/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0377774B136AC588006479E4 /* Classes */,
 				1D3623240D0F684500981E51 /* AstrostyleAppAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AstrostyleAppAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* AstrostyleAppViewController.h */,
@@ -243,8 +325,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0364B901136DB4020023EA01 /* love.png */,
-				0364B8B31369BA900023EA01 /* loveimg.png */,
 				0364B76513697C6E0023EA01 /* AstrotwinsView.xib */,
 				0364B756136977350023EA01 /* Twelevesignview.xib */,
 				03B542B213659ED6007102D2 /* AstroDetailView.xib */,
@@ -261,6 +341,9 @@
 			isa = PBXGroup;
 			children = (
 				036C96781366CC7000F7D574 /* libxml2.2.7.3.dylib */,
+				03EE860A136AE34E009721C4 /* MessageUI.framework */,
+				03EE860E136AE36E009721C4 /* SystemConfiguration.framework */,
+				03EE8610136AE378009721C4 /* Security.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -344,9 +427,6 @@
 				0364B68B13694E3F0023EA01 /* Taurus-Horo-tile.png in Resources */,
 				0364B68C13694E3F0023EA01 /* Virgo-Horo-bkrd.png in Resources */,
 				0364B68D13694E3F0023EA01 /* Virgo-Horo-tile.png in Resources */,
-				0364B6C1136964630023EA01 /* astrotwinsimg.png in Resources */,
-				0364B6C3136964730023EA01 /* 12signimg.png in Resources */,
-				0364B6C7136964AD0023EA01 /* astroshareimg.png in Resources */,
 				0364B758136977350023EA01 /* Twelevesignview.xib in Resources */,
 				0364B75B136978A40023EA01 /* 12signView.png in Resources */,
 				0364B76713697C6E0023EA01 /* AstrotwinsView.xib in Resources */,
@@ -355,8 +435,11 @@
 				0364B780136984D70023EA01 /* AstrotwinsImage.png in Resources */,
 				0364B8721369AE1F0023EA01 /* LoveView.xib in Resources */,
 				0364B87A1369B0340023EA01 /* loveviewImage.png in Resources */,
-				0364B8B41369BA900023EA01 /* loveimg.png in Resources */,
-				0364B902136DB4020023EA01 /* love.png in Resources */,
+				03777560136A9DFC006479E4 /* 12signs.png in Resources */,
+				03777562136A9E0C006479E4 /* share.png in Resources */,
+				03777564136A9E1C006479E4 /* love.png in Resources */,
+				03777566136A9E31006479E4 /* astro-twin.png in Resources */,
+				03777772136AC588006479E4 /* FBConnect.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +460,18 @@
 				0364B757136977350023EA01 /* Twelevesignview.m in Sources */,
 				0364B76613697C6E0023EA01 /* AstrotwinsView.m in Sources */,
 				0364B8711369AE1F0023EA01 /* LoveView.m in Sources */,
+				03777766136AC588006479E4 /* FBNativeStringUploader.m in Sources */,
+				03777767136AC588006479E4 /* FBTranslationsLoader.m in Sources */,
+				03777768136AC588006479E4 /* FBUploadResultReceiver.m in Sources */,
+				03777769136AC588006479E4 /* FBConnectGlobal.m in Sources */,
+				0377776A136AC588006479E4 /* FBSession.m in Sources */,
+				0377776B136AC588006479E4 /* FBRequest.m in Sources */,
+				0377776C136AC588006479E4 /* FBXMLHandler.m in Sources */,
+				0377776D136AC588006479E4 /* FBLoginButton.m in Sources */,
+				0377776E136AC588006479E4 /* FBDialog.m in Sources */,
+				0377776F136AC588006479E4 /* FBLoginDialog.m in Sources */,
+				03777770136AC588006479E4 /* FBPermissionDialog.m in Sources */,
+				03777771136AC588006479E4 /* FBStreamDialog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +487,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AstrostyleApp_Prefix.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				HEADER_SEARCH_PATHS = (
+					"/Users/siplmacmini/facebook-ios-sdk/src/**",
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "AstrostyleApp-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = AstrostyleApp;
@@ -406,7 +504,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AstrostyleApp_Prefix.pch;
-				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				HEADER_SEARCH_PATHS = (
+					"/Users/siplmacmini/facebook-ios-sdk/src/**",
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "AstrostyleApp-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = AstrostyleApp;

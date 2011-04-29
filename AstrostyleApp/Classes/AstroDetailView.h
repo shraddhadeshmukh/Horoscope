@@ -7,11 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBDialog.h"
+#import "FBConnect.h"
+#import "FBSession.h"
+#import "FBRequest.h"
+#import "FBDialog.h"
+#import "FBStreamDialog.h"
+#import "FBLoginButton.h"
+#import "FBLoginDialog.h"
+#import "FBConnectGlobal.h"
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-
-@interface AstroDetailView : UIViewController {
+@interface AstroDetailView : UIViewController <FBDialogDelegate,FBSessionDelegate,FBRequestDelegate,FBTranslationsLoaderDelegate,MFMailComposeViewControllerDelegate>{
 
 	
+	//Facebook *facebook;
 	
 	IBOutlet UITextView *txtView;
 	NSString *bmonth;
@@ -31,14 +42,10 @@
 	NSXMLParser * rssParser;
 	
 	NSMutableArray * stories;
-	
-	
-	// a temporary item; added to the "stories" array one at a time, and cleared for the next one
+		
 	NSMutableDictionary * item;
 	
-	// it parses through the document, from top to bottom...
-	// we collect and cache each sub-element value, and then save each item to our array.
-	// we use these to track each current item, until it's ready to be added to the "stories" array
+	
 	NSString * currentElement;
 	NSMutableString * currentTitle, * currentDate, * currentSummary, * currentLink;
 	UIActivityIndicatorView * activityIndicator;
@@ -51,7 +58,21 @@
 	IBOutlet UIImageView *bgImage;
 	IBOutlet UIImageView *tileImage;
 	
+	IBOutlet UIButton* _permissionButton;
+	IBOutlet UIButton* _feedButton;
+	IBOutlet UIButton* _statusButton;
+	IBOutlet UIButton* _photoButton;
+	IBOutlet FBLoginButton* _loginButton;
+	FBSession* _session;
+	
+	NSString *toEmailAddress;
+	NSString *errorMessage;
+	IBOutlet UILabel *message;
+	IBOutlet UIButton *emailBtn;
+	
+													
 }
+//@property (nonatomic,retain)Facebook *facebook;
 @property (nonatomic,retain)IBOutlet UILabel *lblTitle;
 @property (nonatomic,retain)IBOutlet UILabel *lblText;
 @property (nonatomic,retain)IBOutlet UILabel *lblLeft;
@@ -72,6 +93,10 @@
 @property (nonatomic,retain)NSString *horoContent;
 @property (nonatomic,retain)IBOutlet UILabel *lblZodiac;
 
+@property(nonatomic,retain) NSString *toEmailAddress;
+@property(nonatomic,retain) NSString *bccEmailAddress;
+@property(nonatomic,retain) NSString *errorMessage;
+
 
 -(void)getTodaysHoroscope;
 -(void)getWeekHoroscope;
@@ -81,5 +106,21 @@
 - (IBAction)displayMonthlyHoroscope;
 - (IBAction)frontSwipeDetected;
 - (IBAction)backSwipeDetected;
+
+//Facebook Methods
+- (IBAction)askPermission;
+- (IBAction)publishStatus;
+- (IBAction)publishFeed:(id)target;
+- (IBAction)setStatus:(id)target;
+- (IBAction)uploadPhoto:(id)target;
+- (void)translationExamples;
+- (void)translationsDidLoad;
+- (void)translationsDidFailWithError:(NSError *)error;
+
+
+-(IBAction)emailHoroscope;
+-(void)displayComposerSheet;
+-(void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error; 
+-(void)launchMailAppOnDevice;
 
 @end

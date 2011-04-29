@@ -9,14 +9,26 @@
 #import "AstroDetailView.h"
 #import "TFHppleElement.h"
 #import "TFHpple.h"
+#import "FBConnect.h"
+#import "FBDialog.h"
 
 
+
+static NSString* kApiKey = @"128635573869073";
+
+// Enter either your API secret or a callback URL (as described in documentation):
+static NSString* kApiSecret = @"b34f22c35fe557d7f56aa79c71e065cf"; // @"<YOUR SECRET KEY>";
+static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 static int selView = 1;
 
 @implementation AstroDetailView
 @synthesize txtView,bmonth,bdate,plistDictionary,scrollView,horoContent,lblZodiac;
 @synthesize zodiacSign,todaysHoro,weeksHoro,monthsHoro,bgImage,tileImage,bgImageName,tileImageName;
 @synthesize lblTitle,lblText,lblRight,lblLeft;
+@synthesize toEmailAddress, bccEmailAddress,errorMessage;
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -31,7 +43,6 @@ static int selView = 1;
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
 	NSLog(@"initialize Resources.m");
 	BOOL success;
 	NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -53,8 +64,22 @@ static int selView = 1;
 		}
 	}
 	
-	plistDictionary = [[NSDictionary alloc] initWithContentsOfFile:filePath];
+	//Checking for Facebook Session
+	if (kGetSessionProxy) {
+		_session = [[FBSession sessionForApplication:kApiKey getSessionProxy:kGetSessionProxy
+											delegate:self] retain];
+	} else {
+		_session = [[FBSession sessionForApplication:kApiKey secret:kApiSecret delegate:self] retain];
+		NSLog(@"Loading Apikey=%@",_session.apiKey);
+		[self askPermission];
+	}
+	if (_session) {
+		[_session resume];
+	}
+	[_loginButton initButton]; 
+	_loginButton.style = FBLoginButtonStyleNormal;
 	
+	plistDictionary = [[NSDictionary alloc] initWithContentsOfFile:filePath];
 	
 	//Get Month and Day
 	todaysHoro = [[NSString alloc]init];
@@ -188,7 +213,6 @@ static int selView = 1;
 }
 
 
-
 -(void)getTodaysHoroscope{
 	
 	NSString *myTitle = [[[NSString alloc]init]autorelease];
@@ -269,8 +293,7 @@ static int selView = 1;
 
 -(void)getWeekHoroscope{
 		
-	//NSDate *firstDayOfWeek = (NSDate*)[[NSDate date] firstWeekday];
-	
+		
 	NSString *myTitle = [[[NSString alloc]init]autorelease];
 	NSData *htmlData = [[NSString stringWithContentsOfURL:[NSURL URLWithString: @"http://astrotwinsdaily.wordpress.com/feed/"]] dataUsingEncoding:NSUTF8StringEncoding];
 	TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:htmlData];
@@ -360,8 +383,7 @@ static int selView = 1;
 	[weeksview addSubview:txtView];
 	
 	[weeksview addSubview:barimage];
-	
-	
+		
 	lblLeft.text = @"Monthly";
 	[weeksview addSubview:lblLeft];
 	lblRight.text = @"Daily";
@@ -437,7 +459,9 @@ static int selView = 1;
 	NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
 	lblText.text = dateString;
 	[todaysview addSubview:lblText];
-	
+	[todaysview addSubview:_loginButton];
+	[todaysview addSubview:emailBtn];
+	[todaysview addSubview:_feedButton];
 	[self.view addSubview:todaysview];
 	txtView.text = self.todaysHoro;
 	[txtView reloadInputViews];
@@ -478,7 +502,279 @@ static int selView = 1;
 	[self.view addSubview:monthsview];
 	txtView.text=self.monthsHoro;
 	[txtView reloadInputViews];
-		 
+
+}
+
+#pragma mark FBDialogDelegate
+
+- (void)dialog:(FBDialog*)dialog didFailWithError:(NSError*)error {
+	
+	NSLog(@"Error(%d) %@", error.code,error.localizedDescription);
+}
+
+#pragma mark FBSessionDelegate
+
+- (void)session:(FBSession*)session didLogin:(FBUID)uid {
+	
+	_permissionButton.hidden = NO;
+	_feedButton.hidden       = NO;
+	_statusButton.hidden     = NO;
+	_photoButton.hidden      = NO;
+	
+	NSString* fql = [NSString stringWithFormat:
+					 @"select uid,name from user where uid == %lld", session.uid];
+	NSLog(@"FQL=%@",fql);
+	NSDictionary* params = [NSDictionary dictionaryWithObject:fql forKey:@"query"];
+	[[FBRequest requestWithDelegate:self] call:@"facebook.fql.query" params:params];
+	[self askPermission];
+	[self translationExamples];
+	
+}
+
+- (void)sessionDidNotLogin:(FBSession*)session {
+	NSLog(@"Cancel Login");
+}
+
+- (void)sessionDidLogout:(FBSession*)session {
+	NSLog(@"Disconnected");
+	_permissionButton.hidden = NO;
+	_feedButton.hidden       = YES;
+	_statusButton.hidden     = NO;
+	_photoButton.hidden      = NO;
+}
+
+#pragma mark FBRequestDelegate
+
+- (void)request:(FBRequest*)request didLoad:(id)result {
+	if ([request.method isEqualToString:@"facebook.fql.query"]) {
+		NSArray* users = result;
+		NSDictionary* user = [users objectAtIndex:0];
+		NSString* name = [user objectForKey:@"name"];
+		NSLog(@"Logged in as %@", name);
+	} else if ([request.method isEqualToString:@"facebook.users.setStatus"]) {
+		NSString* success = result;
+		if ([success isEqualToString:@"1"]) {
+			NSLog(@"Status successfully set");
+			
+		} else {
+			 
+			NSLog(@"Problem setting status");
+		}
+	} else if ([request.method isEqualToString:@"facebook.photos.upload"]) {
+		NSDictionary* photoInfo = result;
+		NSString* pid = [photoInfo objectForKey:@"pid"];
+		
+		NSLog(@"Uploaded with pid %@", pid);
+	}
+}
+
+- (void)request:(FBRequest*)request didFailWithError:(NSError*)error {
+	NSLog(@"Error(%d) %@", error.code,error.localizedDescription);
+}
+
+
+- (void)askPermission{
+	FBPermissionDialog* dialog = [[[FBPermissionDialog alloc] init] autorelease];
+	dialog.delegate = self;
+	dialog.permission = @"status_update";
+	[dialog show];
+	NSLog(@"ASKPERMISSION");
+}
+
+- (void)publishFeed:(id)target {
+	FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
+	dialog.delegate = self;
+	dialog.userMessagePrompt = @"Example prompt";
+	dialog.attachment = @"{\"name\":\"Facebook Connect for iPhone\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone\",\"caption\":\"Caption\",\"description\":\"Description\",\"media\":[{\"type\":\"image\",\"src\":\"http://img40.yfrog.com/img40/5914/iphoneconnectbtn.jpg\",\"href\":\"http://developers.facebook.com/connect.php?tab=iphone/\"}],\"properties\":{\"another link\":{\"text\":\"Facebook home page\",\"href\":\"http://www.facebook.com\"}}}";
+	// replace this with a friend's UID
+	// dialog.targetId = @"999999";
+	[dialog show];
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)publishStatus{
+
+	if (_session.sessionKey) {
+		
+	
+	NSString *statusString = [[NSString alloc]initWithString:self.txtView.text];
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+							statusString, @"status",
+							@"true", @"status_includes_verb",
+							nil];
+	[[FBRequest requestWithDelegate:self] call:@"facebook.users.setStatus" params:params];
+	}else {
+		UIAlertView *alert = [[[UIAlertView alloc]initWithTitle:@"Session Expires" message:@"Please login again" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil]autorelease];
+		[alert show];
+	}
+
+	
+}
+
+
+- (void)setStatus:(id)target {
+	NSString *statusString = @"Testing iPhone Connect SDK";
+	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+							statusString, @"status",
+							@"true", @"status_includes_verb",
+							nil];
+	[[FBRequest requestWithDelegate:self] call:@"facebook.users.setStatus" params:params];
+}
+
+- (void)uploadPhoto:(id)target {
+	NSString *path = @"http://www.facebook.com/images/devsite/iphone_connect_btn.jpg";
+	NSURL    *url  = [NSURL URLWithString:path];
+	NSData   *data = [NSData dataWithContentsOfURL:url];
+	UIImage  *img  = [[UIImage alloc] initWithData:data];
+	
+	NSDictionary *params = nil;
+	[[FBRequest requestWithDelegate:self] call:@"facebook.photos.upload" params:params dataParam:(NSData*)img];
+}
+
+// FB Translation Framework examples
+
+- (void)uploadSomeStrings {
+	NSError *error = nil;
+	int result;
+	
+	NSString *newString =
+    [NSString stringWithFormat:@"String to translate from iPhone SDK, %d.",
+     rand() % 10000];
+	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:10];
+	[dict setObject:@"comment" forKey:newString];
+	
+	result = [FBNativeStringUploader uploadStringSet:dict error:&error];
+}
+
+/*
+ * A list of supported locales can be found at:
+ * http://www.facebook.com/translations/AppleToFbLocales.plist
+ * Or for a programmatic check, see [FBTranslationsLoader supportsLocale:].
+ */
+- (void)getSomeTranslations {
+	NSString *failure = @"Supported locale assertion failed";
+	NSAssert2([FBTranslationsLoader supportsLocale:@"es_ES"] == 1,
+			  failure,
+			  1,
+			  [FBTranslationsLoader supportsLocale:@"es_ES"]);
+	
+	NSAssert2([FBTranslationsLoader supportsLocale:@"xx_YY"] == 0,
+			  failure,
+			  0,
+			  [FBTranslationsLoader supportsLocale:@"xx_YY"]);
+	
+	
+	[FBTranslationsLoader loadTranslationsForLocale:@"es_ES" delegate:self];
+}
+
+- (void)translationExamples {
+	[self uploadSomeStrings];
+	
+	[self getSomeTranslations];
+}
+
+- (void)assertExpectedTranslation:(NSString *)nativeString
+                      description:(NSString *)description
+              expectedTranslation:(NSString *)expectedTranslation {
+	NSString *translationMismatch =
+	@"Translations mismatch. Expected <%@>, got <%@>.";
+	
+	NSAssert2(
+			  [FBLocalizedString(nativeString, description) 
+			   isEqualToString:expectedTranslation],
+			  translationMismatch,
+			  expectedTranslation,
+			  FBLocalizedString(nativeString, description)
+			  );  
+}
+
+- (void)translationsDidLoad {
+	NSString *dummy = FBLocalizedString(@"Test String 6", @"Sample description");
+	NSString *dummy2 =
+    FBLocalizedString(@"Test String 5", @"Test of \"quotes.\", \n, \t.");
+	
+		
+}
+
+- (void)translationsDidFailWithError:(NSError *)error {
+	NSAssert(false, @"Loading translations errored.");
+}
+
+-(IBAction)emailHoroscope{
+		
+	Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
+	if (mailClass != nil)
+	{
+		// We must always check whether the current device is configured for sending emails
+		if ([mailClass canSendMail])
+		{
+			[self displayComposerSheet];
+		}
+		else
+		{
+			[self launchMailAppOnDevice];
+		}
+	}
+	
+}
+#pragma mark -
+#pragma mark Compose Mail
+
+// Displays an email composition interface inside the application. Populates all the Mail fields. 
+-(void)displayComposerSheet 
+{
+	MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+	picker.mailComposeDelegate = self;
+	
+	[picker setSubject:@"My Horoscope!"];
+	
+	// Fill out the email body text
+	NSString *emailBody = self.txtView.text;
+	[picker setMessageBody:emailBody isHTML:NO];
+	
+	[self presentModalViewController:picker animated:YES];
+    [picker release];
+}
+
+
+// Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error 
+{	
+	message.hidden = NO;
+	// Notifies users about errors associated with the interface
+	switch (result)
+	{
+		case MFMailComposeResultCancelled:
+			message.text = @"Result: canceled";
+			break;
+		case MFMailComposeResultSaved:
+			message.text = @"Result: saved";
+			break;
+		case MFMailComposeResultSent:
+			message.text = @"Result: sent";
+			break;
+		case MFMailComposeResultFailed:
+			message.text = @"Result: failed";
+			break;
+		default:
+			message.text = @"Result: not sent";
+			break;
+	}
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+
+#pragma mark -
+#pragma mark Workaround
+
+-(void)launchMailAppOnDevice
+{
+	NSString *recipients = @"mailto:first@example.com?cc=second@example.com,third@example.com&subject=Hello from California!";
+	NSString *body = @"&body=It is raining in sunny California!";
+	
+	NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
+	email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
 }
 
 
@@ -496,6 +792,7 @@ static int selView = 1;
 
 
 - (void)dealloc {
+	[_session logout];
 	[todaysHoro release];
 	[scrollView release];
 	[horoContent release];

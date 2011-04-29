@@ -160,10 +160,10 @@
 	[plistDict release];
 	AstrostyleAppAppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
 	//[appDelegate.viewController ]
-	AstroDetailView *detailView = [[[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil] autorelease];
-	detailView.bdate = selDate;
-	detailView.bmonth = selMonth;
-	[appDelegate.viewController presentModalViewController:detailView animated:YES];
+	//AstroDetailView *detailView = [[[AstroDetailView alloc]initWithNibName:@"AstroDetailView" bundle:nil] autorelease];
+	//detailView.bdate = selDate;
+	//detailView.bmonth = selMonth;
+	[appDelegate.viewController presentModalViewController:appDelegate.tabBarController animated:YES];
 }
 
 

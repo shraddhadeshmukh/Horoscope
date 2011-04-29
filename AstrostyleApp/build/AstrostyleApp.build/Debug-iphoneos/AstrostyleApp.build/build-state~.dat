@@ -1,0 +1,1517 @@
+TAstrostyleApp
+v7
+r0
+t325755542.604095
+cCheck dependencies
+cCpResource build/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+cCopyPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Store.plist Store.plist
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png Cancer-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png Cancer-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png Capricorn-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png Capricorn-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png Gemini-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png Gemini-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png Aquarius-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png Aquarius-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png Aries-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png Leo-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png Leo-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png Libra-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png Libra-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png Pisces-Horo-bkrd.png
+cCopyPNGFile "/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png" "Pisces-Horo-tile copy.png"
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png Sagittarius-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png Sagittarius-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png Scorpio-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png Scorpio-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png Taurus-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png Taurus-Horo-tile.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png Virgo-Horo-bkrd.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png Virgo-Horo-tile.png
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signView.png 12signView.png
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png aastrobarImage.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png AstroTwinsViewImage.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png AstrotwinsImage.png
+cCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png loveviewImage.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signs.png 12signs.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/share.png share.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/love.png love.png
+cCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png astro-twin.png
+cProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/Twelevesignview.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrotwinsView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/LoveView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp normal armv6
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/Twelevesignview.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrotwinsView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/LoveView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp normal armv7
+cCreateUniversalBinary /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp normal "armv6 armv7"
+cGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp
+cProcessProductPackaging "/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision" /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision
+cTouch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent
+cCodeSign /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004CC10E340000000000002401
+t1287720500
+s9217
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/parser.h
+c000000004CC10E3400000000000098A9
+t1287720500
+s39081
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/tree.h
+c000000004CC10E340000000000008F14
+t1287720500
+s36628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004CC10E340000000000003F47
+t1287720500
+s16199
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004CC10E340000000000004BF8
+t1287720500
+s19448
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libxml2.2.7.3.dylib
+c000000004CC10E3500000000001E1430
+t1287720501
+s1971248
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/12signView.png
+c000000004DB940CA00000000000A14D2
+t1303986378
+s660690
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/12signs.png
+c000000004DBA6176000000000000039B
+t1304060278
+s923
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png
+c000000004DB856E600000000000F68D8
+t1303926502
+s1009880
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png
+c000000004DB856E60000000000013F3B
+t1303926502
+s81723
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png
+c000000004DB856E6000000000010FED0
+t1303926502
+s1113808
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstroTwinsViewImage.png
+c000000004DB9461D0000000000033F77
+t1303987741
+s212855
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+c000000004DB559840000000000005C72
+t1303730564
+s23666
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch
+c000000004DB532F000000000000000C3
+t1303720688
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/AstrotwinsImage.png
+c000000004DB94D3C0000000000051255
+t1303989564
+s332373
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png
+c000000004DB856E60000000000108720
+t1303926502
+s1083168
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png
+c000000004DB856E600000000000166BB
+t1303926502
+s91835
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png
+c000000004DB856E60000000000113E89
+t1303926502
+s1130121
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png
+c000000004DB856E6000000000001609E
+t1303926502
+s90270
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.h
+c000000004DB985210000000000000A6D
+t1304003873
+s2669
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m
+c000000004DB985600000000000004405
+t1304003936
+s17413
+i"AstroDetailView.h"
+i"TFHppleElement.h"
+i"TFHpple.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+c000000004DB985DB0000000000009CD6
+t1304004059
+s40150
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.h
+c000000004DB934C00000000000000391
+t1303983296
+s913
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m
+c000000004DB93A6000000000000010C5
+t1303984736
+s4293
+i"AstrostyleAppAppDelegate.h"
+i"AstrostyleAppViewController.h"
+i"AstroDetailView.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.h
+c000000004DB68549000000000000029F
+t1303807305
+s671
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m
+c000000004DBA698400000000000015D8
+t1304062340
+s5592
+i"AstrostyleAppViewController.h"
+i"AstroDetailView.h"
+i"AstrostyleAppAppDelegate.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.h
+c000000004DB944EE00000000000000E7
+t1303987438
+s231
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m
+c000000004DB944EE000000000000059D
+t1303987438
+s1437
+i"AstrotwinsView.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib
+c000000004DB94D9500000000000049CF
+t1303989653
+s18895
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.h
+c000000004DB9769F00000000000000DB
+t1304000159
+s219
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m
+c000000004DB9769F000000000000058B
+t1304000159
+s1419
+i"LoveView.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib
+c000000004DB978E70000000000004734
+t1304000743
+s18228
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.h
+c000000004DB7FD2A000000000000068C
+t1303903530
+s1676
+i<Foundation/Foundation.h>
+i"TFHppleElement.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m
+c000000004DB7FD2B00000000000009C9
+t1303903531
+s2505
+i"TFHpple.h"
+i"XPathQuery.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.h
+c000000004DB7B4EB000000000000074A
+t1303885035
+s1866
+i<Foundation/Foundation.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m
+c000000004DB8076300000000000009FF
+t1303906147
+s2559
+i"TFHppleElement.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.h
+c000000004DB93FB500000000000000E9
+t1303986101
+s233
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m
+c000000004DB93FB500000000000005A0
+t1303986101
+s1440
+i"Twelevesignview.h"
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib
+c000000004DB94A2B000000000000473E
+t1303988779
+s18238
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.h
+c000000004DB7FDB70000000000000121
+t1303903671
+s289
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m
+c000000004DB7FDF600000000000013AE
+t1303903734
+s5038
+i"XPathQuery.h"
+i<libxml/tree.h>
+i<libxml/parser.h>
+i<libxml/HTMLparser.h>
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png
+c000000004DB856E600000000000F44F9
+t1303926502
+s1000697
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png
+c000000004DB856E60000000000014A93
+t1303926502
+s84627
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png
+c000000004DB856E600000000001058CB
+t1303926502
+s1071307
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png
+c000000004DB856E60000000000014AA6
+t1303926502
+s84646
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png
+c000000004DB856E600000000000F3030
+t1303926502
+s995376
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png
+c000000004DB856E600000000000139EB
+t1303926502
+s80363
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+c000000004DBA6AD0000000000000ADDF
+t1304062672
+s44511
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png
+c000000004DB856E60000000000125089
+t1303926502
+s1200265
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png
+c000000004DB856E600000000000148B9
+t1303926502
+s84153
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png
+c000000004DB856E600000000000E2CAE
+t1303926502
+s928942
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png
+c000000004DB856E60000000000012A27
+t1303926502
+s76327
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png
+c000000004DB856E6000000000010C36B
+t1303926502
+s1098603
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png
+c000000004DB856E6000000000001490E
+t1303926502
+s84238
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Store.plist
+c000000004DB5A6B70000000000000104
+t1303750327
+s260
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png
+c000000004DB856E600000000000F5153
+t1303926502
+s1003859
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png
+c000000004DB856E60000000000011EC2
+t1303926502
+s73410
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png
+c000000004DB856E600000000000FBA1D
+t1303926502
+s1030685
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png
+c000000004DB856E60000000000013E19
+t1303926502
+s81433
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/aastrobarImage.png
+c000000004DB945B300000000000023C8
+t1303987635
+s9160
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/astro-twin.png
+c000000004DBA619A00000000000004B7
+t1304060314
+s1207
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent
+t1304062741
+s432
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstroDetailView.o
+t1304062737
+s102920
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp
+t1304062739
+s76848
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp.LinkFileList
+c000000004DBA6AEA0000000000000594
+t1304062698
+s1428
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppAppDelegate.o
+t1304062737
+s66852
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppViewController.o
+t1304062737
+s66728
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrotwinsView.o
+t1304062738
+s37480
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/LoveView.o
+t1304062738
+s37376
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHpple.o
+t1304062737
+s12868
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHppleElement.o
+t1304062737
+s12432
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/Twelevesignview.o
+t1304062738
+s37496
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/XPathQuery.o
+t1304062738
+s20628
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/main.o
+t1304062737
+s6456
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstroDetailView.o
+t1304062739
+s101132
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp
+t1304062740
+s72752
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp.LinkFileList
+c000000004DBA6AEA0000000000000594
+t1304062698
+s1428
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppAppDelegate.o
+t1304062739
+s66528
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppViewController.o
+t1304062739
+s66084
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrotwinsView.o
+t1304062740
+s37452
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/LoveView.o
+t1304062740
+s37348
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHpple.o
+t1304062739
+s12748
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHppleElement.o
+t1304062740
+s12400
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/Twelevesignview.o
+t1304062740
+s37468
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/XPathQuery.o
+t1304062740
+s20364
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/main.o
+t1304062739
+s6440
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+t1304062742
+s1632
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app.dSYM
+t1304062740
+s102
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signView.png
+t1304062726
+s645941
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signs.png
+t1304062728
+s1520
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png
+t1304062710
+s1105019
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png
+t1304062709
+s75146
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png
+t1304062712
+s1196726
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroDetailView.nib
+t1304062702
+s3555
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png
+t1304062727
+s187791
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp
+t1304062740
+s154672
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleAppViewController.nib
+t1304062701
+s1729
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png
+t1304062727
+s368827
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsView.nib
+t1304062727
+s1188
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png
+t1304062706
+s1166128
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png
+t1304062703
+s83709
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png
+t1304062706
+s1239378
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png
+t1304062706
+s83166
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png
+t1304062709
+s1131894
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png
+t1304062706
+s84385
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Info.plist
+t1304062698
+s805
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png
+t1304062714
+s1157821
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png
+t1304062712
+s79399
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png
+t1304062716
+s1069199
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png
+t1304062714
+s73229
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/LoveView.nib
+t1304062728
+s1130
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/MainWindow.nib
+t1304062701
+s2282
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png
+t1304062717
+s1343126
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png
+t1304062717
+s81278
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/PkgInfo
+t1304062698
+s8
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist
+t1304062698
+s485
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png
+t1304062721
+s984891
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png
+t1304062717
+s68715
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png
+t1304062720
+s1218126
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png
+t1304062720
+s80727
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Store.plist
+t1304062702
+s60
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png
+t1304062724
+s1093986
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png
+t1304062721
+s77628
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Twelevesignview.nib
+t1304062724
+s1127
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png
+t1304062725
+s1130772
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png
+t1304062724
+s77075
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png
+t1304062726
+s11801
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png
+t1304062728
+s2462
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision
+t1304062741
+s7539
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/love.png
+t1304062728
+s978
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png
+t1304062728
+s190451
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/share.png
+t1304062728
+s1437
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/love.png
+c000000004DBA61870000000000000289
+t1304060295
+s649
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/loveviewImage.png
+c000000004DB978980000000000032B4B
+t1304000664
+s207691
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/main.m
+c000000004DB532F00000000000000170
+t1303720688
+s368
+i<UIKit/UIKit.h>
+
+N/Users/siplmacmini/Documents/AstrostyleApp1/share.png
+c000000004DBA61AA0000000000000372
+t1304060330
+s882
+
+N/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision
+c000000004DA6FAA50000000000001D73
+t1302788773
+s7539
+
+N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch.gch
+t1304062737
+s10446552
+
+N/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch.gch
+t1304062736
+s9983704
+
+NAstrostyleApp-Info.plist
+c000000004DB532F0000000000000038D
+t1303720688
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325755498#325755498#0(0"0(0#1#0"8620831776#0"0#
+
+CCodeSign /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+s325755541.215759
+e325755542.604052
+r1
+xCodeSign
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/AstrostyleApp.app325755541#325755542#0(0"0(0#0#82"/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app8678852928#697"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Sunil Rawat (95VXN5Y9J5)" --resource-rules=/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist --entitlements /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.614995
+e325755538.009087
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstroDetailView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:195: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:234: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:275: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+lSLF07#2@77"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325755537#325755538#0(1207"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:195: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:234: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:275: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)3(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755537#124#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#195#0#195#0#33"'*' is deprecated (declared at *)0(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755537#527#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#234#0#234#0#33"'*' is deprecated (declared at *)0(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755537#928#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#275#0#275#0#33"'*' is deprecated (declared at *)0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m8673194752#2120"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstroDetailView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.136310
+e325755537.614880
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppAppDelegate.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m325755537#325755537#0(0"0(0#0#78"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m8625702912#2138"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppAppDelegate.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.605381
+e325755537.766807
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppViewController.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m325755537#325755537#0(0"0(0#0#81"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m8677863232#2144"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleAppViewController.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrotwinsView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755538.388747
+e325755538.523097
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrotwinsView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m325755538#325755538#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m8677602016#2118"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrotwinsView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/LoveView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755538.523209
+e325755538.628901
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/LoveView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m325755538#325755538#0(0"0(0#0#62"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m8672324448#2106"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/LoveView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.766916
+e325755537.867905
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHpple.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m325755537#325755537#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m8668025216#2104"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHpple.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.868014
+e325755538.008668
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHppleElement.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m325755537#325755538#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m8648637632#2118"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/TFHppleElement.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/Twelevesignview.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755538.283274
+e325755538.388632
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/Twelevesignview.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m325755538#325755538#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m8671833088#2120"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/Twelevesignview.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755538.009163
+e325755538.283162
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/XPathQuery.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m325755538#325755538#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m8675476768#2110"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/XPathQuery.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755537.135057
+e325755537.605271
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/main.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/siplmacmini/Documents/AstrostyleApp1/main.m325755537#325755537#0(0"0(0#0#50"/Users/siplmacmini/Documents/AstrostyleApp1/main.m8646954912#2090"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/main.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstroDetailView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.643103
+e325755539.878304
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstroDetailView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:195: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:234: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':
+o/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:275: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+lSLF07#2@77"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325755539#325755539#0(1207"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getTodaysHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:195: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getMonthsHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:234: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m: In function '-[AstroDetailView getWeekHoroscope]':/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m:275: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)3(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755539#124#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#195#0#195#0#33"'*' is deprecated (declared at *)0(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755539#527#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#234#0#234#0#33"'*' is deprecated (declared at *)0(22@194"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)325755539#928#279#0(6@69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m325696736#275#0#275#0#33"'*' is deprecated (declared at *)0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m8678238624#2120"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstroDetailView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppAppDelegate.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.381169
+e325755539.518346
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppAppDelegate.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m325755539#325755539#0(0"0(0#0#78"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m8674204448#2138"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppAppDelegate.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppAppDelegate.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppViewController.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.518578
+e325755539.643003
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppViewController.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m325755539#325755539#0(0"0(0#0#81"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m8609314880#2144"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrostyleAppViewController.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleAppViewController.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrotwinsView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755540.280685
+e325755540.367116
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrotwinsView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m325755540#325755540#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m8671240576#2118"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrotwinsView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/LoveView.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755540.367226
+e325755540.456104
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/LoveView.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m325755540#325755540#0(0"0(0#0#62"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m8674197920#2106"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/LoveView.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHpple.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.878413
+e325755539.957150
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHpple.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m325755539#325755539#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m8671691936#2104"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHpple.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHpple.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHppleElement.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.957261
+e325755540.050653
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHppleElement.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m325755539#325755540#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m8651016640#2118"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/TFHppleElement.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/TFHppleElement.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/Twelevesignview.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755540.205113
+e325755540.280578
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/Twelevesignview.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m325755540#325755540#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m8672909376#2120"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/Twelevesignview.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/XPathQuery.o /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755540.050754
+e325755540.204999
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/XPathQuery.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m325755540#325755540#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m8682498304#2110"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/Classes/XPathQuery.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/XPathQuery.o0#
+
+CCompileC build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/main.o /Users/siplmacmini/Documents/AstrostyleApp1/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755539.278259
+e325755539.381061
+r1
+xCompileC
+xbuild/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/main.o
+x/Users/siplmacmini/Documents/AstrostyleApp1/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/siplmacmini/Documents/AstrostyleApp1/main.m325755539#325755539#0(0"0(0#0#50"/Users/siplmacmini/Documents/AstrostyleApp1/main.m8677837792#2090"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -include /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch -c /Users/siplmacmini/Documents/AstrostyleApp1/main.m -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+s325755498.668597
+e325755501.904942
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib
+lSLF07#2@42"CompileXIB AstrostyleAppViewController.xib325755498#325755501#0(0"0(0#0#75"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib8676656192#597"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleAppViewController.nib /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleAppViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+s325755501.985078
+e325755503.043855
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib
+lSLF07#2@38"CompileXIB Classes/AstroDetailView.xib325755501#325755503#0(0"0(0#0#71"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib8675520384#581"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroDetailView.nib /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstroDetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib
+s325755525.893522
+e325755527.603159
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib
+lSLF07#2@37"CompileXIB Classes/AstrotwinsView.xib325755525#325755527#0(0"0(0#0#70"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib8625019584#579"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsView.nib /Users/siplmacmini/Documents/AstrostyleApp1/Classes/AstrotwinsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib
+s325755527.603299
+e325755528.388355
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib
+lSLF07#2@31"CompileXIB Classes/LoveView.xib325755527#325755528#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib8615785632#567"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/LoveView.nib /Users/siplmacmini/Documents/AstrostyleApp1/Classes/LoveView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib
+s325755524.295019
+e325755524.911294
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib
+lSLF07#2@38"CompileXIB Classes/Twelevesignview.xib325755524#325755524#0(0"0(0#0#71"/Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib8639040864#581"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Twelevesignview.nib /Users/siplmacmini/Documents/AstrostyleApp1/Classes/Twelevesignview.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+s325755498.667638
+e325755501.984981
+r1
+xCompileXIB
+x/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325755498#325755501#0(0"0(0#0#58"/Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib8678178464#563"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/MainWindow.nib /Users/siplmacmini/Documents/AstrostyleApp1/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png" "Pisces-Horo-tile copy.png"
+s325755516.885991
+e325755517.115641
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png
+xPisces-Horo-tile copy.png
+lSLF07#2@106"CopyPNGFile "build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png" "Pisces-Horo-tile copy.png"325755516#325755517#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png8609762816#615"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-tile copy.png" "/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-tile copy.png"0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signView.png 12signView.png
+s325755524.911395
+e325755526.614614
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signView.png
+x12signView.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/12signView.png 12signView.png325755524#325755526#0(0"0(0#0#58"/Users/siplmacmini/Documents/AstrostyleApp1/12signView.png8631717248#589"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/12signView.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signView.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signs.png 12signs.png
+s325755528.388457
+e325755528.417604
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signs.png
+x12signs.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/12signs.png 12signs.png325755528#325755528#0(0"0(0#0#55"/Users/siplmacmini/Documents/AstrostyleApp1/12signs.png8677775520#583"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/12signs.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/12signs.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png Aquarius-Horo-bkrd.png
+s325755506.694523
+e325755510.538940
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png
+xAquarius-Horo-bkrd.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png Aquarius-Horo-bkrd.png325755506#325755510#0(0"0(0#0#66"/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png8647249792#605"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png Aquarius-Horo-tile.png
+s325755509.494159
+e325755509.735911
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png
+xAquarius-Horo-tile.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png Aquarius-Horo-tile.png325755509#325755509#0(0"0(0#0#66"/Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png8640667264#605"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Aquarius-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aquarius-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png Aries-Horo-bkrd.png
+s325755509.736036
+e325755512.276566
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png
+xAries-Horo-bkrd.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png Aries-Horo-bkrd.png325755509#325755512#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png8628125344#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Aries-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Aries-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png AstroTwinsViewImage.png
+s325755526.666015
+e325755527.101773
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png
+xAstroTwinsViewImage.png
+lSLF07#2@98"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png AstroTwinsViewImage.png325755526#325755527#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp1/AstroTwinsViewImage.png8620660832#607"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/AstroTwinsViewImage.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstroTwinsViewImage.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png AstrotwinsImage.png
+s325755527.101880
+e325755527.733931
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png
+xAstrotwinsImage.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png AstrotwinsImage.png325755527#325755527#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/AstrotwinsImage.png8618682240#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/AstrotwinsImage.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrotwinsImage.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png Cancer-Horo-bkrd.png
+s325755502.707707
+e325755506.536301
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png
+xCancer-Horo-bkrd.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png Cancer-Horo-bkrd.png325755502#325755506#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png8680295712#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png Cancer-Horo-tile.png
+s325755503.043967
+e325755503.430593
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png
+xCancer-Horo-tile.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png Cancer-Horo-tile.png325755503#325755503#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png8677193440#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Cancer-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Cancer-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png Capricorn-Horo-bkrd.png
+s325755503.430727
+e325755506.109020
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png
+xCapricorn-Horo-bkrd.png
+lSLF07#2@98"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png Capricorn-Horo-bkrd.png325755503#325755506#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png8675079744#607"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png Capricorn-Horo-tile.png
+s325755506.109173
+e325755506.305897
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png
+xCapricorn-Horo-tile.png
+lSLF07#2@98"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png Capricorn-Horo-tile.png325755506#325755506#0(0"0(0#0#67"/Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png8674276320#607"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Capricorn-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Capricorn-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png Gemini-Horo-bkrd.png
+s325755506.306010
+e325755509.494014
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png
+xGemini-Horo-bkrd.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png Gemini-Horo-bkrd.png325755506#325755509#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png8673992384#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png Gemini-Horo-tile.png
+s325755506.536398
+e325755506.694418
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png
+xGemini-Horo-tile.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png Gemini-Horo-tile.png325755506#325755506#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png8668795168#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Gemini-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Gemini-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png Leo-Horo-bkrd.png
+s325755510.539038
+e325755514.060435
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png
+xLeo-Horo-bkrd.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png Leo-Horo-bkrd.png325755510#325755514#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png8623804960#595"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png Leo-Horo-tile.png
+s325755512.276702
+e325755512.473987
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png
+xLeo-Horo-tile.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png Leo-Horo-tile.png325755512#325755512#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png8619593440#595"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Leo-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Leo-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png Libra-Horo-bkrd.png
+s325755512.474088
+e325755516.885848
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png
+xLibra-Horo-bkrd.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png Libra-Horo-bkrd.png325755512#325755516#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png8618957152#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png Libra-Horo-tile.png
+s325755514.060581
+e325755514.320601
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png
+xLibra-Horo-tile.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png Libra-Horo-tile.png325755514#325755514#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png8617701952#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Libra-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Libra-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png Pisces-Horo-bkrd.png
+s325755514.320704
+e325755517.093500
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png
+xPisces-Horo-bkrd.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png Pisces-Horo-bkrd.png325755514#325755517#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png8615560416#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Pisces-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Pisces-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png Sagittarius-Horo-bkrd.png
+s325755517.093609
+e325755521.646739
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png
+xSagittarius-Horo-bkrd.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png Sagittarius-Horo-bkrd.png325755517#325755521#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png8683201696#611"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png Sagittarius-Horo-tile.png
+s325755517.115743
+e325755517.390947
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png
+xSagittarius-Horo-tile.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png Sagittarius-Horo-tile.png325755517#325755517#0(0"0(0#0#69"/Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png8678276256#611"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Sagittarius-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Sagittarius-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png Scorpio-Horo-bkrd.png
+s325755517.391171
+e325755520.530466
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png
+xScorpio-Horo-bkrd.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png Scorpio-Horo-bkrd.png325755517#325755520#0(0"0(0#0#65"/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png8676825024#603"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png Scorpio-Horo-tile.png
+s325755520.530623
+e325755520.732221
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png
+xScorpio-Horo-tile.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png Scorpio-Horo-tile.png325755520#325755520#0(0"0(0#0#65"/Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png8674446624#603"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Scorpio-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Scorpio-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png Taurus-Horo-bkrd.png
+s325755520.732324
+e325755524.048318
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png
+xTaurus-Horo-bkrd.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png Taurus-Horo-bkrd.png325755520#325755524#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png8674173280#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png Taurus-Horo-tile.png
+s325755521.646837
+e325755521.838612
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png
+xTaurus-Horo-tile.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png Taurus-Horo-tile.png325755521#325755521#0(0"0(0#0#64"/Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png8672181216#601"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Taurus-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Taurus-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png Virgo-Horo-bkrd.png
+s325755521.838712
+e325755525.893394
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png
+xVirgo-Horo-bkrd.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png Virgo-Horo-bkrd.png325755521#325755525#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png8652010048#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-bkrd.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-bkrd.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png Virgo-Horo-tile.png
+s325755524.048482
+e325755524.294896
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png
+xVirgo-Horo-tile.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png Virgo-Horo-tile.png325755524#325755524#0(0"0(0#0#63"/Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png8646027616#599"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/Virgo-Horo-tile.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Virgo-Horo-tile.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png aastrobarImage.png
+s325755526.614741
+e325755526.665902
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png
+xaastrobarImage.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png aastrobarImage.png325755526#325755526#0(0"0(0#0#62"/Users/siplmacmini/Documents/AstrostyleApp1/aastrobarImage.png8622036928#597"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/aastrobarImage.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/aastrobarImage.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png astro-twin.png
+s325755528.474312
+e325755528.502955
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png
+xastro-twin.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png astro-twin.png325755528#325755528#0(0"0(0#0#58"/Users/siplmacmini/Documents/AstrostyleApp1/astro-twin.png8673933024#589"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/astro-twin.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/astro-twin.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/love.png love.png
+s325755528.447129
+e325755528.474208
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/love.png
+xlove.png
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/love.png love.png325755528#325755528#0(0"0(0#0#52"/Users/siplmacmini/Documents/AstrostyleApp1/love.png8674294848#577"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/love.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/love.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png loveviewImage.png
+s325755527.734044
+e325755528.563945
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png
+xloveviewImage.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png loveviewImage.png325755527#325755528#0(0"0(0#0#61"/Users/siplmacmini/Documents/AstrostyleApp1/loveviewImage.png8613631200#595"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/loveviewImage.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/loveviewImage.png0#
+
+CCopyPNGFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/share.png share.png
+s325755528.417695
+e325755528.447025
+r1
+xCopyPNGFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/share.png
+xshare.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/AstrostyleApp.app/share.png share.png325755528#325755528#0(0"0(0#0#53"/Users/siplmacmini/Documents/AstrostyleApp1/share.png8675255744#579"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/siplmacmini/Documents/AstrostyleApp1/share.png /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/share.png0#
+
+CCopyPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Store.plist Store.plist
+s325755501.905110
+e325755502.707610
+r1
+xCopyPlistFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Store.plist
+xStore.plist
+lSLF07#2@16"Copy Store.plist325755501#325755502#0(0"0(0#0#55"/Users/siplmacmini/Documents/AstrostyleApp1/Store.plist8685506816#388"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Store.plist --outdir /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app0#
+
+CCpResource build/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s325755498.555900
+e325755498.667573
+r1
+xCpResource
+xbuild/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist325755498#325755498#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8607388320#510"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app0#
+
+CCreateUniversalBinary /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp normal "armv6 armv7"
+s325755540.683721
+e325755540.752291
+r1
+xCreateUniversalBinary
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp normal "armv6 armv7"325755540#325755540#0(0"0(0#0#55"/Users/siplmacmini/Documents/AstrostyleApp1/armv6 armv78676026048#586"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp -output /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp0#
+
+CGenerateDSYMFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app.dSYM /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp
+s325755540.752403
+e325755540.982504
+r1
+xGenerateDSYMFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app.dSYM
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/AstrostyleApp.app.dSYM build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp325755540#325755540#0(0"0(0#0#96"/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp8673447616#395"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/AstrostyleApp -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app.dSYM0#
+
+CLd /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp normal armv6
+s325755538.629004
+e325755539.278153
+r1
+xLd
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp
+xnormal
+xarmv6
+lSLF07#2@144"Link /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp325755538#325755539#0(0"0(0#0#0"8669297088#940"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -filelist /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp.LinkFileList -dead_strip -lxml2 -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv6/AstrostyleApp0#
+
+CLd /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp normal armv7
+s325755540.456206
+e325755540.683613
+r1
+xLd
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp
+xnormal
+xarmv7
+lSLF07#2@144"Link /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp325755540#325755540#0(0"0(0#0#0"8672017696#940"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -filelist /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp.LinkFileList -dead_strip -lxml2 -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/Objects-normal/armv7/AstrostyleApp0#
+
+CProcessInfoPlistFile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Info.plist AstrostyleApp-Info.plist
+s325755498.580634
+e325755498.667071
+r1
+xProcessInfoPlistFile
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Info.plist
+xAstrostyleApp-Info.plist
+lSLF07#2@32"Process AstrostyleApp-Info.plist325755498#325755498#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp-Info.plist8685486656#606"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AstrostyleApp-Info.plist -genpkginfo /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/ResourceRules.plist -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/Info.plist0#
+
+CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325755528.565106
+e325755537.134937
+r1
+xProcessPCH
+x/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch.gch
+xAstrostyleApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325755528#325755537#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch8655586080#1977"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv7 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-bfhpwfznwyrxziczmwjxvkcncjgr/AstrostyleApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch.gch AstrostyleApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325755528.564088
+e325755536.475984
+r1
+xProcessPCH
+x/var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch.gch
+xAstrostyleApp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile AstrostyleApp_Prefix.pch325755528#325755536#0(0"0(0#0#68"/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch8667440672#1977"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-generated-files.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-own-target-headers.hmap -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-all-target-headers.hmap -iquote /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp-project-headers.hmap -F/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos -I/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources/armv6 -I/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/DerivedSources -c /Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp_Prefix.pch -o /var/folders/xD/xDFwXayPGNiCRswHgBMAj++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AstrostyleApp_Prefix-gdnpxjpexwaenmgfodjhfafsqdyc/AstrostyleApp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision" /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision
+s325755540.982623
+e325755541.175382
+r1
+xProcessProductPackaging
+x/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision" build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision325755541#325755541#0(0"0(0#0#107"/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision8623373920#445"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/siplmacmini/Library/MobileDevice/Provisioning Profiles/A73E78E1-234C-4074-9683-637219DFDDA0.mobileprovision" -o /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent
+s325755541.181522
+e325755541.215666
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent325755541#325755541#0(0"0(0#0#124"/Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent8610148480#460"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/siplmacmini/Documents/AstrostyleApp1/build/AstrostyleApp.build/Debug-iphoneos/AstrostyleApp.build/AstrostyleApp.xcent0#
+
+CTouch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+s325755541.175463
+e325755541.181297
+r1
+xTouch
+x/Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app
+lSLF07#2@88"Touch /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app325755541#325755541#0(0"0(0#0#0"8630597632#280"    cd /Users/siplmacmini/Documents/AstrostyleApp1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siplmacmini/Documents/AstrostyleApp1/build/Debug-iphoneos/AstrostyleApp.app0#
+
