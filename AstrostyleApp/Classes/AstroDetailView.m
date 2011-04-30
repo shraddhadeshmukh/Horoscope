@@ -14,10 +14,10 @@
 
 
 
-static NSString* kApiKey = @"API KEY";
+static NSString* kApiKey = @"";
 
 // Enter either your API secret or a callback URL (as described in documentation):
-static NSString* kApiSecret = @"API SECRET"; // @"<YOUR SECRET KEY>";
+static NSString* kApiSecret = @""; // @"<YOUR SECRET KEY>";
 static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -424,7 +424,9 @@ static int selView = 1;
 	
 	lblText.text = [lblText.text stringByAppendingFormat:@"-%@",lastdayofweek];
 	[weeksview addSubview:lblText];
-	
+	[weeksview addSubview:_loginButton];
+	[weeksview addSubview:emailBtn];
+	[weeksview addSubview:_feedButton];
 	[self.view addSubview:weeksview];
 	txtView.text = self.weeksHoro;
 	[txtView reloadInputViews];
@@ -498,6 +500,9 @@ static int selView = 1;
 	NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
 	lblText.text = dateString;
 	[monthsview addSubview:lblText];
+	[monthsview addSubview:_loginButton];
+	[monthsview addSubview:emailBtn];
+	[monthsview addSubview:_feedButton];
 	
 	[self.view addSubview:monthsview];
 	txtView.text=self.monthsHoro;
@@ -510,6 +515,7 @@ static int selView = 1;
 - (void)dialog:(FBDialog*)dialog didFailWithError:(NSError*)error {
 	
 	NSLog(@"Error(%d) %@", error.code,error.localizedDescription);
+	
 }
 
 #pragma mark FBSessionDelegate
@@ -590,12 +596,12 @@ static int selView = 1;
 	// dialog.targetId = @"999999";
 	[dialog show];
 }
-///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 - (void)publishStatus{
 
 	if (_session.sessionKey) {
 		
-	
 	NSString *statusString = [[NSString alloc]initWithString:self.txtView.text];
 	NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
 							statusString, @"status",
@@ -603,11 +609,9 @@ static int selView = 1;
 							nil];
 	[[FBRequest requestWithDelegate:self] call:@"facebook.users.setStatus" params:params];
 	}else {
-		UIAlertView *alert = [[[UIAlertView alloc]initWithTitle:@"Session Expires" message:@"Please login again" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil]autorelease];
+		UIAlertView *alert = [[[UIAlertView alloc]initWithTitle:@"Session Expires" message:@"Please login" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil]autorelease];
 		[alert show];
 	}
-
-	
 }
 
 
@@ -637,8 +641,7 @@ static int selView = 1;
 	int result;
 	
 	NSString *newString =
-    [NSString stringWithFormat:@"String to translate from iPhone SDK, %d.",
-     rand() % 10000];
+    [NSString stringWithFormat:@"String to translate from iPhone SDK, %d.",rand() % 10000];
 	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithCapacity:10];
 	[dict setObject:@"comment" forKey:newString];
 	
@@ -735,7 +738,6 @@ static int selView = 1;
     [picker release];
 }
 
-
 // Dismisses the email composition interface when users tap Cancel or Send. Proceeds to update the message field with the result of the operation.
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error 
 {	
@@ -770,7 +772,6 @@ static int selView = 1;
 {
 	NSString *recipients = @"mailto:first@example.com?cc=second@example.com,third@example.com&subject=Hello from California!";
 	NSString *body = @"&body=It is raining in sunny California!";
-	
 	NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
 	email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	
@@ -803,6 +804,5 @@ static int selView = 1;
 	[txtView release];
     [super dealloc];
 }
-
 
 @end
