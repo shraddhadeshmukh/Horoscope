@@ -14,10 +14,10 @@
 
 
 
-static NSString* kApiKey = @"128635573869073";
+static NSString* kApiKey = @"API KEY";
 
 // Enter either your API secret or a callback URL (as described in documentation):
-static NSString* kApiSecret = @"b34f22c35fe557d7f56aa79c71e065cf"; // @"<YOUR SECRET KEY>";
+static NSString* kApiSecret = @"API SECRET"; // @"<YOUR SECRET KEY>";
 static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

@@ -292,7 +292,7 @@
 							<real>253</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>294 59 1418 819 0 0 1600 878 </string>
+						<string>182 59 1418 819 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +322,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03EE878E136B1354009721C4</string>
+										<string>03ABC257136BD84E005E750F</string>
 										<key>history</key>
 										<array>
 											<string>036C969A1366CDE100F7D574</string>
@@ -373,12 +373,9 @@
 											<string>03EE85B4136ACF92009721C4</string>
 											<string>03EE85B5136ACF92009721C4</string>
 											<string>03EE85F1136AE203009721C4</string>
-											<string>03EE86B6136AF978009721C4</string>
 											<string>03EE86B7136AF978009721C4</string>
-											<string>03EE86CD136AFA8C009721C4</string>
-											<string>03EE8732136AFDD8009721C4</string>
 											<string>03EE874D136B0217009721C4</string>
-											<string>03EE874E136B0217009721C4</string>
+											<string>03EE878E136B1354009721C4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,14 +387,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1143, 731}}</string>
+								<string>{{0, 0}, {1143, 730}}</string>
 								<key>RubberWindowFrame</key>
-								<string>294 59 1418 819 0 0 1600 878 </string>
+								<string>182 59 1418 819 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>731pt</string>
+							<string>730pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -410,14 +407,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 736}, {1143, 42}}</string>
+								<string>{{0, 735}, {1143, 43}}</string>
 								<key>RubberWindowFrame</key>
-								<string>294 59 1418 819 0 0 1600 878 </string>
+								<string>182 59 1418 819 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>42pt</string>
+							<string>43pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -436,9 +433,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>03EE8597136ACC97009721C4</string>
+				<string>03ABC258136BD84E005E750F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>03EE8598136ACC97009721C4</string>
+				<string>03ABC259136BD84E005E750F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -576,16 +573,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>03EE86D1136AFA8C009721C4</string>
-		<string>03EE86BD136AF978009721C4</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>03B541B013656A73007102D2</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/siplmacmini/Documents/AstrostyleApp1/AstrostyleApp.xcodeproj</string>
+		<string>/Users/siplmacmini/Horoscope/AstrostyleApp/AstrostyleApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>294 59 1418 819 0 0 1600 878 </string>
+	<string>182 59 1418 819 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -601,14 +593,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AstroDetailView.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -664,7 +654,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>03B541B013656A73007102D2</string>
-				<string>03EE8599136ACC97009721C4</string>
+				<string>03ABC25A136BD84E005E750F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -677,7 +667,7 @@
 			<key>WindowToolGUID</key>
 			<string>03B541B013656A73007102D2</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
